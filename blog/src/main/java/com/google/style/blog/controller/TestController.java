@@ -1,4 +1,4 @@
-package com.google.blog.style.controller;
+package com.google.style.blog.controller;
 
 import com.google.model.first.Goods;
 import com.google.service.first.GoodsService;

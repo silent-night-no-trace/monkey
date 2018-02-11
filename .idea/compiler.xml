@@ -18,6 +18,7 @@
         <module name="servicecenter" />
         <module name="serviceCenter" />
         <module name="zipkinServe" />
+        <module name="zipKinServe" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -35,6 +36,7 @@
       <module name="service" target="1.8" />
       <module name="servicecenter" target="1.8" />
       <module name="serviceCenter" target="1.8" />
+      <module name="zipKinServe" target="1.8" />
       <module name="zipkinServe" target="1.8" />
     </bytecodeTargetLevel>
   </component>
