@@ -1,7 +1,7 @@
-package com.google.service.first;
+package com.google.style.service.first;
 
-import com.google.model.first.Goods;
 import com.google.style.dao.mapper.GoodsMapper;
+import com.google.style.model.first.Goods;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,6 +1,6 @@
 package com.google.style.dao.mapper;
 
-import com.google.model.first.Goods;
+import com.google.style.model.first.Goods;
 import org.apache.ibatis.annotations.InsertProvider;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Options;
