@@ -1,0 +1,26 @@
+# 服务端口配置
+server:
+  port: 2010  #Tomcat端口
+  max-http-header-size: 4194304
+  tomcat:
+    max-http-post-size: 0
+
+
+#服务注册与发现
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:2001/eureka/  #Eureka Server
+
+  #服务注册时，在Eureka的实例配置
+  #metadata-map.cluster：指定服务集群名称（一个服务集群包括多个app）
+  instance:
+    preferIpAddress: true
+    statusPageUrlPath: /info
+    metadata-map:
+      cluster: MAIN
+
+#配置实例名称
+spring:
+  application:
+    name: zipKin-server

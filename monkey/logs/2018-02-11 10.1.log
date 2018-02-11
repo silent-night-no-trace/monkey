@@ -1,0 +1,414 @@
+2018-02-11 10:25:31.031 [restartedMain] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext [AbstractApplicationContext.java:583] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1b800e93: startup date [Sun Feb 11 10:25:31 CST 2018]; root of context hierarchy
+2018-02-11 10:25:31.453 [background-preinit] INFO  org.hibernate.validator.internal.util.Version [Version.java:30] - HV000001: Hibernate Validator 5.3.6.Final
+2018-02-11 10:25:32.040 [restartedMain] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [AutowiredAnnotationBeanPostProcessor.java:155] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-02-11 10:25:32.103 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$937ac2cf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-11 10:25:34.288 [restartedMain] INFO  org.springframework.cloud.commons.util.InetUtils [InetUtils.java:171] - Cannot determine local hostname
+2018-02-11 10:25:34.436 [restartedMain] INFO  org.springframework.cloud.netflix.eureka.InstanceInfoFactory [InstanceInfoFactory.java:71] - Setting initial instance status as: STARTING
+2018-02-11 10:25:34.623 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:347] - Initializing Eureka in region us-east-1
+2018-02-11 10:25:35.507 [restartedMain] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java:70] - Using JSON encoding codec LegacyJacksonJson
+2018-02-11 10:25:35.507 [restartedMain] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java:71] - Using JSON decoding codec LegacyJacksonJson
+2018-02-11 10:25:35.700 [restartedMain] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java:80] - Using XML encoding codec XStreamXml
+2018-02-11 10:25:35.701 [restartedMain] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java:81] - Using XML decoding codec XStreamXml
+2018-02-11 10:25:36.119 [restartedMain] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+2018-02-11 10:25:36.563 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:929] - Disable delta property : false
+2018-02-11 10:25:36.564 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:930] - Single vip registry refresh property : null
+2018-02-11 10:25:36.565 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:931] - Force full registry fetch : false
+2018-02-11 10:25:36.565 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:932] - Application is null : false
+2018-02-11 10:25:36.566 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:933] - Registered Applications size is zero : true
+2018-02-11 10:25:36.567 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:935] - Application version is -1: true
+2018-02-11 10:25:36.567 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:1018] - Getting all instance registry info from the eureka server
+2018-02-11 10:25:36.883 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:1027] - The response status is 200
+2018-02-11 10:25:36.887 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:1300] - Not registering with Eureka server per configuration
+2018-02-11 10:25:36.893 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:434] - Discovery Client initialized at timestamp 1518315936893 with initial instances count: 1
+2018-02-11 10:25:38.930 [restartedMain] INFO  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [ConfigServicePropertySourceLocator.java:82] - Fetching config from server at: http://192.168.221.1:2005/
+2018-02-11 10:25:42.242 [restartedMain] INFO  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [ConfigServicePropertySourceLocator.java:96] - Located environment: name=App-Service, profiles=[dev], label=master, version=bf970f0d4705d8a49c3925138403a82ed4431de8, state=null
+2018-02-11 10:25:42.243 [restartedMain] INFO  org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration [PropertySourceBootstrapConfiguration.java:98] - Located property source: CompositePropertySource [name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/passliang/ProjectConfig/styleConfig/App-Service-dev.yml'}]]
+2018-02-11 10:25:42.491 [restartedMain] INFO  com.google.style.AppServiceApplication [SpringApplication.java:597] - The following profiles are active: dev
+2018-02-11 10:25:42.522 [restartedMain] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext [AbstractApplicationContext.java:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@863590e: startup date [Sun Feb 11 10:25:42 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1b800e93
+2018-02-11 10:25:48.682 [restartedMain] INFO  org.springframework.cloud.context.scope.GenericScope [GenericScope.java:287] - BeanFactory id=71846144-a980-3cd9-b0f8-6a1bebcc95cd
+2018-02-11 10:25:48.721 [restartedMain] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [AutowiredAnnotationBeanPostProcessor.java:155] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-02-11 10:25:49.036 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] - Bean 'org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration' of type [org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration$$EnhancerBySpringCGLIB$$79c60604] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-11 10:25:49.485 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] - Bean 'sleuthAdvisorConfig' of type [org.springframework.cloud.sleuth.annotation.SleuthAdvisorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-11 10:25:49.512 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7760bfd2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-11 10:25:49.646 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] - Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$a98d6613] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-11 10:25:49.688 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$937ac2cf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-11 10:25:49.729 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] - Bean 'org.springframework.cloud.sleuth.instrument.web.client.feign.TraceFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration' of type [org.springframework.cloud.sleuth.instrument.web.client.feign.TraceFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration$$EnhancerBySpringCGLIB$$b6f29898] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-11 10:25:49.776 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] - Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$$EnhancerBySpringCGLIB$$5f446bf1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-11 10:25:49.833 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] - Bean 'org.springframework.cloud.sleuth.instrument.web.client.TraceWebClientAutoConfiguration' of type [org.springframework.cloud.sleuth.instrument.web.client.TraceWebClientAutoConfiguration$$EnhancerBySpringCGLIB$$23f38b51] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-11 10:25:50.798 [restartedMain] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [TomcatEmbeddedServletContainer.java:89] - Tomcat initialized with port(s): 5001 (http)
+2018-02-11 10:25:50.823 [restartedMain] INFO  org.apache.catalina.core.StandardService [DirectJDKLog.java:179] - Starting service [Tomcat]
+2018-02-11 10:25:50.825 [restartedMain] INFO  org.apache.catalina.core.StandardEngine [DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-11 10:25:51.074 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2018-02-11 10:25:51.076 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader [EmbeddedWebApplicationContext.java:276] - Root WebApplicationContext: initialization completed in 8554 ms
+2018-02-11 10:25:51.113 [localhost-startStop-1] ERROR org.springframework.boot.context.embedded.tomcat.TomcatStarter [TomcatStarter.java:63] - Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'druidConfiguration': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.datasource.driver-class-name' in value "${spring.datasource.driver-class-name}"
+2018-02-11 10:25:51.265 [restartedMain] WARN  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext [AbstractApplicationContext.java:551] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start embedded container; nested exception is org.springframework.boot.context.embedded.EmbeddedServletContainerException: Unable to start embedded Tomcat
+2018-02-11 10:25:51.304 [restartedMain] INFO  org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer [AutoConfigurationReportLoggingInitializer.java:101] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-02-11 10:25:51.326 [restartedMain] ERROR org.springframework.boot.SpringApplication [SpringApplication.java:771] - Application startup failed
+org.springframework.context.ApplicationContextException: Unable to start embedded container; nested exception is org.springframework.boot.context.embedded.EmbeddedServletContainerException: Unable to start embedded Tomcat
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.onRefresh(EmbeddedWebApplicationContext.java:137)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.google.style.AppServiceApplication.main(AppServiceApplication.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.boot.context.embedded.EmbeddedServletContainerException: Unable to start embedded Tomcat
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.initialize(TomcatEmbeddedServletContainer.java:123)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.<init>(TomcatEmbeddedServletContainer.java:84)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory.getTomcatEmbeddedServletContainer(TomcatEmbeddedServletContainerFactory.java:554)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory.getEmbeddedServletContainer(TomcatEmbeddedServletContainerFactory.java:179)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.createEmbeddedServletContainer(EmbeddedWebApplicationContext.java:164)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.onRefresh(EmbeddedWebApplicationContext.java:134)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'druidConfiguration': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.datasource.driver-class-name' in value "${spring.datasource.driver-class-name}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:234)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:215)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addServletContextInitializerBeans(ServletContextInitializerBeans.java:91)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:79)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.getServletContextInitializerBeans(EmbeddedWebApplicationContext.java:241)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.selfInitialize(EmbeddedWebApplicationContext.java:228)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.access$000(EmbeddedWebApplicationContext.java:89)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext$1.onStartup(EmbeddedWebApplicationContext.java:213)
+	at org.springframework.boot.context.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:55)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.datasource.driver-class-name' in value "${spring.datasource.driver-class-name}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:174)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer$2.resolveStringValue(PropertySourcesPlaceholderConfigurer.java:172)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:831)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1086)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	... 33 common frames omitted
+2018-02-11 10:44:34.167 [restartedMain] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext [AbstractApplicationContext.java:583] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@63f622c4: startup date [Sun Feb 11 10:44:34 CST 2018]; root of context hierarchy
+2018-02-11 10:44:34.501 [background-preinit] INFO  org.hibernate.validator.internal.util.Version [Version.java:30] - HV000001: Hibernate Validator 5.3.6.Final
+2018-02-11 10:44:35.100 [restartedMain] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [AutowiredAnnotationBeanPostProcessor.java:155] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-02-11 10:44:35.170 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c5e65] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-11 10:44:37.396 [restartedMain] INFO  org.springframework.cloud.commons.util.InetUtils [InetUtils.java:171] - Cannot determine local hostname
+2018-02-11 10:44:37.570 [restartedMain] INFO  org.springframework.cloud.netflix.eureka.InstanceInfoFactory [InstanceInfoFactory.java:71] - Setting initial instance status as: STARTING
+2018-02-11 10:44:37.776 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:347] - Initializing Eureka in region us-east-1
+2018-02-11 10:44:38.660 [restartedMain] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java:70] - Using JSON encoding codec LegacyJacksonJson
+2018-02-11 10:44:38.661 [restartedMain] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java:71] - Using JSON decoding codec LegacyJacksonJson
+2018-02-11 10:44:38.831 [restartedMain] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java:80] - Using XML encoding codec XStreamXml
+2018-02-11 10:44:38.832 [restartedMain] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java:81] - Using XML decoding codec XStreamXml
+2018-02-11 10:44:39.154 [restartedMain] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+2018-02-11 10:44:39.479 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:929] - Disable delta property : false
+2018-02-11 10:44:39.480 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:930] - Single vip registry refresh property : null
+2018-02-11 10:44:39.481 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:931] - Force full registry fetch : false
+2018-02-11 10:44:39.481 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:932] - Application is null : false
+2018-02-11 10:44:39.482 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:933] - Registered Applications size is zero : true
+2018-02-11 10:44:39.482 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:935] - Application version is -1: true
+2018-02-11 10:44:39.483 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:1018] - Getting all instance registry info from the eureka server
+2018-02-11 10:44:39.719 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:1027] - The response status is 200
+2018-02-11 10:44:39.723 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:1300] - Not registering with Eureka server per configuration
+2018-02-11 10:44:39.731 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:434] - Discovery Client initialized at timestamp 1518317079731 with initial instances count: 3
+2018-02-11 10:44:41.716 [restartedMain] INFO  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [ConfigServicePropertySourceLocator.java:82] - Fetching config from server at: http://192.168.221.1:2005/
+2018-02-11 10:44:44.256 [restartedMain] INFO  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [ConfigServicePropertySourceLocator.java:96] - Located environment: name=App-Service, profiles=[dev], label=master, version=0271ea712b9afb423a2ce73493fb61cfa9208819, state=null
+2018-02-11 10:44:44.257 [restartedMain] INFO  org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration [PropertySourceBootstrapConfiguration.java:98] - Located property source: CompositePropertySource [name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/passliang/ProjectConfig/styleConfig/App-Service-dev.yml'}]]
+2018-02-11 10:44:44.333 [restartedMain] INFO  com.google.style.AppServiceApplication [SpringApplication.java:597] - The following profiles are active: dev
+2018-02-11 10:44:44.357 [restartedMain] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext [AbstractApplicationContext.java:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@585bb320: startup date [Sun Feb 11 10:44:44 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@63f622c4
+2018-02-11 10:44:48.476 [restartedMain] INFO  org.springframework.cloud.context.scope.GenericScope [GenericScope.java:287] - BeanFactory id=71846144-a980-3cd9-b0f8-6a1bebcc95cd
+2018-02-11 10:44:48.526 [restartedMain] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [AutowiredAnnotationBeanPostProcessor.java:155] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-02-11 10:44:48.845 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] - Bean 'org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration' of type [org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration$$EnhancerBySpringCGLIB$$e657a19a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-11 10:44:49.263 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] - Bean 'sleuthAdvisorConfig' of type [org.springframework.cloud.sleuth.annotation.SleuthAdvisorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-11 10:44:49.283 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e3f25b68] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-11 10:44:49.371 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] - Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$161f01a9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-11 10:44:49.406 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c5e65] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-11 10:44:49.435 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] - Bean 'org.springframework.cloud.sleuth.instrument.web.client.feign.TraceFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration' of type [org.springframework.cloud.sleuth.instrument.web.client.feign.TraceFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration$$EnhancerBySpringCGLIB$$2384342e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-11 10:44:49.478 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] - Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$$EnhancerBySpringCGLIB$$cbd60787] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-11 10:44:49.560 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] - Bean 'org.springframework.cloud.sleuth.instrument.web.client.TraceWebClientAutoConfiguration' of type [org.springframework.cloud.sleuth.instrument.web.client.TraceWebClientAutoConfiguration$$EnhancerBySpringCGLIB$$908526e7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-11 10:44:50.563 [restartedMain] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [TomcatEmbeddedServletContainer.java:89] - Tomcat initialized with port(s): 5001 (http)
+2018-02-11 10:44:50.591 [restartedMain] INFO  org.apache.catalina.core.StandardService [DirectJDKLog.java:179] - Starting service [Tomcat]
+2018-02-11 10:44:50.595 [restartedMain] INFO  org.apache.catalina.core.StandardEngine [DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-11 10:44:50.880 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2018-02-11 10:44:50.881 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader [EmbeddedWebApplicationContext.java:276] - Root WebApplicationContext: initialization completed in 6524 ms
+2018-02-11 10:44:50.915 [localhost-startStop-1] ERROR org.springframework.boot.context.embedded.tomcat.TomcatStarter [TomcatStarter.java:63] - Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'druidConfiguration': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.datasource.driver-class-name' in value "${spring.datasource.driver-class-name}"
+2018-02-11 10:44:50.984 [restartedMain] WARN  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext [AbstractApplicationContext.java:551] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start embedded container; nested exception is org.springframework.boot.context.embedded.EmbeddedServletContainerException: Unable to start embedded Tomcat
+2018-02-11 10:44:51.011 [restartedMain] INFO  org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer [AutoConfigurationReportLoggingInitializer.java:101] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-02-11 10:44:51.021 [restartedMain] ERROR org.springframework.boot.SpringApplication [SpringApplication.java:771] - Application startup failed
+org.springframework.context.ApplicationContextException: Unable to start embedded container; nested exception is org.springframework.boot.context.embedded.EmbeddedServletContainerException: Unable to start embedded Tomcat
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.onRefresh(EmbeddedWebApplicationContext.java:137)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.google.style.AppServiceApplication.main(AppServiceApplication.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.boot.context.embedded.EmbeddedServletContainerException: Unable to start embedded Tomcat
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.initialize(TomcatEmbeddedServletContainer.java:123)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.<init>(TomcatEmbeddedServletContainer.java:84)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory.getTomcatEmbeddedServletContainer(TomcatEmbeddedServletContainerFactory.java:554)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory.getEmbeddedServletContainer(TomcatEmbeddedServletContainerFactory.java:179)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.createEmbeddedServletContainer(EmbeddedWebApplicationContext.java:164)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.onRefresh(EmbeddedWebApplicationContext.java:134)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'druidConfiguration': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.datasource.driver-class-name' in value "${spring.datasource.driver-class-name}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:234)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:215)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addServletContextInitializerBeans(ServletContextInitializerBeans.java:91)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:79)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.getServletContextInitializerBeans(EmbeddedWebApplicationContext.java:241)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.selfInitialize(EmbeddedWebApplicationContext.java:228)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.access$000(EmbeddedWebApplicationContext.java:89)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext$1.onStartup(EmbeddedWebApplicationContext.java:213)
+	at org.springframework.boot.context.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:55)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.datasource.driver-class-name' in value "${spring.datasource.driver-class-name}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:174)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer$2.resolveStringValue(PropertySourcesPlaceholderConfigurer.java:172)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:831)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1086)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	... 33 common frames omitted
+2018-02-11 10:49:05.505 [restartedMain] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext [AbstractApplicationContext.java:583] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3050db30: startup date [Sun Feb 11 10:49:05 CST 2018]; root of context hierarchy
+2018-02-11 10:49:05.891 [background-preinit] INFO  org.hibernate.validator.internal.util.Version [Version.java:30] - HV000001: Hibernate Validator 5.3.6.Final
+2018-02-11 10:49:06.359 [restartedMain] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [AutowiredAnnotationBeanPostProcessor.java:155] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-02-11 10:49:06.427 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1cc305e5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-11 10:49:08.625 [restartedMain] INFO  org.springframework.cloud.commons.util.InetUtils [InetUtils.java:171] - Cannot determine local hostname
+2018-02-11 10:49:08.811 [restartedMain] INFO  org.springframework.cloud.netflix.eureka.InstanceInfoFactory [InstanceInfoFactory.java:71] - Setting initial instance status as: STARTING
+2018-02-11 10:49:09.010 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:347] - Initializing Eureka in region us-east-1
+2018-02-11 10:49:09.877 [restartedMain] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java:70] - Using JSON encoding codec LegacyJacksonJson
+2018-02-11 10:49:09.880 [restartedMain] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java:71] - Using JSON decoding codec LegacyJacksonJson
+2018-02-11 10:49:10.079 [restartedMain] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java:80] - Using XML encoding codec XStreamXml
+2018-02-11 10:49:10.080 [restartedMain] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java:81] - Using XML decoding codec XStreamXml
+2018-02-11 10:49:10.594 [restartedMain] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+2018-02-11 10:49:10.980 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:929] - Disable delta property : false
+2018-02-11 10:49:10.981 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:930] - Single vip registry refresh property : null
+2018-02-11 10:49:10.981 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:931] - Force full registry fetch : false
+2018-02-11 10:49:10.982 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:932] - Application is null : false
+2018-02-11 10:49:10.982 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:933] - Registered Applications size is zero : true
+2018-02-11 10:49:10.983 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:935] - Application version is -1: true
+2018-02-11 10:49:10.983 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:1018] - Getting all instance registry info from the eureka server
+2018-02-11 10:49:11.226 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:1027] - The response status is 200
+2018-02-11 10:49:11.228 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:1300] - Not registering with Eureka server per configuration
+2018-02-11 10:49:11.232 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:434] - Discovery Client initialized at timestamp 1518317351232 with initial instances count: 3
+2018-02-11 10:49:13.174 [restartedMain] INFO  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [ConfigServicePropertySourceLocator.java:82] - Fetching config from server at: http://192.168.221.1:2005/
+2018-02-11 10:49:16.916 [restartedMain] INFO  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [ConfigServicePropertySourceLocator.java:96] - Located environment: name=App-Service, profiles=[dev], label=master, version=325218a1039abf6f694520740af96f1b3cde8831, state=null
+2018-02-11 10:49:16.917 [restartedMain] INFO  org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration [PropertySourceBootstrapConfiguration.java:98] - Located property source: CompositePropertySource [name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/passliang/ProjectConfig/styleConfig/App-Service-dev.yml'}]]
+2018-02-11 10:49:17.004 [restartedMain] INFO  com.google.style.AppServiceApplication [SpringApplication.java:597] - The following profiles are active: dev
+2018-02-11 10:49:17.055 [restartedMain] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext [AbstractApplicationContext.java:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4a4388cf: startup date [Sun Feb 11 10:49:17 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3050db30
+2018-02-11 10:49:21.640 [restartedMain] INFO  org.springframework.cloud.context.scope.GenericScope [GenericScope.java:287] - BeanFactory id=71846144-a980-3cd9-b0f8-6a1bebcc95cd
+2018-02-11 10:49:21.685 [restartedMain] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [AutowiredAnnotationBeanPostProcessor.java:155] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-02-11 10:49:22.125 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] - Bean 'org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration' of type [org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration$$EnhancerBySpringCGLIB$$30e491a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-11 10:49:22.629 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] - Bean 'sleuthAdvisorConfig' of type [org.springframework.cloud.sleuth.annotation.SleuthAdvisorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-11 10:49:22.654 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a902e8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-11 10:49:22.742 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] - Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$32d5a929] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-11 10:49:22.773 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1cc305e5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-11 10:49:22.803 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] - Bean 'org.springframework.cloud.sleuth.instrument.web.client.feign.TraceFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration' of type [org.springframework.cloud.sleuth.instrument.web.client.feign.TraceFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration$$EnhancerBySpringCGLIB$$403adbae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-11 10:49:22.843 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] - Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$$EnhancerBySpringCGLIB$$e88caf07] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-11 10:49:23.003 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] - Bean 'org.springframework.cloud.sleuth.instrument.web.client.TraceWebClientAutoConfiguration' of type [org.springframework.cloud.sleuth.instrument.web.client.TraceWebClientAutoConfiguration$$EnhancerBySpringCGLIB$$ad3bce67] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-11 10:49:24.114 [restartedMain] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [TomcatEmbeddedServletContainer.java:89] - Tomcat initialized with port(s): 5001 (http)
+2018-02-11 10:49:24.151 [restartedMain] INFO  org.apache.catalina.core.StandardService [DirectJDKLog.java:179] - Starting service [Tomcat]
+2018-02-11 10:49:24.153 [restartedMain] INFO  org.apache.catalina.core.StandardEngine [DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-11 10:49:24.482 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2018-02-11 10:49:24.483 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader [EmbeddedWebApplicationContext.java:276] - Root WebApplicationContext: initialization completed in 7428 ms
+2018-02-11 10:49:25.556 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'metricsFilter' to: [/*]
+2018-02-11 10:49:25.556 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-11 10:49:25.557 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'traceFilter' to: [/*]
+2018-02-11 10:49:25.557 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-11 10:49:25.557 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-11 10:49:25.557 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-11 10:49:25.557 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-02-11 10:49:25.558 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java:265] - Mapping filter: 'webStatFilter' to servlets: [druidWebStatFilter]
+2018-02-11 10:49:25.558 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java:271] - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-02-11 10:49:25.559 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-02-11 10:49:25.559 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean [ServletRegistrationBean.java:190] - Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-02-11 10:49:25.561 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean [ServletRegistrationBean.java:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-11 10:49:25.709 [restartedMain] INFO  com.google.style.datasource.DruidConfiguration [DruidConfiguration.java:96] - Druid数据源初始化设置成功......
+2018-02-11 10:49:26.892 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java:722] - {dataSource-1} inited
+2018-02-11 10:49:26.996 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [LocalContainerEntityManagerFactoryBean.java:356] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-02-11 10:49:27.026 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper [LogHelper.java:31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-02-11 10:49:27.245 [restartedMain] INFO  org.hibernate.Version [Version.java:37] - HHH000412: Hibernate Core {5.0.12.Final}
+2018-02-11 10:49:27.251 [restartedMain] INFO  org.hibernate.cfg.Environment [Environment.java:213] - HHH000206: hibernate.properties not found
+2018-02-11 10:49:27.256 [restartedMain] INFO  org.hibernate.cfg.Environment [Environment.java:317] - HHH000021: Bytecode provider name : javassist
+2018-02-11 10:49:27.377 [restartedMain] INFO  org.hibernate.annotations.common.Version [JavaReflectionManager.java:66] - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-11 10:49:27.641 [restartedMain] INFO  org.hibernate.dialect.Dialect [Dialect.java:156] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-02-11 10:49:28.106 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:392] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-02-11 10:49:28.247 [restartedMain] WARN  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext [AbstractApplicationContext.java:551] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testController': Unsatisfied dependency expressed through field 'goodsService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.google.service.first.GoodsService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-02-11 10:49:28.248 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:563] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-02-11 10:49:28.267 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java:1447] - {dataSource-1} closed
+2018-02-11 10:49:28.279 [restartedMain] INFO  org.apache.catalina.core.StandardService [DirectJDKLog.java:179] - Stopping service [Tomcat]
+2018-02-11 10:49:28.367 [restartedMain] INFO  org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer [AutoConfigurationReportLoggingInitializer.java:101] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-02-11 10:49:29.360 [restartedMain] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field goodsService in com.google.style.app.controller.TestController required a bean of type 'com.google.service.first.GoodsService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.google.service.first.GoodsService' in your configuration.
+
+2018-02-11 10:50:58.359 [restartedMain] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext [AbstractApplicationContext.java:583] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@52a4ffaf: startup date [Sun Feb 11 10:50:58 CST 2018]; root of context hierarchy
+2018-02-11 10:50:58.808 [background-preinit] INFO  org.hibernate.validator.internal.util.Version [Version.java:30] - HV000001: Hibernate Validator 5.3.6.Final
+2018-02-11 10:50:59.553 [restartedMain] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [AutowiredAnnotationBeanPostProcessor.java:155] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-02-11 10:50:59.635 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$802e5817] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-11 10:51:02.195 [restartedMain] INFO  org.springframework.cloud.commons.util.InetUtils [InetUtils.java:171] - Cannot determine local hostname
+2018-02-11 10:51:02.438 [restartedMain] INFO  org.springframework.cloud.netflix.eureka.InstanceInfoFactory [InstanceInfoFactory.java:71] - Setting initial instance status as: STARTING
+2018-02-11 10:51:02.684 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:347] - Initializing Eureka in region us-east-1
+2018-02-11 10:51:03.654 [restartedMain] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java:70] - Using JSON encoding codec LegacyJacksonJson
+2018-02-11 10:51:03.654 [restartedMain] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java:71] - Using JSON decoding codec LegacyJacksonJson
+2018-02-11 10:51:03.858 [restartedMain] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java:80] - Using XML encoding codec XStreamXml
+2018-02-11 10:51:03.858 [restartedMain] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java:81] - Using XML decoding codec XStreamXml
+2018-02-11 10:51:04.247 [restartedMain] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+2018-02-11 10:51:04.650 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:929] - Disable delta property : false
+2018-02-11 10:51:04.650 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:930] - Single vip registry refresh property : null
+2018-02-11 10:51:04.651 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:931] - Force full registry fetch : false
+2018-02-11 10:51:04.652 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:932] - Application is null : false
+2018-02-11 10:51:04.662 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:933] - Registered Applications size is zero : true
+2018-02-11 10:51:04.665 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:935] - Application version is -1: true
+2018-02-11 10:51:04.666 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:1018] - Getting all instance registry info from the eureka server
+2018-02-11 10:51:04.944 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:1027] - The response status is 200
+2018-02-11 10:51:04.950 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:1300] - Not registering with Eureka server per configuration
+2018-02-11 10:51:04.954 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient [DiscoveryClient.java:434] - Discovery Client initialized at timestamp 1518317464954 with initial instances count: 3
+2018-02-11 10:51:07.060 [restartedMain] INFO  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [ConfigServicePropertySourceLocator.java:82] - Fetching config from server at: http://192.168.221.1:2005/
+2018-02-11 10:51:10.061 [restartedMain] INFO  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [ConfigServicePropertySourceLocator.java:96] - Located environment: name=App-Service, profiles=[dev], label=master, version=325218a1039abf6f694520740af96f1b3cde8831, state=null
+2018-02-11 10:51:10.062 [restartedMain] INFO  org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration [PropertySourceBootstrapConfiguration.java:98] - Located property source: CompositePropertySource [name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/passliang/ProjectConfig/styleConfig/App-Service-dev.yml'}]]
+2018-02-11 10:51:10.164 [restartedMain] INFO  com.google.style.AppServiceApplication [SpringApplication.java:597] - The following profiles are active: dev
+2018-02-11 10:51:10.195 [restartedMain] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext [AbstractApplicationContext.java:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5726e2: startup date [Sun Feb 11 10:51:10 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@52a4ffaf
+2018-02-11 10:51:16.126 [restartedMain] INFO  org.springframework.cloud.context.scope.GenericScope [GenericScope.java:287] - BeanFactory id=71846144-a980-3cd9-b0f8-6a1bebcc95cd
+2018-02-11 10:51:16.181 [restartedMain] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [AutowiredAnnotationBeanPostProcessor.java:155] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-02-11 10:51:16.613 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] - Bean 'org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration' of type [org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration$$EnhancerBySpringCGLIB$$66799b4c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-11 10:51:17.189 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] - Bean 'sleuthAdvisorConfig' of type [org.springframework.cloud.sleuth.annotation.SleuthAdvisorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-11 10:51:17.214 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6414551a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-11 10:51:17.353 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] - Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$9640fb5b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-11 10:51:17.420 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$802e5817] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-11 10:51:17.500 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] - Bean 'org.springframework.cloud.sleuth.instrument.web.client.feign.TraceFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration' of type [org.springframework.cloud.sleuth.instrument.web.client.feign.TraceFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration$$EnhancerBySpringCGLIB$$a3a62de0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-11 10:51:17.559 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] - Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$$EnhancerBySpringCGLIB$$4bf80139] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-11 10:51:17.605 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] - Bean 'org.springframework.cloud.sleuth.instrument.web.client.TraceWebClientAutoConfiguration' of type [org.springframework.cloud.sleuth.instrument.web.client.TraceWebClientAutoConfiguration$$EnhancerBySpringCGLIB$$10a72099] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-11 10:51:18.856 [restartedMain] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [TomcatEmbeddedServletContainer.java:89] - Tomcat initialized with port(s): 5001 (http)
+2018-02-11 10:51:18.879 [restartedMain] INFO  org.apache.catalina.core.StandardService [DirectJDKLog.java:179] - Starting service [Tomcat]
+2018-02-11 10:51:18.881 [restartedMain] INFO  org.apache.catalina.core.StandardEngine [DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-11 10:51:19.196 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2018-02-11 10:51:19.197 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader [EmbeddedWebApplicationContext.java:276] - Root WebApplicationContext: initialization completed in 9002 ms
+2018-02-11 10:51:20.556 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'metricsFilter' to: [/*]
+2018-02-11 10:51:20.557 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-11 10:51:20.557 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'traceFilter' to: [/*]
+2018-02-11 10:51:20.558 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-11 10:51:20.560 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-11 10:51:20.560 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-11 10:51:20.560 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-02-11 10:51:20.560 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java:265] - Mapping filter: 'webStatFilter' to servlets: [druidWebStatFilter]
+2018-02-11 10:51:20.561 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java:271] - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-02-11 10:51:20.562 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-02-11 10:51:20.562 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean [ServletRegistrationBean.java:190] - Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-02-11 10:51:20.579 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean [ServletRegistrationBean.java:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-11 10:51:20.789 [restartedMain] INFO  com.google.style.datasource.DruidConfiguration [DruidConfiguration.java:96] - Druid数据源初始化设置成功......
+2018-02-11 10:51:22.044 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java:722] - {dataSource-1} inited
+2018-02-11 10:51:22.150 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [LocalContainerEntityManagerFactoryBean.java:356] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-02-11 10:51:22.173 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper [LogHelper.java:31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-02-11 10:51:22.408 [restartedMain] INFO  org.hibernate.Version [Version.java:37] - HHH000412: Hibernate Core {5.0.12.Final}
+2018-02-11 10:51:22.410 [restartedMain] INFO  org.hibernate.cfg.Environment [Environment.java:213] - HHH000206: hibernate.properties not found
+2018-02-11 10:51:22.413 [restartedMain] INFO  org.hibernate.cfg.Environment [Environment.java:317] - HHH000021: Bytecode provider name : javassist
+2018-02-11 10:51:22.503 [restartedMain] INFO  org.hibernate.annotations.common.Version [JavaReflectionManager.java:66] - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-11 10:51:22.840 [restartedMain] INFO  org.hibernate.dialect.Dialect [Dialect.java:156] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-02-11 10:51:23.647 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:392] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-02-11 10:51:23.826 [restartedMain] WARN  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext [AbstractApplicationContext.java:551] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testController': Unsatisfied dependency expressed through field 'goodsService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.google.service.first.GoodsService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-02-11 10:51:23.831 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:563] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-02-11 10:51:23.857 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java:1447] - {dataSource-1} closed
+2018-02-11 10:51:23.862 [restartedMain] INFO  org.apache.catalina.core.StandardService [DirectJDKLog.java:179] - Stopping service [Tomcat]
+2018-02-11 10:51:23.952 [restartedMain] INFO  org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer [AutoConfigurationReportLoggingInitializer.java:101] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-02-11 10:51:25.466 [restartedMain] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field goodsService in com.google.style.app.controller.TestController required a bean of type 'com.google.service.first.GoodsService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.google.service.first.GoodsService' in your configuration.
+

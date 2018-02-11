@@ -1,0 +1,65 @@
+spring:
+  application:
+    name: Api-Service-Gateway   #应用名称,与application.properities中保持一致
+      
+server:
+  port: 2000  #Tomcat端口
+  max-http-header-size: 4194304
+  tomcat:
+    max-http-post-size: 0
+
+#日志级别
+logging:
+  level:
+    com:
+      zgqb:
+        loan: INFO
+
+#App-Service
+zuul:
+  retryable: false #不允许重试
+  host:
+    maxTotalConnections: 200
+    maxPerRouteConnections: 60
+  
+  routes: 
+    api-app:
+      path: /Api-App/**
+      serviceId: App-Service
+
+    api-b: 
+      path: /api-b/**
+      serviceId: Service-B    
+    
+#服务注册与发现
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:2001/eureka/  #Eureka Server
+
+  #服务注册时，在Eureka的实例配置
+  #metadata-map.cluster：指定服务集群名称（一个服务集群包括多个app）
+  instance:
+    preferIpAddress: true
+    statusPageUrlPath: /info
+    metadata-map:
+      cluster: MAIN
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000  #Feign超时时间:60s
+ribbon:
+  ConnectTimeout: 10000
+  ReadTimeout: 30000                      #路由api请求超时时间:60s
+            
+#自定义参数
+appConfig:
+  appName: Api-Service-Gateway-Dev
+  appNameCn: API网关-Dev
+  
+  tokenKey: 123456style    #Token加解密秘钥
+  tokenDay: 7             #Token有效期，单位：天

@@ -1,0 +1,51 @@
+#config serve 配置
+spring:
+  application:
+    name: blog #应用名称,与application.properities中保持一致
+  session:
+    store-type: none
+  profiles:
+    active: dev
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: config-server
+      label: master
+  #Freemark 配置 prefix: classpath:/templates/#
+  freemarker:
+      request-context-attribute: req  #req访问request
+      suffix: .html  #后缀名
+      content-type: text/html
+      enabled: true
+      cache: false #缓存配置
+      template-loader-path: classpath:/templates/
+      charset: UTF-8 #编码格式
+      settings:
+        number_format: '0.##'   #数字格式化，无小数点
+  #链路追踪服务器追踪
+  zipkin:
+    base-url: http://localhost:2010
+  #数据传输百分比
+  sleuth:
+      sampler:
+        percentage: 1.0
+#发布端口配置
+server:
+  port: 5002  #Tomcat端口
+  max-http-header-size: 4194304
+  tomcat:
+    max-http-post-size: 0
+
+#服务注册与发现
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:2001/eureka/  #Eureka Server
+  #服务注册时，在Eureka的实例配置
+  #metadata-map.cluster：指定服务集群名称（一个服务集群包括多个app）
+  instance:
+    preferIpAddress: true
+    statusPageUrlPath: /info
+    metadata-map:
+      cluster: MAIN

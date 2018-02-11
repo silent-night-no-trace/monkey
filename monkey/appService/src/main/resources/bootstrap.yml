@@ -1,0 +1,43 @@
+#config serve 配置
+spring:
+  application:
+    name: App-Service #应用名称,与application.properities中保持一致
+  session:
+    store-type: none
+  profiles:
+    active: dev
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: config-server
+      label: master
+      #profile: dev
+      #uri: http://localhost:2005/
+
+  #链路追踪服务器追踪
+  zipkin:
+    base-url: http://localhost:2010
+  #数据传输百分比
+  sleuth:
+      sampler:
+        percentage: 1.0
+#发布端口配置
+server:
+  port: 5001  #Tomcat端口
+  max-http-header-size: 4194304
+  tomcat:
+    max-http-post-size: 0
+
+#服务注册与发现
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:2001/eureka/  #Eureka Server
+  #服务注册时，在Eureka的实例配置
+  #metadata-map.cluster：指定服务集群名称（一个服务集群包括多个app）
+  instance:
+    preferIpAddress: true
+    statusPageUrlPath: /info
+    metadata-map:
+      cluster: MAIN
