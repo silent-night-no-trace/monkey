@@ -24,7 +24,11 @@
 			<artifactId>service</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
-
+		<!--freemarker 配置-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-freemarker</artifactId>
+		</dependency>
         <!-- 热部署 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>

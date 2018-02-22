@@ -3,6 +3,8 @@ package com.google.style.blog.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import java.util.EnumSet;
+
 /**
  * @author liangz
  * @date 2018/2/5 17:04
@@ -11,10 +13,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HomeController {
 
-    @RequestMapping("/")
+    @RequestMapping("/home")
     public String index(){
 
         return  "default/index";
     }
+
 
 }
