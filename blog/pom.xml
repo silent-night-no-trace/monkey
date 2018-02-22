@@ -19,6 +19,13 @@
 	</parent>
 
 	<dependencies>
+		<!--common-->
+		<dependency>
+			<groupId>com.google</groupId>
+			<artifactId>common</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<!--service-->
 		<dependency>
 			<groupId>com.google</groupId>
 			<artifactId>service</artifactId>

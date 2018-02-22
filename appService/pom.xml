@@ -27,6 +27,12 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-config</artifactId>
 		</dependency>
+		<!--common-->
+		<dependency>
+			<groupId>com.google</groupId>
+			<artifactId>common</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
         <!--service-->
         <dependency>
             <groupId>com.google</groupId>

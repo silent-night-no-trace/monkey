@@ -11,7 +11,7 @@
 	<name>common</name>
 	<description>Demo project for Spring Boot</description>
 
-	<!--父类为money-->
+	<!--父类为monKey-->
 	<parent>
 		<groupId>com.google</groupId>
 		<artifactId>monkey</artifactId>
@@ -20,11 +20,19 @@
 	</parent>
 
     <dependencies>
+
         <dependency>
             <groupId>com.google</groupId>
             <artifactId>model</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.google</groupId>
+            <artifactId>dao</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
     </dependencies>
 
 	<!--maven 编译配置-->

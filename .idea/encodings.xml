@@ -9,10 +9,9 @@
     <file url="file://$PROJECT_DIR$/common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/configServer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dao" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/dao/src/main/resources/application.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/model" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/serviceCenter" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/zipkinServe" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zipKinServe" charset="UTF-8" />
   </component>
 </project>

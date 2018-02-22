@@ -31,4 +31,9 @@ public class TestController {
               log.info("======= success ======");
           }
       }
+
+    @RequestMapping("/ti")
+    public void ti(){
+       log.info("==================11111===============");
+    }
 }
