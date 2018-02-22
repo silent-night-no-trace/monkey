@@ -2,32 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1135a5e7-c2ce-44ea-8581-13cc783b822a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/src/main/resources/bootstrap.yml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/appService/pom.xml" afterPath="$PROJECT_DIR$/appService/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/appService/src/main/java/com/google/style/app/config/MyBatisConfig.java" afterPath="$PROJECT_DIR$/appService/src/main/java/com/google/style/app/config/MyBatisConfig.java" />
-      <change beforePath="$PROJECT_DIR$/appService/src/main/java/com/google/style/app/controller/TestController.java" afterPath="$PROJECT_DIR$/appService/src/main/java/com/google/style/app/controller/TestController.java" />
-      <change beforePath="$PROJECT_DIR$/blog/pom.xml" afterPath="$PROJECT_DIR$/blog/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" afterPath="$PROJECT_DIR$/common/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/google/style/CommonApplication.java" afterPath="$PROJECT_DIR$/common/src/main/java/com/google/style/CommonApplication.java" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/resources/application.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/out_ApiGateway.log" afterPath="$PROJECT_DIR$/logs/out_ApiGateway.log" />
+      <change beforePath="$PROJECT_DIR$/apiServiceGateway/src/main/java/com/google/gateway/properties/AppProperties.java" afterPath="$PROJECT_DIR$/apiServiceGateway/src/main/java/com/google/gateway/properties/AppProperties.java" />
       <change beforePath="$PROJECT_DIR$/logs/out_App.log" afterPath="$PROJECT_DIR$/logs/out_App.log" />
-      <change beforePath="$PROJECT_DIR$/logs/out_blog.log" afterPath="$PROJECT_DIR$/logs/out_blog.log" />
       <change beforePath="$PROJECT_DIR$/logs/out_model.log" afterPath="$PROJECT_DIR$/logs/out_model.log" />
-      <change beforePath="$PROJECT_DIR$/service/pom.xml" afterPath="$PROJECT_DIR$/service/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/google/style/ServiceApplication.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/google/style/ServiceApplication.java" />
-      <change beforePath="$PROJECT_DIR$/zipkinServe/.gitignore" afterPath="$PROJECT_DIR$/zipKinServe/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/zipkinServe/.mvn/wrapper/maven-wrapper.jar" afterPath="$PROJECT_DIR$/zipKinServe/.mvn/wrapper/maven-wrapper.jar" />
-      <change beforePath="$PROJECT_DIR$/zipkinServe/.mvn/wrapper/maven-wrapper.properties" afterPath="$PROJECT_DIR$/zipKinServe/.mvn/wrapper/maven-wrapper.properties" />
-      <change beforePath="$PROJECT_DIR$/zipkinServe/mvnw" afterPath="$PROJECT_DIR$/zipKinServe/mvnw" />
-      <change beforePath="$PROJECT_DIR$/zipkinServe/mvnw.cmd" afterPath="$PROJECT_DIR$/zipKinServe/mvnw.cmd" />
-      <change beforePath="$PROJECT_DIR$/zipkinServe/pom.xml" afterPath="$PROJECT_DIR$/zipKinServe/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/zipkinServe/src/main/java/com/google/zipkinserve/ZipKinServeApplication.java" afterPath="$PROJECT_DIR$/zipKinServe/src/main/java/com/google/zipkin/ZipKinServeApplication.java" />
-      <change beforePath="$PROJECT_DIR$/zipkinServe/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/zipKinServe/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/zipkinServe/src/test/java/com/google/zipkinserve/ZipkinserveApplicationTests.java" afterPath="$PROJECT_DIR$/zipKinServe/src/test/java/com/google/zipkinserve/ZipkinserveApplicationTests.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,60 +41,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="application-dev.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apiServiceGateway/src/main/resources/application-dev.yml">
+      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/src/main/java/com/google/style/blog/controller/HomeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZuulFallbackConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apiServiceGateway/src/main/java/com/google/gateway/config/ZuulFallbackConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="557">
+              <caret line="91" column="35" lean-forward="false" selection-start-line="91" selection-start-column="35" selection-end-line="91" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="44">
+                <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PropertiesConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apiServiceGateway/src/main/java/com/google/gateway/config/PropertiesConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
-              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application-dev.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appService/src/main/resources/application-dev.yml">
+      <file leaf-file-name="AppProperties.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apiServiceGateway/src/main/java/com/google/gateway/properties/AppProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="125">
+              <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appService/src/main/java/com/google/style/app/controller/TestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-60">
-              <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-              <folding>
-                <element signature="e#957#958#0" expanded="true" />
-                <element signature="e#1022#1023#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyBatisConfig.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/appService/src/main/java/com/google/style/app/config/MyBatisConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#288#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appService/src/main/java/com/google/style/app/controller/LoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-              <folding>
-                <element signature="e#333#334#0" expanded="true" />
-                <element signature="e#358#359#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -152,7 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/blog/src/main/java/com/google/blog/style/controller/HomeController.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/com/google/model/ModelApplication.java" />
         <option value="$PROJECT_DIR$/asset/pom.xml" />
         <option value="$PROJECT_DIR$/asset/src/main/java/com/google/asset/AssetApplication.java" />
@@ -203,6 +175,7 @@
         <option value="$PROJECT_DIR$/service/src/main/java/com/google/style/ServiceApplication.java" />
         <option value="$PROJECT_DIR$/appService/src/main/java/com/google/style/app/config/MyBatisConfig.java" />
         <option value="$PROJECT_DIR$/appService/src/main/java/com/google/style/app/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/apiServiceGateway/src/main/java/com/google/gateway/properties/AppProperties.java" />
       </list>
     </option>
   </component>
@@ -228,17 +201,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="monkey" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="monkey" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -579,7 +542,7 @@
       <workItem from="1518164229232" duration="16705000" />
       <workItem from="1518329430341" duration="6410000" />
       <workItem from="1519267093748" duration="2675000" />
-      <workItem from="1519278937123" duration="8729000" />
+      <workItem from="1519278937123" duration="9860000" />
     </task>
     <task id="LOCAL-00001" summary="项目目录整理 add gitignore文件">
       <created>1518330593978</created>
@@ -602,11 +565,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519267983296</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="common model 修改 配置更新  日志更新">
+      <created>1519290396347</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1519290396347</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174679000" />
+    <option name="totallyTimeSpent" value="175810000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -627,8 +597,8 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35972062" sideWeight="0.4914163" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52153665" sideWeight="0.49785408" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35972062" sideWeight="0.4914163" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5203725" sideWeight="0.49785408" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852387" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25912017" sideWeight="0.49462366" order="0" side_tool="false" content_ui="combo" />
@@ -684,7 +654,8 @@
     <MESSAGE value="项目目录整理 add gitignore文件" />
     <MESSAGE value="项目目录结构调整 final" />
     <MESSAGE value="pom 文件修改 添加freemarker依懒" />
-    <option name="LAST_COMMIT_MESSAGE" value="pom 文件修改 添加freemarker依懒" />
+    <MESSAGE value="common model 修改 配置更新  日志更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="common model 修改 配置更新  日志更新" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -693,28 +664,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/service/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/model/src/main/resources/logback-spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="57" column="13" lean-forward="true" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.9.RELEASE/spring-boot-1.5.9.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="379" column="5" lean-forward="true" selection-start-line="379" selection-start-column="5" selection-end-line="379" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -786,13 +735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
           <caret line="62" column="9" lean-forward="false" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/src/main/java/com/google/style/blog/controller/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1003,8 +945,8 @@
         <state relative-caret-position="379">
           <caret line="23" column="42" lean-forward="false" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
           <folding>
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="false" />
+            <element signature="e#727#728#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1030,17 +972,19 @@
         <state relative-caret-position="154">
           <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
           <folding>
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="false" />
+            <element signature="e#358#359#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apiServiceGateway/src/main/resources/application-dev.yml">
+    <entry file="file://$PROJECT_DIR$/appService/src/main/java/com/google/style/app/config/MyBatisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="242">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#288#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1057,19 +1001,60 @@
         <state relative-caret-position="-60">
           <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
           <folding>
-            <element signature="e#957#958#0" expanded="true" />
-            <element signature="e#1022#1023#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="false" />
+            <element signature="e#1022#1023#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appService/src/main/java/com/google/style/app/config/MyBatisConfig.java">
+    <entry file="file://$PROJECT_DIR$/apiServiceGateway/src/main/resources/application-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#288#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="572">
+          <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/src/main/java/com/google/style/blog/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apiServiceGateway/src/main/java/com/google/gateway/properties/AppProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apiServiceGateway/src/main/java/com/google/gateway/config/PropertiesConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apiServiceGateway/src/main/java/com/google/gateway/config/ZuulFallbackConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="91" column="35" lean-forward="false" selection-start-line="91" selection-start-column="35" selection-end-line="91" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="44">
+            <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

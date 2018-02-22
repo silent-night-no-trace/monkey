@@ -14,9 +14,13 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 public class AppProperties {
 	private String appName;
 	private String appNameCn;
-	//Token加解密秘钥
+	/**
+	 * Token加解密秘钥
+	 */
 	private String tokenKey;
-	//Token有效期，单位：天
+	/**
+	 * Token有效期，单位：天
+	 */
 	private Integer tokenDay;
 }
 
