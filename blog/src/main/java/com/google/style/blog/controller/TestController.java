@@ -4,9 +4,8 @@ import com.google.style.service.first.GoodsService;
 import com.google.style.model.first.Goods;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @author liangz
@@ -32,5 +31,13 @@ public class TestController {
               log.info("======= success ======");
               return "success";
           }
+      }
+
+
+    @RequestMapping(value = "/person/{personMsg}", method = RequestMethod.GET, produces =
+            MediaType.APPLICATION_JSON_VALUE)
+    public String  findPerson(@PathVariable("personMsg") String  personMsg) {
+
+        return "person msg:"+personMsg;
       }
 }
