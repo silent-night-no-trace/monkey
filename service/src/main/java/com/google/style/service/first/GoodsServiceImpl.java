@@ -20,4 +20,9 @@ public class GoodsServiceImpl implements  GoodsService {
     public Integer save(Goods goods) {
         return goodsMapper.save(goods);
     }
+
+    @Override
+    public Goods findGoodsById(Integer id) {
+        return goodsMapper.findGoodsById(id);
+    }
 }

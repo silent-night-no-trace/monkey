@@ -4,6 +4,7 @@ import com.google.style.model.first.Goods;
 import org.apache.ibatis.annotations.InsertProvider;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Options;
+import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.jdbc.SQL;
 import org.springframework.stereotype.Repository;
 
@@ -41,4 +42,7 @@ public interface GoodsMapper {
             }
         }
     }
+
+    @Select("SELECT * fROM goods WHERE id = #{id}")
+    Goods findGoodsById(Integer id);
 }

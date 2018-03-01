@@ -15,4 +15,12 @@ public interface GoodsService {
      * @return
      */
     Integer save(Goods goods);
+
+    /**
+     *  select
+     * @param id
+     * @return
+     */
+    Goods findGoodsById(Integer id);
+
 }

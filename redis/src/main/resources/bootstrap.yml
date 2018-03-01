@@ -1,0 +1,65 @@
+#config serve 配置
+spring:
+  application:
+    name: redis #应用名称,与application.properities中保持一致
+  session:
+    store-type: none
+  profiles:
+    active: dev
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: config-server
+      label: master
+
+  #链路追踪服务器追踪
+  zipkin:
+    base-url: http://localhost:2010
+  #数据传输百分比
+  sleuth:
+      sampler:
+        percentage: 1.0
+#发布端口配置
+server:
+  port: 5050  #Tomcat端口
+  max-http-header-size: 4194304
+  tomcat:
+    max-http-post-size: 0
+
+#服务注册与发现
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:2001/eureka/  #Eureka Server
+  #服务注册时，在Eureka的实例配置
+  #metadata-map.cluster：指定服务集群名称（一个服务集群包括多个app）
+  instance:
+    preferIpAddress: true
+    statusPageUrlPath: /info
+    metadata-map:
+      cluster: MAIN
+
+# ====================redis  start ====================#
+redis:
+  # Redis服务器地址
+  host: 127.0.0.1
+  # Redis服务器连接端口
+  port: 6379
+  # Redis服务器连接密码（默认为空）
+  password:
+  # 连接超时时间（毫秒）
+  timeout: 50000
+  # Redis数据库索引（默认为0）
+  database: 0
+  pool:
+    # 连接池最大连接数（使用负值表示没有限制）
+    max-active: 8
+    # 连接池最大阻塞等待时间（使用负值表示没有限制）
+    max-wait: -1
+    # 连接池中的最大空闲连接
+    max-idle: 8
+    # 连接池中的最小空闲连接
+    min-idle: 0
+# ====================redis  end ====================#
+

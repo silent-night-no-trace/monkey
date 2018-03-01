@@ -4,6 +4,7 @@ import com.google.style.service.first.GoodsService;
 import com.google.style.model.first.Goods;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
@@ -40,4 +41,14 @@ public class TestController {
 
         return "person msg:"+personMsg;
       }
+
+    /**
+     * 查询单个用户
+     */
+    @Cacheable(value = "usercache", key = "#id")
+    @PostMapping(value = "/account")
+    public String findUserByAccout(@RequestParam("id") String id) throws Exception {
+        Integer ids = Integer.parseInt(id);
+        return goodsService.findGoodsById(ids)+"";
+    }
 }
