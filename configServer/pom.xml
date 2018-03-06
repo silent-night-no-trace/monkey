@@ -8,15 +8,11 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>configserver</name>
+	<name>configServer</name>
 	<description>Demo project for Spring Boot</description>
 
     <!--远程仓库配置-->
     <repositories>
-        <repository>
-            <id>qrmaven</id>
-            <url>http://192.168.3.7:8081/nexus/content/groups/public/</url>
-        </repository>
         <repository>
             <id>maven-ali</id>
             <url>http://maven.aliyun.com/nexus/content/groups/public/</url>

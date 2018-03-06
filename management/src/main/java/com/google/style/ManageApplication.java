@@ -9,20 +9,19 @@ import org.springframework.context.annotation.ComponentScan;
 
 /**
  * @author liangz
- * app相关服务
- *
+ * @date  2018/03/02 11:11
+ *  管理系统
  */
-
 
 @ComponentScan(basePackages={"com.google.*"})
 @EnableEurekaClient
 @EnableHystrix
 @EnableCircuitBreaker
 @SpringBootApplication
-public class AppServiceApplication {
+public class ManageApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AppServiceApplication.class, args);
+		SpringApplication.run(ManageApplication.class, args);
 	}
 
 }

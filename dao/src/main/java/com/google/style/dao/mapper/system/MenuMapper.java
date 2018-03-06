@@ -1,0 +1,84 @@
+package com.google.style.dao.mapper.system;
+
+import com.google.style.dao.provider.MenuProvider;
+import com.google.style.model.system.Menu;
+import com.google.style.model.system.MenuVo;
+import org.apache.ibatis.annotations.*;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+import java.util.Map;
+
+/**
+ * 菜单管理
+ * @author liangz
+ * @date 2017-10-03 09:45:09
+ */
+@Mapper
+@Repository
+public interface MenuMapper {
+
+	@Select("SELECT * FROM sys_menu WHERE id = #{menuId}")
+	Menu get(Long menuId);
+
+	@SelectProvider(type = MenuProvider.class ,method = "getMenuList")
+	List<Menu> list(Map<String, Object> map);
+
+	@SelectProvider(type =  MenuProvider.class ,method = "count")
+	int count(Map<String, Object> map);
+
+	@Insert("INSERT INTO sys_menu (id, parent_id ,parent_ids ,name,url,permission,type,icon,order_num,create_time,update_time) VALUES (NULL, #{parentId} ,#{parentIds} ,#{name},#{url},#{permission},#{type},#{icon},#{orderNum},#{createTime},#{updateTime}) ")
+    @Options(useGeneratedKeys = true, keyProperty = "id")
+    int save(Menu menu);
+
+	@Update("UPDATE sys_menu set parent_id = #{parentId},parent_ids = #{parentIds} ,name = #{name},url = #{name},permission = #{name},type = #{type},icon = #{icon},order_num = #{orderNum},create_time =#{createTime},update_time = #{updateTime} WHERE id = #{id}")
+	int update(Menu menu);
+
+	@Delete("DELETE sys_menu WHERE id = #{menuId}")
+	int delete(Long menuId);
+
+	@Delete("DELETE sys_menu WHERE id in #{menuIds}")
+	int batchRemove(Long[] menuIds);
+
+    /**
+     * 用户对应的菜单
+     * @param id
+     * @return
+     */
+	@Select("SELECT DISTINCT\n" +
+            "\tm.id,\n" +
+            "\tparent_id,\n" +
+            "\tNAME,\n" +
+            "\turl,\n" +
+            "\tpermission,\n" +
+            "\t`type`,\n" +
+            "\ticon,\n" +
+            "\torder_num,\n" +
+            "\tcreate_time,\n" +
+            "\tupdate_time\n" +
+            "FROM\n" +
+            "\tsys_menu m\n" +
+            "LEFT JOIN sys_role_menu rm ON m.id = rm.menu_id\n" +
+            "LEFT JOIN sys_user_role ur ON rm.role_id = ur.role_id\n" +
+            "WHERE\n" +
+            "\tur.user_id = #{id}\n" +
+            "AND m.type IN (0, 1)\n" +
+            "ORDER BY\n" +
+            "\tm.order_num")
+	List<MenuVo> listMenuByUserId(Long id);
+
+    /**
+     * 用户对应的权限
+     * @param id
+     * @return
+     */
+	@Select("SELECT DISTINCT\n" +
+            "\tm.permission\n" +
+            "FROM\n" +
+            "\tsys_menu m\n" +
+            "LEFT JOIN sys_role_menu rm ON m.id = rm.menu_id\n" +
+            "LEFT JOIN sys_user_role ur ON rm.role_id = ur.role_id\n" +
+            "WHERE\n" +
+            "\tur.user_id = #{id}")
+	List<String> listUserPerms(Long id);
+}

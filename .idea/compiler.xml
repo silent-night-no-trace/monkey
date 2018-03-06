@@ -13,7 +13,9 @@
         <module name="common" />
         <module name="configServer" />
         <module name="dao" />
+        <module name="management" />
         <module name="model" />
+        <module name="redis" />
         <module name="service" />
         <module name="servicecenter" />
         <module name="serviceCenter" />
@@ -30,8 +32,10 @@
       <module name="common" target="1.8" />
       <module name="configServer" target="1.8" />
       <module name="dao" target="1.8" />
+      <module name="management" target="1.8" />
       <module name="model" target="1.8" />
       <module name="monkey" target="1.8" />
+      <module name="redis" target="1.8" />
       <module name="servecfg" target="1.8" />
       <module name="service" target="1.8" />
       <module name="servicecenter" target="1.8" />
