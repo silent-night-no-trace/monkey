@@ -5,111 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1135a5e7-c2ce-44ea-8581-13cc783b822a" name="Default" comment="management add page .html static file">
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/images/bpmn-error.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/images/bpmn-warning.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/images/datadefinition.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/images/delete.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/images/loading.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/images/logo-2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/images/logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/images/nw-handle-dark.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/images/se-handle-dark.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/images/shapemenu_highlight.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/images/wrench.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/event.subprocess.collapsed.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/event.subprocess.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/expanded.subprocess.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.business.rule.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.camel.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.manual.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.mule.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.receive.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.script.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.send.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.service.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.shell.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.user.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/subprocess.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/task.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/artifact/text.annotation.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/catching/cancel.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/catching/compensation.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/catching/error.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/catching/message.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/catching/signal.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/catching/timer.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/connector/association.undirected.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/connector/association.unidirectional.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/connector/messageflow.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/connector/sequenceflow.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/dataobject/data.store.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/diagram.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/endevent/cancel.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/endevent/error.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/endevent/none.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/endevent/terminate.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/gateway/eventbased.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/gateway/exclusive.databased.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/gateway/inclusive.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/gateway/parallel.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/startevent/error.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/startevent/message.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/startevent/none.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/startevent/signal.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/startevent/timer.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/swimlane/lane.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/swimlane/pool.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/throwing/none.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/throwing/signal.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/a1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/a2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/a3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/a4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/a5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/a6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/a7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/a8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/a9.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/backg01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/backg02.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/background-login.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/background_login.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/blog/about-bg.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/blog/contact-bg.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/blog/home-bg.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/blog/post-bg.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/blog/post-sample-image.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/blog/qqbootdo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/browser.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/browser.psd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/court.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/iconfont-logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/index.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/index_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/loading-upload.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/loading.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/locked.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/login-background.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/p1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/p2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/p3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/p_big1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/p_big2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/p_big3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/photo_s.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/post-bg.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/profile.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/profile_big.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/profile_small.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/progress.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/qr_code.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/sprite-skin-flat.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/success.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/user.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/webuploader.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/wenku_logo.png" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/ajax-util.js" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/app.js" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/act/SalaryAdjustment/form.js" />
@@ -863,85 +758,6 @@
               <item name="monkey" type="b2602c69:ProjectViewProjectNode" />
               <item name="monkey" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="monkey" type="b2602c69:ProjectViewProjectNode" />
-              <item name="monkey" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monkey" type="b2602c69:ProjectViewProjectNode" />
-              <item name="monkey" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monkey" type="b2602c69:ProjectViewProjectNode" />
-              <item name="monkey" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monkey" type="b2602c69:ProjectViewProjectNode" />
-              <item name="monkey" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monkey" type="b2602c69:ProjectViewProjectNode" />
-              <item name="monkey" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monkey" type="b2602c69:ProjectViewProjectNode" />
-              <item name="monkey" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monkey" type="b2602c69:ProjectViewProjectNode" />
-              <item name="monkey" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monkey" type="b2602c69:ProjectViewProjectNode" />
-              <item name="monkey" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monkey" type="b2602c69:ProjectViewProjectNode" />
-              <item name="monkey" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -1372,7 +1188,7 @@
       <workItem from="1520219274233" duration="2096000" />
       <workItem from="1520228203266" duration="19425000" />
       <workItem from="1520305444952" duration="28717000" />
-      <workItem from="1520393509936" duration="10119000" />
+      <workItem from="1520393509936" duration="10504000" />
     </task>
     <task id="LOCAL-00001" summary="项目目录整理 add gitignore文件">
       <created>1518330593978</created>
@@ -1465,7 +1281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520408823791</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="management add page .html static file">
+      <created>1520409247619</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1520409247619</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1474,7 +1297,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="296646000" />
+    <option name="totallyTimeSpent" value="297031000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
