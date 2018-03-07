@@ -5,108 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1135a5e7-c2ce-44ea-8581-13cc783b822a" name="Default" comment="management add page .html static file">
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/ajax-util.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/app.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/act/SalaryAdjustment/form.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/act/model/add.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/act/model/edit.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/act/model/model.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/act/process/add.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/act/process/edit.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/act/process/process.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/act/salary/add.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/act/salary/edit.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/act/salary/salary.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/act/task/gotoTask.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/act/task/totoTask.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/blog/bComments/add.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/blog/bComments/bComments.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/blog/bContent/add.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/blog/bContent/bContent.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/blog/bContent/edit.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/blog/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/blog/clean-blog.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/blog/jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/blog/tether.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/common/dict/add.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/common/dict/dict.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/common/dict/edit.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/common/generator/edit.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/common/generator/list.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/common/job/add.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/common/job/edit.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/common/job/job.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/common/log/log.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/oa/notify/add.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/oa/notify/edit.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/oa/notify/notify.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/oa/notify/read.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/oa/notify/selfNotify.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/oa/webSocket/jquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/oa/webSocket/sockjs.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/oa/webSocket/stomp.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/sys/menu/add.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/sys/menu/edit.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/sys/menu/menu.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/sys/online/online.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/sys/role/add.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/sys/role/edit.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/sys/role/role.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/sys/user/add.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/sys/user/edit.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/sys/user/gg-bootdo.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/sys/user/personal.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/sys/user/user.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/system/sysDept/add.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/system/sysDept/edit.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/system/sysDept/sysDept.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/bootstrap-paginator.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/contabs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/content.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/demo/bootstrap-table-demo.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/demo/bootstrap_table_test.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/demo/bootstrap_table_test2.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/demo/echarts-demo.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/demo/flot-demo.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/demo/form-advanced-demo.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/demo/form-validate-demo.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/demo/layer-demo.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/demo/morris-demo.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/demo/peity-demo.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/demo/photos.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/demo/rickshaw-demo.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/demo/sparkline-demo.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/demo/table_base.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/demo/treeview-demo.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/demo/webuploader-demo.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/jquery-ui-1.10.4.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/jquery-ui.custom.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/jquery.min.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/lay/all-mobile.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/lay/all.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/lay/modules/carousel.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/lay/modules/code.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/lay/modules/element.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/lay/modules/flow.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/lay/modules/form.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/lay/modules/jquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/lay/modules/laydate.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/lay/modules/layedit.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/lay/modules/layer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/lay/modules/laypage.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/lay/modules/laytpl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/lay/modules/mobile.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/lay/modules/mobile/layer-mobile.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/lay/modules/mobile/layim-mobile-open.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/lay/modules/mobile/upload-mobile.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/lay/modules/mobile/zepto.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/lay/modules/table.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/lay/modules/tree.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/lay/modules/upload.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/lay/modules/util.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/layui.js" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/plugins/beautifyhtml/beautifyhtml.js" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/plugins/blueimp/jquery.blueimp-gallery.min.js" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/plugins/bootstrap-paginator.min.js" />
@@ -482,8 +380,6 @@
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/plugins/webuploader/webuploader.withoutimage.min.js" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/plugins/zTree/jquery.ztree.all.min.js" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/plugins/zTree/jquery.ztree.core.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/vue.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/welcome.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -576,7 +472,7 @@
         <entry file="file://$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="318">
-              <caret line="132" column="29" lean-forward="false" selection-start-line="132" selection-start-column="29" selection-end-line="132" selection-end-column="29" />
+              <caret line="132" column="30" lean-forward="false" selection-start-line="132" selection-start-column="30" selection-end-line="132" selection-end-column="30" />
               <folding>
                 <element signature="e#1694#1695#0" expanded="true" />
                 <element signature="e#1728#1729#0" expanded="true" />
@@ -1188,7 +1084,7 @@
       <workItem from="1520219274233" duration="2096000" />
       <workItem from="1520228203266" duration="19425000" />
       <workItem from="1520305444952" duration="28717000" />
-      <workItem from="1520393509936" duration="10504000" />
+      <workItem from="1520393509936" duration="11477000" />
     </task>
     <task id="LOCAL-00001" summary="项目目录整理 add gitignore文件">
       <created>1518330593978</created>
@@ -1288,7 +1184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520409247619</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="management add page .html static file">
+      <created>1520409430790</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1520409430790</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1297,7 +1200,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="297031000" />
+    <option name="totallyTimeSpent" value="298004000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1809,7 +1712,7 @@
     <entry file="file://$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
-          <caret line="132" column="29" lean-forward="false" selection-start-line="132" selection-start-column="29" selection-end-line="132" selection-end-column="29" />
+          <caret line="132" column="30" lean-forward="false" selection-start-line="132" selection-start-column="30" selection-end-line="132" selection-end-column="30" />
           <folding>
             <element signature="e#1694#1695#0" expanded="true" />
             <element signature="e#1728#1729#0" expanded="true" />
