@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1135a5e7-c2ce-44ea-8581-13cc783b822a" name="Default" comment="management add page .html static file">
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/config/ehcache.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/FontIcoList.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/chart/graph_echarts.html" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/images/bg.png" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/images/breadcrumbs.png" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/images/checker-bg.png" />
@@ -26,7 +23,6 @@
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/images/deployer/signal_throw.png" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/images/deployer/timer.png" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/images/deployer/user.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/index.html" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/js/ActivitiRest.js" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/js/ActivityImpl.js" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/js/Color.js" />
@@ -42,8 +38,6 @@
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/js/raphael.js" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/js/raphael_uncompressed.js" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/js/textlayout.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/style.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/modeler.html" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/animate.css" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/blog/bootstrap.min.css" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/blog/clean-blog.css" />
@@ -939,85 +933,7 @@
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/plugins/zTree/jquery.ztree.core.min.js" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/vue.min.js" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/welcome.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/act/model/model.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/act/modeler.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/act/process/add.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/act/process/process.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/act/salary/add.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/act/salary/edit.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/act/salary/start.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/act/task/gotoTask.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/act/task/task.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/act/task/todoTask.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/blog/bContent/add.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/blog/bContent/bContent.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/blog/bContent/edit.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/blog/bcomments/add.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/blog/bcomments/bComments.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/blog/index/about.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/blog/index/include_blog.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/blog/index/main.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/blog/index/page.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/blog/index/post.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/common/dict/add.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/common/dict/dict.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/common/dict/edit.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/common/file/file.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/common/generator/Controller.java.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/common/generator/Dao.java.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/common/generator/Mapper.java.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/common/generator/Mapper.xml.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/common/generator/Service.java.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/common/generator/ServiceImpl.java.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/common/generator/add.html.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/common/generator/add.js.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/common/generator/domain.java.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/common/generator/edit.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/common/generator/edit.html.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/common/generator/edit.js.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/common/generator/list.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/common/generator/list.html.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/common/generator/list.js.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/common/generator/menu.sql.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/common/job/add.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/common/job/edit.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/common/job/job.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/common/log/log.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/error/403.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/error/404.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/error/500.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/error/error.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/include.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/index_v1.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/login.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/main.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/oa/notify/add.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/oa/notify/edit.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/oa/notify/notify.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/oa/notify/read.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/oa/notify/selfNotify.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/system/dept/add.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/system/dept/dept.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/system/dept/deptTree.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/system/dept/edit.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/system/menu/add.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/system/menu/edit.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/system/menu/menu.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/system/online/online.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/system/role/add.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/system/role/edit.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/system/role/role.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/system/user/add.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/system/user/edit.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/system/user/include.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/system/user/personal.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/system/user/reset_pwd.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/system/user/user.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/system/user/userTree.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/logs/out_App.log" afterPath="$PROJECT_DIR$/logs/out_App.log" />
-      <change beforePath="$PROJECT_DIR$/management/src/main/resources/application-dev.yml" afterPath="$PROJECT_DIR$/management/src/main/resources/application-dev.yml" />
-      <change beforePath="$PROJECT_DIR$/management/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/management/src/main/resources/bootstrap.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -1108,8 +1024,8 @@
       <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="119" column="14" lean-forward="false" selection-start-line="119" selection-start-column="11" selection-end-line="119" selection-end-column="14" />
+            <state relative-caret-position="362">
+              <caret line="134" column="28" lean-forward="false" selection-start-line="134" selection-start-column="28" selection-end-line="134" selection-end-column="28" />
               <folding>
                 <element signature="e#1694#1695#0" expanded="true" />
                 <element signature="e#1728#1729#0" expanded="true" />
@@ -1800,7 +1716,7 @@
       <workItem from="1520219274233" duration="2096000" />
       <workItem from="1520228203266" duration="19425000" />
       <workItem from="1520305444952" duration="28717000" />
-      <workItem from="1520393509936" duration="9141000" />
+      <workItem from="1520393509936" duration="9361000" />
     </task>
     <task id="LOCAL-00001" summary="项目目录整理 add gitignore文件">
       <created>1518330593978</created>
@@ -1872,7 +1788,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520405425819</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="management add page .html static file">
+      <created>1520408130009</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1520408130009</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1881,7 +1804,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="295668000" />
+    <option name="totallyTimeSpent" value="295888000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2085,6 +2008,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2092,6 +2016,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="115" column="9" lean-forward="true" selection-start-line="115" selection-start-column="9" selection-end-line="115" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2204,6 +2129,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="92" column="37" lean-forward="false" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2389,8 +2315,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="119" column="14" lean-forward="false" selection-start-line="119" selection-start-column="11" selection-end-line="119" selection-end-column="14" />
+        <state relative-caret-position="362">
+          <caret line="134" column="28" lean-forward="false" selection-start-line="134" selection-start-column="28" selection-end-line="134" selection-end-column="28" />
           <folding>
             <element signature="e#1694#1695#0" expanded="true" />
             <element signature="e#1728#1729#0" expanded="true" />
