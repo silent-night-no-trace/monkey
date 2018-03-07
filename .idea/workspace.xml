@@ -5,121 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1135a5e7-c2ce-44ea-8581-13cc783b822a" name="Default" comment="management add page .html static file">
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/images/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/images/breadcrumbs.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/images/checker-bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/images/deployer/blue/message_catch.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/images/deployer/business_rule.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/images/deployer/error_catch.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/images/deployer/error_throw.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/images/deployer/manual.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/images/deployer/message_catch.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/images/deployer/message_throw.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/images/deployer/receive.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/images/deployer/script.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/images/deployer/send.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/images/deployer/service.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/images/deployer/signal_catch.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/images/deployer/signal_throw.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/images/deployer/timer.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/images/deployer/user.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/app-cfg.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/app.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties-assignment-controller.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties-condition-expression-controller.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties-custom-controllers.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties-default-controllers.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties-event-listeners-controller.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties-execution-listeners-controller.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties-fields-controller.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties-form-properties-controller.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties-in-parameters-controller.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties-message-definitions-controller.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties-message-scope-controller.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties-multiinstance-controller.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties-out-parameters-controller.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties-sequenceflow-order-controller.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties-signal-definitions-controller.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties-signal-scope-controller.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties-task-listeners-controller.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/assignment-display-template.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/assignment-popup.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/assignment-write-template.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/boolean-property-template.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/condition-expression-display-template.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/condition-expression-popup.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/condition-expression-write-template.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/default-value-display-template.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/event-listeners-display-template.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/event-listeners-popup.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/event-listeners-write-template.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/execution-listeners-display-template.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/execution-listeners-popup.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/execution-listeners-write-template.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/feedback-popup.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/fields-display-template.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/fields-popup.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/fields-write-template.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/form-properties-display-template.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/form-properties-popup.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/form-properties-write-template.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/in-parameters-display-template.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/in-parameters-popup.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/in-parameters-write-template.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/message-definitions-display-template.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/message-definitions-popup.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/message-definitions-write-template.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/message-property-write-template.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/multiinstance-property-write-template.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/out-parameters-display-template.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/out-parameters-popup.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/out-parameters-write-template.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/sequenceflow-order-display-template.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/sequenceflow-order-popup.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/sequenceflow-order-write-template.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/signal-definitions-display-template.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/signal-definitions-popup.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/signal-definitions-write-template.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/signal-property-write-template.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/string-property-write-mode-template.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/subprocess-reference-display-template.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/subprocess-reference-popup.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/subprocess-reference-write-template.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/task-listeners-display-template.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/task-listeners-popup.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/task-listeners-write-template.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/text-popup.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties/text-property-write-template.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/toolbar-custom-actions.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/toolbar-default-actions.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/toolbar.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/url-config.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/css/style-common.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/css/style-editor.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/css/style.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/editor-config.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/editor-controller.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/editor-utils.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/editor.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/editor/css/editor.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/editor/i18n/translation_de.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/editor/i18n/translation_en_us.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/editor/i18n/translation_signavio_de.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/editor/i18n/translation_signavio_en_us.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/editor/oryx.debug.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/editor/oryx.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/eventbus.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/fonts/activiti-admin-webfont.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/fonts/activiti-admin-webfont.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/fonts/activiti-admin-webfont.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/fonts/activiti-admin-webfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/fonts/glyphicons-halflings-regular.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/fonts/glyphicons-halflings-regular.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/fonts/glyphicons-halflings-regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/fonts/glyphicons-halflings-regular.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/header-controller.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/i18n/en.json" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/images/bpmn-error.png" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/images/bpmn-warning.png" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/images/datadefinition.png" />
@@ -131,100 +16,6 @@
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/images/se-handle-dark.gif" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/images/shapemenu_highlight.png" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/images/wrench.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/angular-cookies_1.2.13/angular-cookies.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/angular-cookies_1.2.13/angular-cookies.min.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/angular-dragdrop.min-1.0.3.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/angular-dragdrop_1.0.7/angular-dragdrop.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/angular-mocks_1.2.13/angular-mocks.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/angular-resource_1.2.13/angular-resource.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/angular-resource_1.2.13/angular-resource.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/angular-resource_1.2.13/angular-resource.min.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/angular-route_1.2.13/angular-route.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/angular-route_1.2.13/angular-route.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/angular-route_1.2.13/angular-route.min.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/angular-sanitize_1.2.13/angular-sanitize.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/angular-sanitize_1.2.13/angular-sanitize.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/angular-sanitize_1.2.13/angular-sanitize.min.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/angular-scroll_0.5.7/angular-scroll.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/angular-strap_2.0.5/angular-strap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/angular-strap_2.0.5/angular-strap.tpl.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/angular-translate-loader-static-files/.bower.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/angular-translate-loader-static-files/angular-translate-loader-static-files.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/angular-translate-storage-cookie/.bower.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/angular-translate-storage-cookie/angular-translate-storage-cookie.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/angular-translate-storage-cookie/angular-translate-storage-cookie.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/angular-translate_2.4.2/angular-translate.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/angular-translate_2.4.2/angular-translate.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/angular_1.2.13/angular-animate.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/angular_1.2.13/angular.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/bootstrap-daterangepicker_1.3.7/daterangepicker-bs3.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/bootstrap-daterangepicker_1.3.7/daterangepicker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/bootstrap_3.1.1/css/bootstrap-theme.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/bootstrap_3.1.1/css/bootstrap-theme.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/bootstrap_3.1.1/css/bootstrap-theme.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/bootstrap_3.1.1/css/bootstrap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/bootstrap_3.1.1/css/bootstrap.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/bootstrap_3.1.1/css/bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/bootstrap_3.1.1/js/bootstrap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/bootstrap_3.1.1/js/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/.bower.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/CHANGES" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/CONTRIBUTORS.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/es5-sham.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/es5-sham.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/es5-sham.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/es5-shim.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/es5-shim.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/es5-shim.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/tests/helpers/h-kill.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/tests/helpers/h-matchers.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/tests/helpers/h.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/tests/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/tests/index.min.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine-html.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine_favicon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/tests/lib/json2.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-array.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-date.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-function.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-number.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-object.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-string.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/jquery-ui-1.10.3.custom.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/jquery.autogrow-textarea.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/jquery_1.11.0/jquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/jquery_1.11.0/jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/jquery_1.11.0/jquery.min.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/json3_3.2.6/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/json3_3.2.6/lib/json3.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/json3_3.2.6/lib/json3.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/momentjs_2.5.1/momentjs.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/mousetrap-1.4.5.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/ng-grid-2.0.7-min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/ng-grid-2.0.7.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/path_parser.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/prototype-1.5.1.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/libs/ui-utils.min-0.0.4.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/partials/root-stencil-item-template.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/partials/stencil-item-template.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/plugins.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/popups/icon-template.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/popups/save-model.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/popups/select-shape.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/popups/unsaved-changes.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/select-shape-controller.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencil-controller.js" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/event.subprocess.collapsed.png" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/event.subprocess.png" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/activity/expanded.subprocess.png" />
@@ -270,22 +61,6 @@
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/swimlane/pool.png" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/throwing/none.png" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/throwing/signal.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/toolbar-controller.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/fonts/FontAwesome.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/fonts/fontawesome-webfont.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/fonts/fontawesome-webfont.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/fonts/fontawesome-webfont.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/fonts/fontawesome-webfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/fonts/fontawesome-webfont.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/fonts/glyphicons-halflings-regular.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/fonts/glyphicons-halflings-regular.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/fonts/glyphicons-halflings-regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/fonts/glyphicons-halflings-regular.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/fonts/glyphicons-halflings-regular.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/fonts/icomoon/icomoon.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/fonts/icomoon/icomoon.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/fonts/icomoon/icomoon.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/fonts/icomoon/icomoon.woff" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/a1.jpg" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/a2.jpg" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/img/a3.jpg" />
@@ -905,8 +680,8 @@
       <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="134" column="28" lean-forward="false" selection-start-line="134" selection-start-column="28" selection-end-line="134" selection-end-column="28" />
+            <state relative-caret-position="318">
+              <caret line="132" column="29" lean-forward="false" selection-start-line="132" selection-start-column="29" selection-end-line="132" selection-end-column="29" />
               <folding>
                 <element signature="e#1694#1695#0" expanded="true" />
                 <element signature="e#1728#1729#0" expanded="true" />
@@ -1597,7 +1372,7 @@
       <workItem from="1520219274233" duration="2096000" />
       <workItem from="1520228203266" duration="19425000" />
       <workItem from="1520305444952" duration="28717000" />
-      <workItem from="1520393509936" duration="9580000" />
+      <workItem from="1520393509936" duration="10119000" />
     </task>
     <task id="LOCAL-00001" summary="项目目录整理 add gitignore文件">
       <created>1518330593978</created>
@@ -1683,7 +1458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520408329716</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="management add page .html static file">
+      <created>1520408823791</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1520408823791</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1692,7 +1474,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="296107000" />
+    <option name="totallyTimeSpent" value="296646000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2203,8 +1985,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="134" column="28" lean-forward="false" selection-start-line="134" selection-start-column="28" selection-end-line="134" selection-end-column="28" />
+        <state relative-caret-position="318">
+          <caret line="132" column="29" lean-forward="false" selection-start-line="132" selection-start-column="29" selection-end-line="132" selection-end-column="29" />
           <folding>
             <element signature="e#1694#1695#0" expanded="true" />
             <element signature="e#1728#1729#0" expanded="true" />
