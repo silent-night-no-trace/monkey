@@ -23,124 +23,6 @@
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/images/deployer/signal_throw.png" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/images/deployer/timer.png" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/images/deployer/user.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/js/ActivitiRest.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/js/ActivityImpl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/js/Color.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/js/LineBreakMeasurer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/js/Polyline.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/js/ProcessDiagramCanvas.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/js/ProcessDiagramGenerator.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/js/jquery/jquery.asyncqueue.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/js/jquery/jquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/js/jquery/jquery.progressbar.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/js/jstools.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/js/raphael.2.1.1.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/js/raphael.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/js/raphael_uncompressed.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/diagram-viewer/js/textlayout.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/animate.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/blog/bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/blog/clean-blog.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/blog/clean-blog.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/bootstrap-rtl.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/demo/webuploader-demo.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/font-awesome.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/font-awesome.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/gg-bootdo.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/layui.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/layui.mobile.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/login.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/patterns/header-profile-skin-1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/patterns/header-profile-skin-3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/patterns/header-profile.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/patterns/shattered.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/blueimp/css/blueimp-gallery-indicator.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/blueimp/css/blueimp-gallery-video.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/blueimp/css/blueimp-gallery.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/blueimp/css/blueimp-gallery.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/blueimp/css/demo.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/blueimp/img/error.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/blueimp/img/error.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/blueimp/img/loading.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/blueimp/img/play-pause.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/blueimp/img/play-pause.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/blueimp/img/video-play.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/blueimp/img/video-play.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/bootstrap-table/bootstrap-table.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/chosen/chosen-sprite.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/chosen/chosen-sprite@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/chosen/chosen.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/clockpicker/clockpicker.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/codemirror/ambiance.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/codemirror/codemirror.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/colorpicker/css/bootstrap-colorpicker.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/colorpicker/img/bootstrap-colorpicker/alpha-horizontal.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/colorpicker/img/bootstrap-colorpicker/alpha.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/colorpicker/img/bootstrap-colorpicker/hue-horizontal.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/colorpicker/img/bootstrap-colorpicker/hue.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/colorpicker/img/bootstrap-colorpicker/saturation.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/cropper/cropper.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/dataTables/dataTables.bootstrap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/datapicker/datepicker3.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/dropzone/basic.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/dropzone/dropzone.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/duallistbox/bootstrap-duallistbox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/footable/fonts/footable.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/footable/fonts/footable.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/footable/fonts/footable.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/footable/fonts/footable.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/footable/footable.core.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/fullcalendar/fullcalendar.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/fullcalendar/fullcalendar.print.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/iCheck/custom.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/iCheck/green.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/iCheck/green@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/images/sort_asc.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/images/sort_desc.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/images/sprite-skin-flat.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/images/spritemap.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/images/spritemap@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/ionRangeSlider/ion.rangeSlider.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/ionRangeSlider/ion.rangeSlider.skinFlat.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/jQueryUI/images/ui-bg_flat_0_aaaaaa_40x100.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/jQueryUI/images/ui-bg_flat_75_ffffff_40x100.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/jQueryUI/images/ui-icons_222222_256x240.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/jQueryUI/images/ui-icons_454545_256x240.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/jQueryUI/images/ui-icons_888888_256x240.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/jQueryUI/jquery-ui-1.10.4.custom.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/jasny/jasny-bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/jqTreeGrid/jquery.treegrid.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/jqgrid/ui.jqgrid.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/jsTree/32px.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/jsTree/style.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/jsTree/throbber.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/markdown/bootstrap-markdown.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/morris/morris-0.4.3.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/multiselect/bootstrap-multiselect.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/nouslider/jquery.nouislider.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/plyr/plyr.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/plyr/sprite.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/simditor/simditor.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/steps/jquery.steps.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/summernote/font/summernote.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/summernote/summernote-0.8.8.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/summernote/summernote-bs3.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/summernote/summernote.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/sweetalert/sweetalert.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/switchery/switchery.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/toastr/toastr.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/treeview/bootstrap-treeview.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/webuploader/webuploader.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/zTree/awesome.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/zTree/metroStyle/img/32px.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/zTree/metroStyle/img/line_conn.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/zTree/metroStyle/img/loading.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/zTree/metroStyle/img/metro.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/zTree/metroStyle/img/metro.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/plugins/zTree/metroStyle/metroStyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/css/style.css" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/app-cfg.js" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/app.js" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/configuration/properties-assignment-controller.js" />
@@ -389,7 +271,6 @@
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/throwing/none.png" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/stencilsets/bpmn2.0/icons/throwing/signal.png" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/editor-app/toolbar-controller.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/favicon.ico" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/fonts/FontAwesome.otf" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/fonts/fontawesome-webfont.eot" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/static/fonts/fontawesome-webfont.svg" />
@@ -1716,7 +1597,7 @@
       <workItem from="1520219274233" duration="2096000" />
       <workItem from="1520228203266" duration="19425000" />
       <workItem from="1520305444952" duration="28717000" />
-      <workItem from="1520393509936" duration="9361000" />
+      <workItem from="1520393509936" duration="9580000" />
     </task>
     <task id="LOCAL-00001" summary="项目目录整理 add gitignore文件">
       <created>1518330593978</created>
@@ -1795,7 +1676,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520408130009</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="management add page .html static file">
+      <created>1520408329716</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1520408329716</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1804,7 +1692,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="295888000" />
+    <option name="totallyTimeSpent" value="296107000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
