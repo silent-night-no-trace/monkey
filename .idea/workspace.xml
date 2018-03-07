@@ -4,105 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1135a5e7-c2ce-44ea-8581-13cc783b822a" name="Default" comment="asset micro serve update pom update  add utils &#10;dao micro serve add results &#10; management  add page .html static resource &#10; service add (management system service)">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_27.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_27.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_27.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_27.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_20.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_10_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_10_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_10_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_5_10_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_1_5_10_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_1_5_10_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_10_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_10_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_10_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_10_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_10_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_10_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_1_3_2_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_1_4_2_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_1_3_2_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_1_4_3_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_1_4_3_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_core_1_3_2_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_zipkin_1_3_2_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_1_3_2_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_1_4_2_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_eureka_1_4_3_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_hystrix_1_4_3_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_1_4_3_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_1_4_3_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_1_4_3_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_1_4_3_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_sleuth_1_3_2_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_zipkin_1_3_2_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_10_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_1_2_10_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_8_10_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_4_2_4_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_14_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_14_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_14_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_14_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_14_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_14_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_3_14_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_14_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_14_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_14_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_14_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/BDException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/Base64Utils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/BuildTree.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/DateUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/ExceptionUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/FileType.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/FileUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/GenUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/HttpContextUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/HttpServletUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/IPUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/ImageUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/JSONUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/MD5Utils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/PageUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/Query.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/R.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/ScheduleJobUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/SpringContextHolder.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/StringUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/TimeUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/UploadUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/xss/JsoupUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/src/main/java/com/google/style/model/Tree.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/config/ApplicationContextRegister.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/config/MySessionListener.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/config/ShiroConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/config/Swagger2Config.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/config/XssConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/constant/Global.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/BaseController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/DeptController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/MenuController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/RoleController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/SessionController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/UserController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/filter/XssFilter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/filter/XssHttpServletRequestWrapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/shiro/SystemRealm.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/shiro/redis/RedisCache.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/shiro/redis/RedisCacheManager.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/shiro/redis/RedisManager.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/shiro/redis/RedisSessionDAO.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/shiro/redis/SerializeUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/utils/ShiroUtils.java" />
+    <list default="true" id="1135a5e7-c2ce-44ea-8581-13cc783b822a" name="Default" comment="management add page .html static file">
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/config/ehcache.xml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/FontIcoList.html" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/public/chart/graph_echarts.html" />
@@ -1112,40 +1014,10 @@
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/system/user/reset_pwd.html" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/system/user/user.html" />
       <change beforePath="" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/system/user/userTree.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/DeptService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/MenuService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/RoleService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/SessionService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/UserService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/DeptServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/MenuServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/RoleServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/SessionServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/UserServiceImpl.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/asset/pom.xml" afterPath="$PROJECT_DIR$/asset/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/asset/src/main/java/com/google/style/AssetApplication.java" afterPath="$PROJECT_DIR$/asset/src/main/java/com/google/style/AssetApplication.java" />
-      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/DeptMapper.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/DeptMapper.java" />
-      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/MenuMapper.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/MenuMapper.java" />
-      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/RoleMapper.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/RoleMapper.java" />
-      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/RoleMenuMapper.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/RoleMenuMapper.java" />
-      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/UserMapper.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/UserMapper.java" />
-      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/UserRoleMapper.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/UserRoleMapper.java" />
-      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/provider/DeptProvider.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/provider/DeptProvider.java" />
-      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/provider/MenuProvider.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/provider/MenuProvider.java" />
-      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/provider/RoleMenuProvider.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/provider/RoleMenuProvider.java" />
-      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/provider/RoleProvider.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/provider/RoleProvider.java" />
-      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/provider/UserProvider.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/provider/UserProvider.java" />
-      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/provider/UserRoleProvider.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/provider/UserRoleProvider.java" />
       <change beforePath="$PROJECT_DIR$/logs/out_App.log" afterPath="$PROJECT_DIR$/logs/out_App.log" />
-      <change beforePath="$PROJECT_DIR$/management/pom.xml" afterPath="$PROJECT_DIR$/management/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/LoginController.java" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/LoginController.java" />
       <change beforePath="$PROJECT_DIR$/management/src/main/resources/application-dev.yml" afterPath="$PROJECT_DIR$/management/src/main/resources/application-dev.yml" />
       <change beforePath="$PROJECT_DIR$/management/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/management/src/main/resources/bootstrap.yml" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/google/style/model/system/MenuVo.java" afterPath="$PROJECT_DIR$/model/src/main/java/com/google/style/model/system/MenuVo.java" />
-      <change beforePath="$PROJECT_DIR$/monkey.iml" afterPath="$PROJECT_DIR$/monkey.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/service/pom.xml" afterPath="$PROJECT_DIR$/service/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -1227,7 +1099,7 @@
         <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/MenuMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+              <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -1236,8 +1108,8 @@
       <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="53" column="15" lean-forward="true" selection-start-line="53" selection-start-column="15" selection-end-line="53" selection-end-column="15" />
+            <state relative-caret-position="32">
+              <caret line="119" column="14" lean-forward="false" selection-start-line="119" selection-start-column="11" selection-end-line="119" selection-end-column="14" />
               <folding>
                 <element signature="e#1694#1695#0" expanded="true" />
                 <element signature="e#1728#1729#0" expanded="true" />
@@ -1928,7 +1800,7 @@
       <workItem from="1520219274233" duration="2096000" />
       <workItem from="1520228203266" duration="19425000" />
       <workItem from="1520305444952" duration="28717000" />
-      <workItem from="1520393509936" duration="7527000" />
+      <workItem from="1520393509936" duration="9141000" />
     </task>
     <task id="LOCAL-00001" summary="项目目录整理 add gitignore文件">
       <created>1518330593978</created>
@@ -1993,7 +1865,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520305040649</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="asset micro serve update pom update  add utils &#10;dao micro serve add results &#10; management  add system manage &#10; service add (management system service)">
+      <created>1520405425819</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1520405425819</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2002,7 +1881,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="294054000" />
+    <option name="totallyTimeSpent" value="295668000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2097,7 +1976,9 @@
     <MESSAGE value="add redis micro serve  and update .gitnore 文件" />
     <MESSAGE value="add system dao model" />
     <MESSAGE value="asset micro serve update pom update  add utils &#10;dao micro serve add results &#10; management  add page .html static resource &#10; service add (management system service)" />
-    <option name="LAST_COMMIT_MESSAGE" value="asset micro serve update pom update  add utils &#10;dao micro serve add results &#10; management  add page .html static resource &#10; service add (management system service)" />
+    <MESSAGE value="asset micro serve update pom update  add utils &#10;dao micro serve add results &#10; management  add system manage &#10; service add (management system service)" />
+    <MESSAGE value="management add page .html static file" />
+    <option name="LAST_COMMIT_MESSAGE" value="management add page .html static file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2110,6 +1991,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2117,6 +2001,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2124,6 +2009,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="682">
           <caret line="44" column="2" lean-forward="false" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2131,6 +2017,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2146,6 +2033,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="36" lean-forward="false" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2153,6 +2041,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2160,6 +2049,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2177,6 +2069,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2206,6 +2099,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
           <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2270,6 +2164,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2293,6 +2188,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2486,15 +2382,15 @@
     <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/MenuMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="53" column="15" lean-forward="true" selection-start-line="53" selection-start-column="15" selection-end-line="53" selection-end-column="15" />
+        <state relative-caret-position="32">
+          <caret line="119" column="14" lean-forward="false" selection-start-line="119" selection-start-column="11" selection-end-line="119" selection-end-column="14" />
           <folding>
             <element signature="e#1694#1695#0" expanded="true" />
             <element signature="e#1728#1729#0" expanded="true" />
