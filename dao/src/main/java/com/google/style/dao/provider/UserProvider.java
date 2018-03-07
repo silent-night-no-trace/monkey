@@ -16,7 +16,7 @@ public class UserProvider {
         Integer id = (Integer) map.get("id");
         String username = (String)map.get("username");
         String name = (String)map.get("name");
-        Integer deptId = (Integer)map.get("deptId");
+        String deptId = (String)map.get("deptId");
         Integer status = (Integer)map.get("status");
         String createBy = (String)map.get("createBy");
         Integer sex = (Integer)map.get("sex");
@@ -35,7 +35,7 @@ public class UserProvider {
             sb.append(" AND id  ="+ id);
         }
         if(username!=null&&!"".equals(username)){
-            sb.append(" AND username = "+username);
+            sb.append(" AND username = '"+username+"'");
         }
         if(name!=null&&!"".equals(name)){
             sb.append(" AND name = "+name);
@@ -67,14 +67,14 @@ public class UserProvider {
         }
 
         //分页参数
-        if(offset!=null&&limit!=null){
-            sb.append(" limit "+offset+" , "+limit);
-        }
         if(sort!=null&&!"".equals(sort)){
             sb.append(" ORDER BY "+sort +" "+order );
         }else {
             //未传排序字段 默认使用id 排序
             sb.append(" ORDER BY id DESC");
+        }
+        if(offset!=null&&limit!=null){
+            sb.append(" limit "+offset+" , "+limit);
         }
         return sb.toString();
     }

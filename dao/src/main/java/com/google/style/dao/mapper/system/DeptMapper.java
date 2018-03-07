@@ -25,9 +25,11 @@ public interface DeptMapper {
 	Dept get(Long id);
 
 	@SelectProvider(type =DeptProvider.class ,method = "getDeptList" )
+	@Results({@Result(column = "id",property = "id"),@Result(column = "parent_id",property = "parentId"),@Result(column = "name",property = "name"),
+			@Result(column = "order_num",property = "orderNum"),@Result(column = "del_flag",property = "delFlag"),})
 	List<Dept> list(Map<String, Object> map);
 
-    @SelectProvider(type =DeptMapper.class ,method = "count" )
+    @SelectProvider(type =DeptProvider.class ,method = "getCount" )
     int count(Map<String, Object> map);
 
     /**

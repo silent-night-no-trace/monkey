@@ -23,6 +23,7 @@ public interface UserRoleMapper {
 	UserRole get(Long id);
 
     @SelectProvider(type = UserRoleProvider.class, method = "getUserRoleList")
+    @Results({@Result(column = "id",property = "id"),@Result(column = "user_id",property = "userId"),@Result(column = "role_id",property = "roleId")})
 	List<UserRole> list(Map<String, Object> map);
 
     @SelectProvider(type = UserRoleProvider.class, method = "getCount")

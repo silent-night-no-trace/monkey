@@ -15,7 +15,7 @@ public class MenuVo implements Serializable{
     private static final long serialVersionUID = 1L;
     //
     private Long id;
-    // 父菜单ID，一级菜单为0
+    // 父菜单ID，一级菜单为0 parent_id
     private Long parentId;
     // 菜单名称
     private String name;

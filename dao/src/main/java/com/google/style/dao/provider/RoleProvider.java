@@ -55,14 +55,15 @@ public class RoleProvider {
             sb.append(" AND remark = "+remark);
         }
         //分页参数
-        if(offset!=null&&limit!=null){
-            sb.append(" limit "+offset+" , "+limit);
-        }
+        //分页参数
         if(sort!=null&&!"".equals(sort)){
             sb.append(" ORDER BY "+sort +" "+order );
         }else {
             //未传排序字段 默认使用id 排序
             sb.append(" ORDER BY id DESC");
+        }
+        if(offset!=null&&limit!=null){
+            sb.append(" limit "+offset+" , "+limit);
         }
 
         return  sb.toString();

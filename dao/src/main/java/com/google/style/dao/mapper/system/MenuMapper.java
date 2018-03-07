@@ -22,6 +22,10 @@ public interface MenuMapper {
 	Menu get(Long menuId);
 
 	@SelectProvider(type = MenuProvider.class ,method = "getMenuList")
+	@Results({@Result(column = "id",property = "id"),@Result(column = "parent_id",property = "parentId"),@Result(column = "parent_ids",property = "parentIds"),
+            @Result(column = "name",property = "name"),@Result(column = "url",property = "url"),@Result(column = "permission",property = "permission"),
+            @Result(column = "type",property = "type"),@Result(column = "icon",property = "icon"),@Result(column = "order_num",property = "orderNum"),
+            @Result(column = "create_time",property = "createTime"),@Result(column = "update_time",property = "updateTime")})
 	List<Menu> list(Map<String, Object> map);
 
 	@SelectProvider(type =  MenuProvider.class ,method = "count")
@@ -48,7 +52,7 @@ public interface MenuMapper {
 	@Select("SELECT DISTINCT\n" +
             "\tm.id,\n" +
             "\tparent_id,\n" +
-            "\tNAME,\n" +
+            "\tname,\n" +
             "\turl,\n" +
             "\tpermission,\n" +
             "\t`type`,\n" +
@@ -65,6 +69,10 @@ public interface MenuMapper {
             "AND m.type IN (0, 1)\n" +
             "ORDER BY\n" +
             "\tm.order_num")
+	@Results({@Result(column = "id", property = "id"),@Result(column = "parent_id",property = "parentId"),@Result(column = "name",property = "name"),
+            @Result(column = "url",property = "url"),@Result(column = "permission",property = "permission"),@Result(column = "type",property = "type"),
+            @Result(column = "icon",property = "icon"),@Result(column = "order_num",property = "orderNum"),@Result(column = "create_time",property = "createTime"),
+            @Result(column = "update_time",property = "updateTime")})
 	List<MenuVo> listMenuByUserId(Long id);
 
     /**

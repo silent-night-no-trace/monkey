@@ -1,4 +1,4 @@
-package com.google.asset;
+package com.google.style;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,7 +9,7 @@ import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 /**
  * @author liangz
  * @date
- * 资源工具model (按需添加)
+ * 资源工具 (按需添加)
  */
 @EnableHystrix
 @EnableCircuitBreaker

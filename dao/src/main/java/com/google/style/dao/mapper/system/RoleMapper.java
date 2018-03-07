@@ -21,6 +21,9 @@ public interface RoleMapper {
 	Role get(Long roleId);
 
     @SelectProvider(type = RoleProvider.class ,method = "getRoleList")
+    @Results({@Result(column = "id",property = "id"),@Result(column = "role_name",property = "roleName"),@Result(column = "role_sign",property = "roleSign"),
+            @Result(column = "create_by",property = "createBy"),@Result(column = "create_time",property = "createTime"),@Result(column = "update_time",property = "updateTime"),
+            @Result(column = "remark",property = "remark")})
 	List<Role> list(Map<String, Object> map);
 
     @SelectProvider(type = RoleProvider.class ,method = "count")

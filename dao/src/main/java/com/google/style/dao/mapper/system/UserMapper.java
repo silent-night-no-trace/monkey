@@ -22,6 +22,12 @@ public interface UserMapper {
 	User get(Long userId);
 
     @SelectProvider(type = UserProvider.class,method = "getUserList")
+    @Results({@Result(column = "id",property = "id"),@Result(column = "username",property = "username"),@Result(column = "name",property = "name"),
+            @Result(column = "password",property = "password"),@Result(column = "dept_id",property = "deptId"),@Result(column = "email",property = "email"),
+            @Result(column = "mobile",property = "mobile"),@Result(column = "status",property = "status"),@Result(column = "create_by",property = "createBy"),
+            @Result(column = "create_time",property = "createTime"),@Result(column = "update_time",property = "updateTime"),@Result(column = "sex",property = "sex"),
+            @Result(column = "live_address",property = "liveAddress"),@Result(column = "province",property = "province"),@Result(column = "city",property = "city"),
+            @Result(column = "district",property = "district")})
     List<User> list(Map<String, Object> map);
 
     @SelectProvider(type = UserProvider.class,method = "getUserCount")
@@ -31,7 +37,7 @@ public interface UserMapper {
     @Options(useGeneratedKeys = true, keyProperty = "id")
     int save(User user);
 
-	@Update("UPDATE sys_user SET username =#{username},name =#{name},password=#{password},dept_id = #{deptId},email =#{email},mobile = #{mobile},status = #{status},\tcreate_by = #{createBy},update_time =#{updateTime},sex = #{sex],live_address =#{liveAddress},province=#{province],city= #{city},district = #{district} WHERE id = #{id} ")
+	@Update("UPDATE sys_user SET username =#{username},name =#{name},password=#{password},dept_id = #{deptId},email =#{email},mobile = #{mobile},status = #{status},\tcreate_by = #{createBy},update_time =#{updateTime},sex = #{sex},live_address =#{liveAddress},province=#{province},city= #{city},district = #{district} WHERE id = #{id} ")
 	int update(User user);
 
 	@Delete("DELETE FROM sys_user WHERE id = #{userId}")

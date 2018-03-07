@@ -22,7 +22,8 @@ public interface RoleMenuMapper {
 	RoleMenu get(Long id);
 
     @SelectProvider(type = RoleMenuProvider.class,method = "getRoleMenuList")
-	List<RoleMenu> list(Map<String, Object> map);
+    @Results({@Result(column = "id",property = "id"),@Result(column = "role_id",property = "roleId"),@Result(column = "menu_id",property = "menuId")})
+    List<RoleMenu> list(Map<String, Object> map);
 
     @SelectProvider(type = RoleMenuProvider.class,method = "count")
     int count(Map<String, Object> map);
