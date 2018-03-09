@@ -13,6 +13,10 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+/**
+ * 角色管理
+ * @author liangz
+ */
 @RequestMapping("/sys/role")
 @Controller
 public class RoleController extends BaseController {

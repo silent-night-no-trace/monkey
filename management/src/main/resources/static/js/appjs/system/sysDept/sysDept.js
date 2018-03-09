@@ -22,7 +22,7 @@ function load() {
 				columns : [
 					{
 						title : '编号',
-						field : 'deptId',
+						field : 'id',
 						visible : false,
 						align : 'center',
 						valign : 'center',
@@ -61,16 +61,16 @@ function load() {
                         valign : 'center',
 						formatter : function(item, index) {
 							var e = '<a class="btn btn-primary btn-sm ' + s_edit_h + '" href="#" mce_href="#" title="编辑" onclick="edit(\''
-								+ item.deptId
+								+ item.id
 								+ '\')"><i class="fa fa-edit"></i></a> ';
 							var a = '<a class="btn btn-primary btn-sm ' + s_add_h + '" href="#" title="增加下級"  mce_href="#" onclick="add(\''
-								+ item.deptId
+								+ item.id
 								+ '\')"><i class="fa fa-plus"></i></a> ';
 							var d = '<a class="btn btn-warning btn-sm ' + s_remove_h + '" href="#" title="删除"  mce_href="#" onclick="removeone(\''
-								+ item.deptId
+								+ item.id
 								+ '\')"><i class="fa fa-remove"></i></a> ';
 							var f = '<a class="btn btn-success btn-sm＂ href="#" title="备用"  mce_href="#" onclick="resetPwd(\''
-								+ item.deptId
+								+ item.id
 								+ '\')"><i class="fa fa-key"></i></a> ';
 							return e + a + d;
 						}

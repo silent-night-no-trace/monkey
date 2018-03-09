@@ -18,7 +18,7 @@ public class Menu implements Serializable {
 	// 父菜单ID，一级菜单为0
 	private Long parentId;
     //父类多个菜单id 用 ,隔开
-	private String parent_ids;
+	private String parentIds;
 	// 菜单名称
 	private String name;
 	// 菜单URL

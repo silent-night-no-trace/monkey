@@ -50,7 +50,7 @@ function load(deptId) {
 						checkbox : true
 					},
 					{
-						field : 'userId', // 列字段名
+						field : 'id', // 列字段名
 						title : '序号' // 列标题
 					},
 					{
@@ -83,13 +83,13 @@ function load(deptId) {
 						align : 'center',
 						formatter : function(value, row, index) {
 							var e = '<a  class="btn btn-primary btn-sm ' + s_edit_h + '" href="#" mce_href="#" title="编辑" onclick="edit(\''
-								+ row.userId
+								+ row.id
 								+ '\')"><i class="fa fa-edit "></i></a> ';
 							var d = '<a class="btn btn-warning btn-sm ' + s_remove_h + '" href="#" title="删除"  mce_href="#" onclick="remove(\''
-								+ row.userId
+								+ row.id
 								+ '\')"><i class="fa fa-remove"></i></a> ';
 							var f = '<a class="btn btn-success btn-sm ' + s_resetPwd_h + '" href="#" title="重置密码"  mce_href="#" onclick="resetPwd(\''
-								+ row.userId
+								+ row.id
 								+ '\')"><i class="fa fa-key"></i></a> ';
 							return e + d + f;
 						}
@@ -152,6 +152,7 @@ function resetPwd(id) {
 	});
 }
 function batchRemove() {
+	debugger;
 	var rows = $('#exampleTable').bootstrapTable('getSelections'); // 返回所有选择的行，当没有选择的记录时，返回一个空数组
 	if (rows.length == 0) {
 		layer.msg("请选择要删除的数据");

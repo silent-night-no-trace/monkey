@@ -17,8 +17,8 @@ import java.util.Map;
 @Repository
 public interface RoleMapper {
 
-    @Select("SELECT id,role_name,role_sign,create_by,create_time,update_time,remark FROM sys_role WHERE id = #[roleId}\t\n")
-	Role get(Long roleId);
+    @Select("SELECT id,role_name,role_sign,create_by,create_time,update_time,remark FROM sys_role WHERE id = #{id}\t\n")
+	Role get(Long id);
 
     @SelectProvider(type = RoleProvider.class ,method = "getRoleList")
     @Results({@Result(column = "id",property = "id"),@Result(column = "role_name",property = "roleName"),@Result(column = "role_sign",property = "roleSign"),

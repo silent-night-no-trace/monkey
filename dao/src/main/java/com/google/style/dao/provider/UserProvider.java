@@ -41,11 +41,11 @@ public class UserProvider {
             sb.append(" AND name = "+name);
 
         }
-        if(deptId!=null){
+        if(deptId!=null&&!"".equals(deptId)){
             sb.append(" AND dept_id = "+deptId);
 
         }
-        if(status!=null){
+        if(status!=null&&!"".equals(status)){
             sb.append(" AND status = "+status);
 
         }
@@ -53,7 +53,7 @@ public class UserProvider {
             sb.append(" AND create_by = "+createBy);
 
         }
-        if(sex!=null){
+        if(sex!=null&&!"".equals(sex)){
             sb.append(" AND sex = "+sex);
         }
         if(province!=null&&!"".equals(province)){
@@ -84,10 +84,10 @@ public class UserProvider {
         Integer id = (Integer) map.get("id");
         String username = (String)map.get("username");
         String name = (String)map.get("name");
-        Integer deptId = (Integer)map.get("deptId");
-        Integer status = (Integer)map.get("status");
+        String deptId = (String )map.get("deptId");
+        String status = (String)map.get("status");
         String createBy = (String)map.get("createBy");
-        Integer sex = (Integer)map.get("sex");
+        String  sex = (String)map.get("sex");
         String province = (String)map.get("province");
         String city = (String)map.get("city");
         String district = (String)map.get("district");
@@ -97,17 +97,17 @@ public class UserProvider {
             sb.append(" AND id  ="+ id);
         }
         if(username!=null&&!"".equals(username)){
-            sb.append(" AND username = "+username);
+            sb.append(" AND username = '"+username+"'");
         }
         if(name!=null&&!"".equals(name)){
             sb.append(" AND name = "+name);
 
         }
-        if(deptId!=null){
+        if(deptId!=null&&!"".equals(deptId)){
             sb.append(" AND dept_id = "+deptId);
 
         }
-        if(status!=null){
+        if(status!=null&&!"".equals(status)){
             sb.append(" AND status = "+status);
 
         }
@@ -115,7 +115,7 @@ public class UserProvider {
             sb.append(" AND create_by = "+createBy);
 
         }
-        if(sex!=null){
+        if(sex!=null&&!"".equals(sex)){
             sb.append(" AND sex = "+sex);
         }
         if(province!=null&&!"".equals(province)){

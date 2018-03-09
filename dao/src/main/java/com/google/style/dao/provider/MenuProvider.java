@@ -72,7 +72,7 @@ public class MenuProvider {
         //分页参数
         //分页参数
         if(sort!=null&&!"".equals(sort)){
-            sb.append(" ORDER BY "+sort +" "+order );
+            sb.append(" ORDER BY "+sort +" DESC ");
         }else {
             //未传排序字段 默认使用id 排序
             sb.append(" ORDER BY id DESC");
