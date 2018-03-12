@@ -6,21 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1135a5e7-c2ce-44ea-8581-13cc783b822a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/FileUtil.java" afterPath="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/FileUtil.java" />
-      <change beforePath="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/GenUtils.java" afterPath="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/GenUtils.java" />
-      <change beforePath="$PROJECT_DIR$/logs/out_App.log" afterPath="$PROJECT_DIR$/logs/out_App.log" />
-      <change beforePath="$PROJECT_DIR$/management/pom.xml" afterPath="$PROJECT_DIR$/management/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/DeptController.java" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/DeptController.java" />
-      <change beforePath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/MenuController.java" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/MenuController.java" />
-      <change beforePath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/RoleController.java" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/RoleController.java" />
-      <change beforePath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/UserController.java" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/UserController.java" />
-      <change beforePath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/tools/GeneratorController.java" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/tools/GeneratorController.java" />
-      <change beforePath="$PROJECT_DIR$/management/src/main/resources/application-dev.yml" afterPath="$PROJECT_DIR$/management/src/main/resources/application-dev.yml" />
-      <change beforePath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/common/generator/edit.js" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/common/generator/edit.js" />
-      <change beforePath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/common/generator/list.js" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/common/generator/list.js" />
-      <change beforePath="$PROJECT_DIR$/management/src/main/resources/templates/common/file/file.html" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/common/file/file.html" />
-      <change beforePath="$PROJECT_DIR$/management/src/main/resources/templates/index_v1.html" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/index_v1.html" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/tools/GeneratorService.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/tools/GeneratorService.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -98,21 +83,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/management/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="32" column="41" lean-forward="false" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FileController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/tools/FileController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1540">
-              <caret line="108" column="7" lean-forward="true" selection-start-line="108" selection-start-column="7" selection-end-line="108" selection-end-column="7" />
+            <state relative-caret-position="176">
+              <caret line="46" column="24" lean-forward="true" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1619#1620#0" expanded="true" />
@@ -739,7 +714,7 @@
       <workItem from="1520393509936" duration="18606000" />
       <workItem from="1520488619644" duration="13183000" />
       <workItem from="1520573781126" duration="16836000" />
-      <workItem from="1520820411931" duration="18262000" />
+      <workItem from="1520820411931" duration="18338000" />
     </task>
     <task id="LOCAL-00001" summary="项目目录整理 add gitignore文件">
       <created>1518330593978</created>
@@ -888,7 +863,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520826104286</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="System  tools add file upload model">
+      <created>1520844780602</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1520844780602</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -897,7 +879,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="353414000" />
+    <option name="totallyTimeSpent" value="353490000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -999,7 +981,8 @@
     <MESSAGE value="add echart js file 1" />
     <MESSAGE value="add echarts -all js" />
     <MESSAGE value="System  tools add generate model" />
-    <option name="LAST_COMMIT_MESSAGE" value="System  tools add generate model" />
+    <MESSAGE value="System  tools add file upload model" />
+    <option name="LAST_COMMIT_MESSAGE" value="System  tools add file upload model" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1431,6 +1414,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/management/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="49" column="41" lean-forward="false" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/FileUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -1441,21 +1432,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/tools/FileController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1540">
-          <caret line="108" column="7" lean-forward="true" selection-start-line="108" selection-start-column="7" selection-end-line="108" selection-end-column="7" />
+        <state relative-caret-position="176">
+          <caret line="46" column="24" lean-forward="true" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1619#1620#0" expanded="true" />
             <element signature="e#1658#1659#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/management/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="32" column="41" lean-forward="false" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
