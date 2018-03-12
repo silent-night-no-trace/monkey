@@ -22,6 +22,11 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * 用户管理 controller
+ * @author liangz
+ * @date  2018/03/12
+ */
 @RequestMapping("/sys/user")
 @Controller
 public class UserController extends BaseController {

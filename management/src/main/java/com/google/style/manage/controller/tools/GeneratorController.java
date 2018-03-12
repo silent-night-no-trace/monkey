@@ -27,7 +27,7 @@ import java.util.Map;
  * @date 2018/03/12 10:16
  *
  */
-@RequestMapping("/common/generator")
+@RequestMapping("/tools/generator")
 @Controller
 public class GeneratorController {
 	String prefix = "common/generator";

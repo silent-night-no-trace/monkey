@@ -17,7 +17,9 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author bootdo 1992lcg@163.com
+ * 角色管理
+ * @author liangz
+ * @date  2018/03/12
  */
 @RequestMapping("/sys/menu")
 @Controller

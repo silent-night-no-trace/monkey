@@ -1,4 +1,4 @@
-var prefix = "/common/generator"
+var prefix = "/tools/generator"
 $(function() {
 	load();
 });

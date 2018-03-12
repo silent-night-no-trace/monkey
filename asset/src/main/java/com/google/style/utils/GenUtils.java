@@ -189,10 +189,10 @@ public class GenUtils {
         if (template.contains("Dao.java.vm")) {
             return packagePath + "dao" + File.separator + className + "Dao.java";
         }
-
-//		if(template.contains("Mapper.java.vm")){
-//			return packagePath + "dao" + File.separator + className + "Mapper.java";
-//		}
+        //用于生成 mapper java版本的
+		if(template.contains("Mapper.java.vm")){
+			return packagePath + "dao" + File.separator + className + "Mapper.java";
+		}
 
         if (template.contains("Service.java.vm")) {
             return packagePath + "service" + File.separator + className + "Service.java";
@@ -205,10 +205,10 @@ public class GenUtils {
         if (template.contains("Controller.java.vm")) {
             return packagePath + "controller" + File.separator + className + "Controller.java";
         }
-
-        if (template.contains("Mapper.xml.vm")) {
-            return "main" + File.separator + "resources" + File.separator + "mapper" + File.separator + packageName + File.separator + className + "Mapper.xml";
-        }
+        //用于生成 mapper xml版本的
+//        if (template.contains("Mapper.xml.vm")) {
+//            return "main" + File.separator + "resources" + File.separator + "mapper" + File.separator + packageName + File.separator + className + "Mapper.xml";
+//        }
 
         if (template.contains("list.html.vm")) {
             return "main" + File.separator + "resources" + File.separator + "templates" + File.separator

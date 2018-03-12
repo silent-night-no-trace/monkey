@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bootdo - 文件管理器</title>
+    <title>Style - 文件管理器</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <link rel="shortcut icon" href="favicon.ico">
@@ -103,7 +103,7 @@
         },
         methods: {
             getData: function () {
-                $.getJSON("/common/sysFile/list", {
+                $.getJSON("/tools/fileUpload/list", {
                     limit: this.limit,
                     offset: this.offset,
                     type: this.type
@@ -148,7 +148,7 @@
                     btn: ['确定', '取消']
                 }, function () {
                     $.ajax({
-                        url: "/common/sysFile/remove",
+                        url: "/tools/fileUpload/remove",
                         type: "post",
                         data: {
                             'id': id
@@ -183,7 +183,7 @@
         //执行实例
         var uploadInst = upload.render({
             elem: '#test1', //绑定元素
-            url: '/common/sysFile/upload', //上传接口
+            url: '/tools/fileUpload/upload', //上传接口
             size: 1000,
             accept: 'file',
             done: function (r) {
