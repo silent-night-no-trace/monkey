@@ -1,7 +1,8 @@
-package com.google.style.manage.controller;
+package com.google.style.manage.controller.system;
 
 
-import com.google.style.manage.constant.Global;
+import com.google.style.manage.common.controller.BaseController;
+import com.google.style.constant.Global;
 import com.google.style.model.Tree;
 import com.google.style.model.system.Dept;
 import com.google.style.service.system.DeptService;

@@ -2,7 +2,7 @@ package com.google.style.manage.config;
 
 import at.pollux.thymeleaf.shiro.dialect.ShiroDialect;
 
-import com.google.style.manage.constant.Global;
+import com.google.style.constant.Global;
 import com.google.style.manage.shiro.SystemRealm;
 import com.google.style.manage.shiro.redis.RedisCacheManager;
 import com.google.style.manage.shiro.redis.RedisManager;

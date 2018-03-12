@@ -1,6 +1,6 @@
 package com.google.style.dao.mapper.system;
 
-import com.google.style.dao.provider.UserRoleProvider;
+import com.google.style.dao.provider.system.UserRoleProvider;
 import com.google.style.model.system.UserRole;
 import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Repository;

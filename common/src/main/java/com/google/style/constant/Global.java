@@ -1,4 +1,4 @@
-package com.google.style.manage.constant;
+package com.google.style.constant;
 
 /**
  * @author liangz
@@ -13,4 +13,7 @@ public class Global {
     public static String CACHE_TYPE_REDIS ="redis";
     //部门根节点id
     public static Long DEPT_ROOT_ID = 0L;
+
+    //自动去除表前缀
+    public static String AUTO_REMOVE_Prefix = "true";
 }

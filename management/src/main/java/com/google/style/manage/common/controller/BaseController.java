@@ -1,4 +1,4 @@
-package com.google.style.manage.controller;
+package com.google.style.manage.common.controller;
 
 import com.google.style.manage.utils.ShiroUtils;
 import com.google.style.model.system.User;

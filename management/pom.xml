@@ -27,6 +27,12 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-config</artifactId>
 		</dependency>
+		<!--asset-->
+		<dependency>
+			<groupId>com.google</groupId>
+			<artifactId>asset</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 		<!--common-->
 		<dependency>
 			<groupId>com.google</groupId>
@@ -108,7 +114,12 @@
 			<artifactId>springfox-swagger-ui</artifactId>
 			<version>2.6.1</version>
 		</dependency>
-
+		<!--velocity代码生成使用模板 -->
+		<dependency>
+			<groupId>org.apache.velocity</groupId>
+			<artifactId>velocity</artifactId>
+			<version>1.7</version>
+		</dependency>
 
 	</dependencies>
 

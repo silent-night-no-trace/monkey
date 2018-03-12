@@ -1,6 +1,6 @@
 package com.google.style.dao.mapper.system;
 
-import com.google.style.dao.provider.MenuProvider;
+import com.google.style.dao.provider.system.MenuProvider;
 import com.google.style.model.system.Menu;
 import com.google.style.model.system.MenuVo;
 import org.apache.ibatis.annotations.*;

@@ -1,6 +1,6 @@
 package com.google.style.dao.mapper.system;
 
-import com.google.style.dao.provider.DeptProvider;
+import com.google.style.dao.provider.system.DeptProvider;
 import com.google.style.model.system.Dept;
 import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Repository;

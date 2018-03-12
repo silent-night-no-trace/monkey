@@ -1,4 +1,4 @@
-package com.google.style.dao.provider;
+package com.google.style.dao.provider.system;
 
 import com.google.style.model.system.UserRole;
 

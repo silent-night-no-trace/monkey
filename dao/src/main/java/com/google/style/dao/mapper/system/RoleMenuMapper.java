@@ -1,6 +1,6 @@
 package com.google.style.dao.mapper.system;
 
-import com.google.style.dao.provider.RoleMenuProvider;
+import com.google.style.dao.provider.system.RoleMenuProvider;
 import com.google.style.model.system.RoleMenu;
 import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Repository;

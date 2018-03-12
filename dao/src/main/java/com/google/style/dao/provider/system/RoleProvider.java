@@ -1,4 +1,4 @@
-package com.google.style.dao.provider;
+package com.google.style.dao.provider.system;
 
 import java.sql.Timestamp;
 import java.util.Map;

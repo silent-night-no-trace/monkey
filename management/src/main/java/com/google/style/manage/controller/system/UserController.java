@@ -1,7 +1,8 @@
-package com.google.style.manage.controller;
+package com.google.style.manage.controller.system;
 
 
-import com.google.style.manage.constant.Global;
+import com.google.style.manage.common.controller.BaseController;
+import com.google.style.constant.Global;
 import com.google.style.model.Tree;
 import com.google.style.model.system.Dept;
 import com.google.style.model.system.Role;
@@ -12,15 +13,12 @@ import com.google.style.utils.MD5Utils;
 import com.google.style.utils.PageUtils;
 import com.google.style.utils.Query;
 import com.google.style.utils.R;
-import org.apache.catalina.servlet4preview.http.HttpServletRequest;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.multipart.MultipartFile;
 
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
