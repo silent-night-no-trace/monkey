@@ -1,4 +1,4 @@
-package com.google.style.manage.config;
+package com.google.style.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

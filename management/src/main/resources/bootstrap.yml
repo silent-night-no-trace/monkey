@@ -40,7 +40,6 @@ spring:
 #发布端口配置
 server:
   port: 5060  #Tomcat端口
-  # context-path: /myboot
   session-timeout: 1800
   max-http-header-size: 4194304
   tomcat:

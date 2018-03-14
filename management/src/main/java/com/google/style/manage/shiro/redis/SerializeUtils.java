@@ -6,8 +6,9 @@ import org.slf4j.LoggerFactory;
 import java.io.*;
 
 /**
- * @author bootdo 1992lcg@163.com
- * @version V1.0
+ * @author liangz
+ * @date 2018/03/14
+ * 序列化工具类
  */
 public class SerializeUtils {
 

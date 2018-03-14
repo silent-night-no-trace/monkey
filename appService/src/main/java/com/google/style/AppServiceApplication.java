@@ -8,12 +8,12 @@ import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.context.annotation.ComponentScan;
 
 /**
+ *
  * @author liangz
+ * @date  2018/03/13 13:56
  * app相关服务
  *
  */
-
-
 @ComponentScan(basePackages={"com.google.*"})
 @EnableEurekaClient
 @EnableHystrix

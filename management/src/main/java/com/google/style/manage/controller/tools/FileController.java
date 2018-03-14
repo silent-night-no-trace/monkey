@@ -2,7 +2,7 @@ package com.google.style.manage.controller.tools;
 
 
 import com.google.style.manage.common.controller.BaseController;
-import com.google.style.manage.config.GlobalConfig;
+import com.google.style.config.GlobalConfig;
 import com.google.style.model.tools.FileDO;
 import com.google.style.service.tools.FileService;
 import com.google.style.utils.*;
@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.util.Date;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 

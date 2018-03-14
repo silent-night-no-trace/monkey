@@ -1,12 +1,11 @@
-package com.google.style.model;
+package com.google.style.model.Generator;
 
 import java.util.List;
 
 /**
+ * 代码生成模块
  * 表数据
- *
- * @author
- * @email
+ * @author liangz
  * @date 2018/03/09
  */
 public class Table {

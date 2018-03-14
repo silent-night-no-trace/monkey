@@ -5,7 +5,9 @@ import com.google.style.manage.common.controller.BaseController;
 import com.google.style.manage.utils.ShiroUtils;
 import com.google.style.model.Tree;
 import com.google.style.model.system.Menu;
+import com.google.style.model.tools.FileDO;
 import com.google.style.service.system.MenuService;
+import com.google.style.service.tools.FileService;
 import com.google.style.utils.MD5Utils;
 import com.google.style.utils.R;
 import org.apache.shiro.SecurityUtils;
@@ -26,7 +28,7 @@ import java.util.List;
 /**
  * @author liangz
  * @date  2018/03/07 11:24
- * 登录
+ *  系统登录
  */
 @Controller
 public class LoginController extends BaseController {
@@ -34,8 +36,8 @@ public class LoginController extends BaseController {
 
 	@Autowired
 	MenuService menuService;
-//	@Autowired
-//	FileService fileService;
+	@Autowired
+	FileService fileService;
 
 	@GetMapping({ "/", "" })
 	String welcome(Model model) {
@@ -49,16 +51,16 @@ public class LoginController extends BaseController {
 		List<Tree<Menu>> menus = menuService.listMenuTree(getUserId());
 		model.addAttribute("menus", menus);
 		model.addAttribute("name", getUser().getName());
-//		FileDO fileDO = fileService.get(getUser().getPicId());
-//		if(fileDO!=null&&fileDO.getUrl()!=null){
-//			if(fileService.isExist(fileDO.getUrl())){
-//				model.addAttribute("picUrl",fileDO.getUrl());
-//			}else {
-//				model.addAttribute("picUrl","/img/photo_s.jpg");
-//			}
-//		}else {
+		FileDO fileDO = fileService.get(getUser().getPicId());
+		if(fileDO!=null&&fileDO.getUrl()!=null){
+			if(fileService.isExist(fileDO.getUrl())){
+				model.addAttribute("picUrl",fileDO.getUrl());
+			}else {
+				model.addAttribute("picUrl","/img/photo_s.jpg");
+			}
+		}else {
 			model.addAttribute("picUrl","/img/photo_s.jpg");
-		//}
+		}
 		model.addAttribute("username", getUser().getUsername());
 		return "index_v1";
 	}

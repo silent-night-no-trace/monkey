@@ -16,6 +16,11 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.*;
 
+/**
+ * 菜单管理
+ * @author liangz
+ * @date  2018/03/13 11:49
+ */
 @SuppressWarnings("AlibabaRemoveCommentedCode")
 @Service
 @Transactional(readOnly = true,rollbackFor = Exception.class)

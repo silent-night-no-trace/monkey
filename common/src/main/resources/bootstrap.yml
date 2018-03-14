@@ -30,3 +30,7 @@ eureka:
     statusPageUrlPath: /info
     metadata-map:
       cluster: MAIN
+
+#上传路径配置
+Style:
+  uploadPath: file/

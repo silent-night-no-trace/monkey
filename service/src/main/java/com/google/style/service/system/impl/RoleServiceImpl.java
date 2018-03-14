@@ -17,6 +17,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Objects;
 
+/**
+ * 角色管理
+ * @author liangz
+ * @date  2018/03/14 11:50
+ */
 
 @Service
 public class RoleServiceImpl implements RoleService {

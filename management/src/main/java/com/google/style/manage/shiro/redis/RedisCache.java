@@ -1,8 +1,9 @@
 package com.google.style.manage.shiro.redis;
 
 /**
- * @author bootdo 1992lcg@163.com
- * @version V1.0
+ * @author liangz
+ * @date 2018/03/14 15:05
+ * redis 缓存实现
  */
 
 import org.apache.shiro.cache.Cache;

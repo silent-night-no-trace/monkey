@@ -27,12 +27,6 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-config</artifactId>
 		</dependency>
-		<!--common-->
-		<dependency>
-			<groupId>com.google</groupId>
-			<artifactId>common</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
         <!--service-->
         <dependency>
             <groupId>com.google</groupId>
@@ -40,12 +34,12 @@
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
         <!-- 热部署 -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <!-- 表示依赖不会传递 -->
-            <optional>true</optional>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.boot</groupId>-->
+            <!--<artifactId>spring-boot-devtools</artifactId>-->
+            <!--&lt;!&ndash; 表示依赖不会传递 &ndash;&gt;-->
+            <!--<optional>true</optional>-->
+        <!--</dependency>-->
 	</dependencies>
 
 	<build>
@@ -53,10 +47,10 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <mainClass>com.google.style.AppServiceApplication</mainClass>
-                    <fork>true</fork> <!-- 如果没有该配置，devtools不会生效 -->
-                </configuration>
+                <!--<configuration>-->
+                    <!--<mainClass>com.google.style.AppServiceApplication</mainClass>-->
+                    <!--<fork>true</fork> &lt;!&ndash; 如果没有该配置，devtools不会生效 &ndash;&gt;-->
+                <!--</configuration>-->
                 <executions>
                     <execution>
                         <goals>

@@ -17,15 +17,23 @@ import java.util.List;
  * shiro 工具类
  */
 public class ShiroUtils {
+
     @Autowired
     private static SessionDAO sessionDAO;
 
     public static Subject getSubjct() {
+
         return SecurityUtils.getSubject();
     }
+
     public static User getUser() {
         Object object = getSubjct().getPrincipal();
-        return (User)object;
+        System.out.println("shiro: "+object.getClass());
+        System.out.println("user: "+User.class);
+        System.out.println("instance: "+(object instanceof  User));
+        User user = (User) object;
+        System.out.println("user:"+user.toString());
+        return user;
     }
     public static Long getUserId() {
         return getUser().getId();

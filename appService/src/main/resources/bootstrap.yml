@@ -22,6 +22,9 @@ spring:
   sleuth:
       sampler:
         percentage: 1.0
+#  devtools:
+#      restart:
+#        enabled: true
 #发布端口配置
 server:
   port: 5001  #Tomcat端口
@@ -41,3 +44,7 @@ eureka:
     statusPageUrlPath: /info
     metadata-map:
       cluster: MAIN
+
+#上传路径配置
+Style:
+  uploadPath: file/

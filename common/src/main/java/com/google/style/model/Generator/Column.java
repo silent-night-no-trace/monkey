@@ -1,9 +1,10 @@
-package com.google.style.model;
+package com.google.style.model.Generator;
 
 /**
+ * 代码生成模块
  * 列的属性
- * 
- * 
+ * @author liangz
+ * @date  2018/03/13 11:44
  */
 public class Column {
 	// 列名

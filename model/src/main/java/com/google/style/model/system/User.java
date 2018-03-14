@@ -1,9 +1,9 @@
 package com.google.style.model.system;
 
 import lombok.Data;
-import org.springframework.format.annotation.DateTimeFormat;
+import lombok.ToString;
 
-import java.io.Serializable;
+import java.io.*;
 import java.util.Date;
 import java.util.List;
 
@@ -14,9 +14,11 @@ import java.util.List;
  * 用户表
  */
 @Data
-public class User implements Serializable {
+@ToString
+public class User implements Serializable{
+
     private static final long serialVersionUID = 1L;
-    //
+
     private Long id;
     // 用户名
     private String username;
@@ -26,11 +28,14 @@ public class User implements Serializable {
     private String password;
     // 部门
     private Long deptId;
+    //部门名称
     private String deptName;
     // 邮箱
     private String email;
     // 手机号
     private String mobile;
+    //图片ID
+    private Long picId;
     // 状态 0:禁用，1:正常
     private Integer status;
     // 创建用户
@@ -43,6 +48,7 @@ public class User implements Serializable {
     private List<Long> roleIds;
     //性别
     private Long sex;
+
     //现居住地
     private String liveAddress;
     //省份
@@ -53,27 +59,4 @@ public class User implements Serializable {
     private String district;
 
 
-    @Override
-    public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", username='" + username + '\'' +
-                ", name='" + name + '\'' +
-                ", password='" + password + '\'' +
-                ", deptId=" + deptId +
-                ", deptName='" + deptName + '\'' +
-                ", email='" + email + '\'' +
-                ", mobile='" + mobile + '\'' +
-                ", status=" + status +
-                ", createBy=" + createBy +
-                ", createTime=" + createTime +
-                ", updateTime=" + updateTime +
-                ", roleIds=" + roleIds +
-                ", sex=" + sex +
-                ", liveAddress='" + liveAddress + '\'' +
-                ", province='" + province + '\'' +
-                ", city='" + city + '\'' +
-                ", district='" + district + '\'' +
-                '}';
-    }
 }

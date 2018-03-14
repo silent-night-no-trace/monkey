@@ -20,13 +20,13 @@
 	</parent>
 
     <dependencies>
-
+		<!--model -->
         <dependency>
             <groupId>com.google</groupId>
             <artifactId>model</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
-
+		<!--dao-->
         <dependency>
             <groupId>com.google</groupId>
             <artifactId>dao</artifactId>

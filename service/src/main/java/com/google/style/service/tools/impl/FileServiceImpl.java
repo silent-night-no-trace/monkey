@@ -1,11 +1,15 @@
 package com.google.style.service.tools.impl;
 
+import com.fasterxml.jackson.databind.annotation.JsonAppend;
+import com.google.style.config.GlobalConfig;
 import com.google.style.dao.mapper.tools.FileMapper;
 import com.google.style.model.tools.FileDO;
 import com.google.style.service.tools.FileService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.util.StringUtils;
 
+import java.io.File;
 import java.util.List;
 import java.util.Map;
 
@@ -21,7 +25,10 @@ public class FileServiceImpl implements FileService {
 
 	@Autowired
 	private FileMapper fileMapper;
-	
+
+	@Autowired
+	private GlobalConfig globalConfig;
+
 	@Override
 	public FileDO get(Long id){
 		return fileMapper.get(id);
@@ -56,5 +63,23 @@ public class FileServiceImpl implements FileService {
 	public int batchRemove(Long[] ids){
 		return fileMapper.batchRemove(ids);
 	}
-	
+
+	/**
+	 * 判断文件是否存在
+	 * @param url FileDO中存的路径
+	 * @return
+	 */
+	@Override
+	public Boolean isExist(String url) {
+		Boolean isExist = false;
+		if (!StringUtils.isEmpty(url)) {
+			String filePath = url.replace("/files/", "");
+			filePath = globalConfig.getUploadPath() + filePath;
+			File file = new File(filePath);
+			if (file.exists()) {
+				isExist = true;
+			}
+		}
+		return isExist;
+	}
 }

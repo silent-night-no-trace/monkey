@@ -3,8 +3,8 @@ package com.google.style.utils;
 
 
 
-import com.google.style.model.Column;
-import com.google.style.model.Table;
+import com.google.style.model.Generator.Column;
+import com.google.style.model.Generator.Table;
 import org.apache.commons.configuration.Configuration;
 import org.apache.commons.configuration.ConfigurationException;
 import org.apache.commons.configuration.PropertiesConfiguration;

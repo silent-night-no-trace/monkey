@@ -7,9 +7,10 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * tree TODO <br>
- * 
- * @author kangxu2 2017-1-7
+ * 前端页面所需的树形结构
+ * tree
+ * @author  liangz
+ * @date  2018/03/13 11:45
  * 
  */
 public class Tree<T> {

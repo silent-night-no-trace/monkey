@@ -25,6 +25,11 @@ import java.awt.image.BufferedImage;
 import java.io.ByteArrayOutputStream;
 import java.util.*;
 
+/**
+ * 用户相关
+ * @author liangz
+ * @date  2018/03/13 11:50
+ */
 @Transactional
 @Service
 public class UserServiceImpl implements UserService {
