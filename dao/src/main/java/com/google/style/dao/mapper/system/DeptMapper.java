@@ -65,6 +65,6 @@ public interface DeptMapper {
      * @param deptId
      * @return
      */
-	@Select("\t\tselect count(*) from sys_user where id = #{deptId}\n")
+	@Select("\t\tselect count(*) from sys_user where dept_id = #{deptId}\n")
 	int getDeptUserNumber(Long deptId);
 }

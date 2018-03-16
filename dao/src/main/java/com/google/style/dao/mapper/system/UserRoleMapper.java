@@ -28,7 +28,7 @@ public interface UserRoleMapper {
     @SelectProvider(type = UserRoleProvider.class, method = "getCount")
     int count(Map<String, Object> map);
 
-    @Insert("INSERT INTO sys_user_role (id ,user_id ,role_id) VALUES (NULL, #{user_id},#{role_id}) ")
+    @Insert("INSERT INTO sys_user_role (id ,user_id ,role_id) VALUES (NULL, #{userId},#{roleId}) ")
     @Options(useGeneratedKeys = true, keyProperty = "id")
 	int save(UserRole userRole);
 
@@ -50,8 +50,14 @@ public interface UserRoleMapper {
     @Delete("\t\tdelete from sys_user_role where user_id=#{userId}\n")
 	int removeByUserId(Long userId);
 
-    @SelectProvider(type = UserRoleProvider.class,method = "batchSave")
-	int batchSave(List<UserRole> list);
+//    @SelectProvider(type = UserRoleProvider.class,method = "batchSave")
+//    @Insert("\"<script>\"+\n" +
+//            "\t\"Insert into sys_user_role(user_id, role_id) values \"+\n" +
+//            "\t\"<foreach item ='userRole' collection ='list' open=\\\"(\\\" separator=\\\",\\\" close=\\\")\\\">\"\n" +
+//            "\t\t\"#{userRole.userId},#{userRole.roleId} \"+\n" +
+//            "\t\t\"</foreach>\"+\n" +
+//            "\t\"</script\"")
+//	int batchSave(UserRole userRole);
 
     @Delete("\t\tdelete from sys_user_role where user_id in #{ids}\n")
     int batchRemoveByUserId(Long[] ids);

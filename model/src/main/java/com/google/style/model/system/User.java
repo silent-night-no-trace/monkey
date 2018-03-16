@@ -48,7 +48,8 @@ public class User implements Serializable{
     private List<Long> roleIds;
     //性别
     private Long sex;
-
+    //爱好
+    private String hobby;
     //现居住地
     private String liveAddress;
     //省份

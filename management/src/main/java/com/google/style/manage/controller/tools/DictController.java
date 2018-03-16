@@ -2,6 +2,7 @@ package com.google.style.manage.controller.tools;
 
 
 import com.google.style.constant.Global;
+import com.google.style.manage.annotation.Log;
 import com.google.style.manage.common.controller.BaseController;
 import com.google.style.model.tools.Dict;
 import com.google.style.service.tools.DictService;
@@ -14,6 +15,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.constraints.Max;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -31,12 +33,14 @@ public class DictController extends BaseController {
 	@Autowired
 	private DictService dictService;
 
+	@Log("字典页面")
 	@GetMapping()
 	@RequiresPermissions("tools:dict:dict")
 	String dict() {
 		return "common/dict/dict";
 	}
 
+	@Log("获取字典列表")
 	@ResponseBody
 	@GetMapping("/list")
 	@RequiresPermissions("tools:dict:dict")
@@ -66,6 +70,7 @@ public class DictController extends BaseController {
 	/**
 	 * 保存
 	 */
+	@Log("字典保存")
 	@ResponseBody
 	@PostMapping("/save")
 	@RequiresPermissions("tools:dict:add")
@@ -82,6 +87,7 @@ public class DictController extends BaseController {
 	/**
 	 * 修改
 	 */
+	@Log("字典update")
 	@ResponseBody
 	@RequestMapping("/update")
 	@RequiresPermissions("tools:dict:edit")
@@ -96,6 +102,7 @@ public class DictController extends BaseController {
 	/**
 	 * 删除
 	 */
+	@Log("字典删除")
 	@PostMapping("/remove")
 	@ResponseBody
 	@RequiresPermissions("tools:dict:remove")
@@ -112,6 +119,7 @@ public class DictController extends BaseController {
 	/**
 	 * 删除
 	 */
+	@Log("批量移除")
 	@PostMapping("/batchRemove")
 	@ResponseBody
 	@RequiresPermissions("tools:dict:batchRemove")
@@ -122,7 +130,7 @@ public class DictController extends BaseController {
 		dictService.batchRemove(ids);
 		return R.ok();
 	}
-
+    @Log("获取字典类型列表")
 	@GetMapping("/type")
 	@ResponseBody
 	public List<Dict> listType() {
@@ -138,6 +146,7 @@ public class DictController extends BaseController {
 		return "common/dict/add";
 	}
 
+	@Log("根据类型获取字典列表")
 	@ResponseBody
 	@GetMapping("/list/{type}")
 	public List<Dict> listByType(@PathVariable("type") String type) {

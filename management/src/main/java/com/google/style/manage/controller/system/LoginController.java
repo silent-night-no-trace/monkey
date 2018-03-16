@@ -1,6 +1,7 @@
 package com.google.style.manage.controller.system;
 
 
+import com.google.style.manage.annotation.Log;
 import com.google.style.manage.common.controller.BaseController;
 import com.google.style.manage.utils.ShiroUtils;
 import com.google.style.model.Tree;
@@ -31,6 +32,7 @@ import java.util.List;
  *  系统登录
  */
 @Controller
+@SuppressWarnings("unused")
 public class LoginController extends BaseController {
 	private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
@@ -45,7 +47,7 @@ public class LoginController extends BaseController {
 		return "redirect:/blog";
 	}
 
-	//@Log("请求访问主页")
+	@Log("请求访问主页")
 	@GetMapping({ "/index" })
 	String index(Model model) {
 		List<Tree<Menu>> menus = menuService.listMenuTree(getUserId());
@@ -70,7 +72,7 @@ public class LoginController extends BaseController {
 		return "login";
 	}
 
-	//@Log("登录")
+	@Log("登录")
 	@PostMapping("/login")
 	@ResponseBody
     R ajaxLogin(String username, String password) {
@@ -85,7 +87,7 @@ public class LoginController extends BaseController {
 			return R.error("用户或密码错误");
 		}
 	}
-
+	@Log("退出登录")
 	@GetMapping("/logout")
 	String logout() {
 		ShiroUtils.logout();

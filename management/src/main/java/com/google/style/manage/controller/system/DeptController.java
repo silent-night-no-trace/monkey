@@ -1,6 +1,7 @@
 package com.google.style.manage.controller.system;
 
 
+import com.google.style.manage.annotation.Log;
 import com.google.style.manage.common.controller.BaseController;
 import com.google.style.constant.Global;
 import com.google.style.model.Tree;
@@ -32,12 +33,14 @@ public class DeptController extends BaseController {
 	@Autowired
 	private DeptService sysDeptService;
 
+	@Log("部门管理页面请求")
 	@GetMapping()
 	@RequiresPermissions("system:sysDept:sysDept")
 	String dept() {
 		return prefix + "/dept";
 	}
 
+	@Log("获取部门列表")
 	@ApiOperation(value="获取部门列表", notes="")
 	@ResponseBody
 	@GetMapping("/list")
@@ -59,7 +62,6 @@ public class DeptController extends BaseController {
 		}
 		return  prefix + "/add";
 	}
-
 	@GetMapping("/edit/{deptId}")
 	@RequiresPermissions("system:sysDept:edit")
 	String edit(@PathVariable("deptId") Long deptId, Model model) {
@@ -77,6 +79,7 @@ public class DeptController extends BaseController {
 	/**
 	 * 保存
 	 */
+	@Log("部门异步保存")
 	@ResponseBody
 	@PostMapping("/save")
 	@RequiresPermissions("system:sysDept:add")
@@ -93,6 +96,7 @@ public class DeptController extends BaseController {
 	/**
 	 * 修改
 	 */
+	@Log("部门异步修改")
 	@ResponseBody
 	@RequestMapping("/update")
 	@RequiresPermissions("system:sysDept:edit")
@@ -109,6 +113,7 @@ public class DeptController extends BaseController {
 	/**
 	 * 删除
 	 */
+	@Log("部门删除")
 	@PostMapping("/remove")
 	@ResponseBody
 	@RequiresPermissions("system:sysDept:remove")
@@ -134,6 +139,7 @@ public class DeptController extends BaseController {
 	/**
 	 * 删除
 	 */
+	@Log("批量删除")
 	@PostMapping("/batchRemove")
 	@ResponseBody
 	@RequiresPermissions("system:sysDept:batchRemove")
@@ -145,6 +151,7 @@ public class DeptController extends BaseController {
 		return R.ok();
 	}
 
+	@Log("tree接口")
 	@GetMapping("/tree")
 	@ResponseBody
 	public Tree<Dept> tree() {
@@ -152,7 +159,7 @@ public class DeptController extends BaseController {
 		tree = sysDeptService.getTree();
 		return tree;
 	}
-
+    @Log("tree视图")
 	@GetMapping("/treeView")
 	String treeView() {
 		return  prefix + "/deptTree";

@@ -1,11 +1,13 @@
 package com.google.style.service.tools.impl;
 
 import com.google.style.dao.mapper.tools.DictMapper;
+import com.google.style.model.system.User;
 import com.google.style.model.tools.Dict;
 import com.google.style.service.tools.DictService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -59,4 +61,37 @@ public class DictServiceImpl implements DictService {
     public List<Dict> listType() {
         return dictMapper.listType();
     }
+
+	/**
+	 * 根据类型获取字典
+	 * @param type
+	 * @return
+	 */
+	@Override
+	public List<Dict> listByType(String type) {
+		Map<String, Object> param = new HashMap<>(16);
+		param.put("type", type);
+		return dictMapper.list(param);
+	}
+
+	@Override
+	public List<Dict> getSexList() {
+		Map<String, Object> param = new HashMap<>(16);
+		param.put("type", "sex");
+		return dictMapper.list(param);
+	}
+
+	/**
+	 * 根据用户获取爱好列表
+	 * @param user
+	 * @return
+	 */
+	@Override
+	public List<Dict> getHobbyList(User user) {
+		Map<String, Object> param = new HashMap<>(16);
+		param.put("type", "hobby");
+		List<Dict> dicts = dictMapper.list(param);
+
+		return null;
+	}
 }

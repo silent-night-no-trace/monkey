@@ -1,6 +1,7 @@
 package com.google.style.manage.controller.tools;
 
 
+import com.google.style.manage.annotation.Log;
 import com.google.style.manage.common.controller.BaseController;
 import com.google.style.config.GlobalConfig;
 import com.google.style.model.tools.FileDO;
@@ -35,13 +36,15 @@ public class FileController extends BaseController{
 
 	@Autowired
 	private GlobalConfig globalConfig;
-	
+
+	@Log("文件管理页面")
 	@GetMapping()
 	@RequiresPermissions("tools:fileUpload")
 	String File(){
 	    return "common/file/file";
 	}
-	
+
+	@Log("获取文件列表")
 	@ResponseBody
 	@GetMapping("/list")
 	@RequiresPermissions("tools:fileUpload")
@@ -53,7 +56,7 @@ public class FileController extends BaseController{
 		PageUtils pageUtils = new PageUtils(fileList, total);
 		return pageUtils;
 	}
-	
+
 	@GetMapping("/add")
 	@RequiresPermissions("common:file:add")
 	String add(){
@@ -82,6 +85,7 @@ public class FileController extends BaseController{
     /**
      * 保存
      */
+    @Log("文件添加")
     @ResponseBody
     @PostMapping("/save")
     @RequiresPermissions("common:save")
@@ -95,6 +99,7 @@ public class FileController extends BaseController{
     /**
      * 修改
      */
+    @Log("文件编辑")
     @RequestMapping("/update")
     @RequiresPermissions("common:update")
     public R update(@RequestBody FileDO sysFile) {
@@ -106,6 +111,7 @@ public class FileController extends BaseController{
     /**
      * 删除
      */
+    @Log("文件删除")
     @PostMapping("/remove")
     @ResponseBody
     // @RequiresPermissions("common:remove")
@@ -128,6 +134,7 @@ public class FileController extends BaseController{
     /**
      * 删除
      */
+    @Log("文件批量删除")
     @PostMapping("/batchRemove")
     @ResponseBody
     @RequiresPermissions("common:remove")
@@ -139,6 +146,7 @@ public class FileController extends BaseController{
         return R.ok();
     }
 
+    @Log("文件上传")
     @ResponseBody
     @PostMapping("/upload")
     R upload(@RequestParam("file") MultipartFile file, HttpServletRequest request) {

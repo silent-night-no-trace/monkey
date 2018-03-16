@@ -5,6 +5,12 @@ import org.slf4j.LoggerFactory;
 
 import javax.servlet.http.HttpServletRequest;
 
+/**
+ * ip工具类
+ * @author liangz
+ * @date  2018/03/15 13:32
+ *
+ */
 public class IPUtils {
 	private static Logger logger = LoggerFactory.getLogger(IPUtils.class);
 

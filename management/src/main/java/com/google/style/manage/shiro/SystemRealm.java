@@ -25,12 +25,15 @@ public class SystemRealm extends AuthorizingRealm {
 
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principal) {
-        ((User)(SecurityUtils.getSubject().getPrincipal())).getId();
+        Object o = principal.getPrimaryPrincipal();
+        System.out.println("principal :"+o.toString());
         Long userId = ShiroUtils.getUserId();
         MenuService menuService = ApplicationContextRegister.getBean(MenuService.class);
         Set<String> perms = menuService.listPerms(userId);
         SimpleAuthorizationInfo info = new SimpleAuthorizationInfo();
+        //设置对应权限信息
         info.setStringPermissions(perms);
+
         return info;
     }
 

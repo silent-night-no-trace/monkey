@@ -1,6 +1,7 @@
 package com.google.style.service.system.impl;
 
 
+import com.google.style.config.GlobalConfig;
 import com.google.style.dao.mapper.system.DeptMapper;
 import com.google.style.dao.mapper.system.UserMapper;
 import com.google.style.dao.mapper.system.UserRoleMapper;
@@ -8,10 +9,11 @@ import com.google.style.model.Tree;
 import com.google.style.model.system.Dept;
 import com.google.style.model.system.User;
 import com.google.style.model.system.UserRole;
+import com.google.style.model.system.UserVO;
+import com.google.style.model.tools.FileDO;
 import com.google.style.service.system.UserService;
-import com.google.style.utils.BuildTree;
-import com.google.style.utils.FileUtil;
-import com.google.style.utils.MD5Utils;
+import com.google.style.service.tools.FileService;
+import com.google.style.utils.*;
 import org.apache.commons.lang.ArrayUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -39,11 +41,13 @@ public class UserServiceImpl implements UserService {
 	UserRoleMapper userRoleMapper;
 	@Autowired
 	DeptMapper deptMapper;
-//	@Autowired
-//	private FileService sysFileService;
-//	@Autowired
-//	private BootdoConfig bootdoConfig;
-	private static final Logger logger = LoggerFactory.getLogger(UserService.class);
+
+	@Autowired
+	private FileService sysFileService;
+
+	@Autowired
+	private GlobalConfig globalConfig;
+
 
 	@Override
 	public User get(Long id) {
@@ -78,9 +82,12 @@ public class UserServiceImpl implements UserService {
 			ur.setRoleId(roleId);
 			list.add(ur);
 		}
-		if (list.size() > 0) {
-			userRoleMapper.batchSave(list);
-		}
+        if (list.size() > 0) {
+            //循环插入
+            for (UserRole userRole:list) {
+                userRoleMapper.save(userRole);
+            }
+        }
 		return count;
 	}
 
@@ -98,7 +105,10 @@ public class UserServiceImpl implements UserService {
 			list.add(ur);
 		}
 		if (list.size() > 0) {
-			userRoleMapper.batchSave(list);
+			//循环插入
+			for (UserRole userRole:list) {
+				userRoleMapper.save(userRole);
+			}
 		}
 		return r;
 	}
@@ -121,30 +131,33 @@ public class UserServiceImpl implements UserService {
 		return null;
 	}
 
-//	@Override
-//	public int resetPwd(UserVO userVO,UserDO userDO) throws Exception {
-//		if(Objects.equals(userVO.getUserDO().getUserId(),userDO.getUserId())){
-//			if(Objects.equals(MD5Utils.encrypt(userDO.getUsername(),userVO.getPwdOld()),userDO.getPassword())){
-//				userDO.setPassword(MD5Utils.encrypt(userDO.getUsername(),userVO.getPwdNew()));
-//				return userMapper.update(userDO);
-//			}else{
-//				throw new Exception("输入的旧密码有误！");
-//			}
-//		}else{
-//			throw new Exception("你修改的不是你登录的账号！");
-//		}
-//	}
-//	@Override
-//	public int adminResetPwd(UserVO userVO) throws Exception {
-//		UserDO userDO =get(userVO.getUserDO().getUserId());
-//		if("admin".equals(userDO.getUsername())){
-//			throw new Exception("超级管理员的账号不允许直接重置！");
-//		}
-//		userDO.setPassword(MD5Utils.encrypt(userDO.getUsername(), userVO.getPwdNew()));
-//		return userMapper.update(userDO);
-//
-//
-//	}
+	@Override
+	public int resetPwd(UserVO userVO,User user) throws Exception {
+		if(Objects.equals(userVO.getUser().getId(),user.getId())){
+
+			if(Objects.equals(MD5Utils.encrypt(userVO.getUser().getUsername(),userVO.getPwd()),user.getPassword())){
+
+                user.setPassword(MD5Utils.encrypt(user.getUsername(),userVO.getNewPwd()));
+				return userMapper.update(user);
+			}else{
+				throw new Exception("输入的旧密码有误！");
+			}
+		}else{
+			throw new Exception("你修改的不是你登录的账号！");
+		}
+	}
+	@Override
+	public int adminResetPwd(UserVO userVO) throws Exception {
+		User user =get(userVO.getUser().getId());
+		if("admin".equals(user.getUsername())){
+			throw new Exception("超级管理员的账号不允许直接重置！");
+		}
+		//前端提交用户信息  将提交的密码 存储到数据库  MD5
+        user.setPassword(MD5Utils.encrypt(user.getUsername(), userVO.getNewPwd()));
+		return userMapper.update(user);
+
+
+	}
 
 	@Transactional
 	@Override
@@ -197,45 +210,45 @@ public class UserServiceImpl implements UserService {
 		return userMapper.update(user);
 	}
 
-//    @Override
-//    public Map<String, Object> updatePersonalImg(MultipartFile file, String avatar_data, Long userId) throws Exception {
-//		String fileName = file.getOriginalFilename();
-//		fileName = FileUtil.renameToUUID(fileName);
-//		FileDO sysFile = new FileDO(FileType.fileType(fileName), "/files/" + fileName, new Date());
-//		//获取图片后缀
-//		String prefix = fileName.substring((fileName.lastIndexOf(".")+1));
-//		String[] str=avatar_data.split(",");
-//		//获取截取的x坐标
-//		int x = (int)Math.floor(Double.parseDouble(str[0].split(":")[1]));
-//		//获取截取的y坐标
-//		int y = (int)Math.floor(Double.parseDouble(str[1].split(":")[1]));
-//		//获取截取的高度
-//		int h = (int)Math.floor(Double.parseDouble(str[2].split(":")[1]));
-//		//获取截取的宽度
-//		int w = (int)Math.floor(Double.parseDouble(str[3].split(":")[1]));
-//		//获取旋转的角度
-//		int r = Integer.parseInt(str[4].split(":")[1].replaceAll("}", ""));
-//		try {
-//			BufferedImage cutImage = ImageUtils.cutImage(file,x,y,w,h,prefix);
-//			BufferedImage rotateImage = ImageUtils.rotateImage(cutImage, r);
-//			ByteArrayOutputStream out = new ByteArrayOutputStream();
-//			boolean flag = ImageIO.write(rotateImage, prefix, out);
-//			//转换后存入数据库
-//			byte[] b = out.toByteArray();
-//			FileUtil.uploadFile(b, bootdoConfig.getUploadPath(), fileName);
-//		} catch (Exception e) {
-//			throw  new Exception("图片裁剪错误！！");
-//		}
-//		Map<String, Object> result = new HashMap<>();
-//		if(sysFileService.save(sysFile)>0){
-//			UserDO userDO = new UserDO();
-//			userDO.setUserId(userId);
-//			userDO.setPicId(sysFile.getId());
-//			if(userMapper.update(userDO)>0){
-//				result.put("url",sysFile.getUrl());
-//			}
-//		}
-//		return result;
-//    }
+    @Override
+    public Map<String, Object> updatePersonalImg(MultipartFile file, String avatar_data, Long userId) throws Exception {
+		String fileName = file.getOriginalFilename();
+		fileName = FileUtil.renameToUUID(fileName);
+		FileDO sysFile = new FileDO(FileType.fileType(fileName), "/files/" + fileName, new Date());
+		//获取图片后缀
+		String prefix = fileName.substring((fileName.lastIndexOf(".")+1));
+		String[] str=avatar_data.split(",");
+		//获取截取的x坐标
+		int x = (int)Math.floor(Double.parseDouble(str[0].split(":")[1]));
+		//获取截取的y坐标
+		int y = (int)Math.floor(Double.parseDouble(str[1].split(":")[1]));
+		//获取截取的高度
+		int h = (int)Math.floor(Double.parseDouble(str[2].split(":")[1]));
+		//获取截取的宽度
+		int w = (int)Math.floor(Double.parseDouble(str[3].split(":")[1]));
+		//获取旋转的角度
+		int r = Integer.parseInt(str[4].split(":")[1].replaceAll("}", ""));
+		try {
+			BufferedImage cutImage = ImageUtils.cutImage(file,x,y,w,h,prefix);
+			BufferedImage rotateImage = ImageUtils.rotateImage(cutImage, r);
+			ByteArrayOutputStream out = new ByteArrayOutputStream();
+			boolean flag = ImageIO.write(rotateImage, prefix, out);
+			//转换后存入数据库
+			byte[] b = out.toByteArray();
+			FileUtil.uploadFile(b, globalConfig.getUploadPath(), fileName);
+		} catch (Exception e) {
+			throw  new Exception("图片裁剪错误！！");
+		}
+		Map<String, Object> result = new HashMap<>();
+		if(sysFileService.save(sysFile)>0){
+			User user = new User();
+            user.setId(userId);
+            user.setPicId(sysFile.getId());
+			if(userMapper.update(user)>0){
+				result.put("url",sysFile.getUrl());
+			}
+		}
+		return result;
+    }
 
 }

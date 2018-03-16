@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
  * @date 2018/03/08
  * <p>
  * <p>
- * Describe:
+ * Describe: 获取spring容器
  */
 @Component
 public class ApplicationContextRegister implements ApplicationContextAware {

@@ -2,6 +2,7 @@ package com.google.style.manage.controller.tools;
 
 import com.alibaba.fastjson.JSON;
 
+import com.google.style.manage.annotation.Log;
 import com.google.style.service.tools.GeneratorService;
 import com.google.style.utils.GenUtils;
 import com.google.style.utils.R;
@@ -39,6 +40,7 @@ public class GeneratorController {
 		return prefix + "/list";
 	}
 
+	@Log("代码生成列表")
 	@ResponseBody
 	@GetMapping("/list")
 	List<Map<String, Object>> list() {
@@ -46,6 +48,7 @@ public class GeneratorController {
 		return list;
 	};
 
+	@Log("代码生成")
 	@RequestMapping("/code/{tableName}")
 	public void code(HttpServletRequest request, HttpServletResponse response,
                      @PathVariable("tableName") String tableName) throws IOException {
@@ -59,6 +62,7 @@ public class GeneratorController {
 		IOUtils.write(data, response.getOutputStream());
 	}
 
+	@Log("批量生成")
 	@RequestMapping("/batchCode")
 	public void batchCode(HttpServletRequest request, HttpServletResponse response, String tables) throws IOException {
 		String[] tableNames = new String[] {};
@@ -85,6 +89,7 @@ public class GeneratorController {
 		return prefix + "/edit";
 	}
 
+	@Log("文件更新")
 	@ResponseBody
 	@PostMapping("/update")
 	R update(@RequestParam Map<String, Object> map) {

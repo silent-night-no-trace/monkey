@@ -61,6 +61,12 @@ public class UserRoleProvider {
         }
         return sb.toString();
     }
+
+    /**
+     * 废弃
+     * @param list
+     * @return
+     */
     public String batchSave(List<UserRole> list){
         StringBuffer sb = new StringBuffer();
         sb.append("\t\tINSERT INTO sys_user_role(user_id, role_id) values\n");

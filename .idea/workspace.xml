@@ -4,89 +4,38 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1135a5e7-c2ce-44ea-8581-13cc783b822a" name="Default" comment="文件结构调整">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_1_5_9_RELEASE.xml" afterPath="" />
+    <list default="true" id="1135a5e7-c2ce-44ea-8581-13cc783b822a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/appService/pom.xml" afterPath="$PROJECT_DIR$/appService/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/appService/src/main/java/com/google/style/AppServiceApplication.java" afterPath="$PROJECT_DIR$/appService/src/main/java/com/google/style/AppServiceApplication.java" />
-      <change beforePath="$PROJECT_DIR$/appService/src/main/resources/application-dev.yml" afterPath="$PROJECT_DIR$/appService/src/main/resources/application-dev.yml" />
-      <change beforePath="$PROJECT_DIR$/appService/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/appService/src/main/resources/bootstrap.yml" />
-      <change beforePath="$PROJECT_DIR$/asset/src/main/java/com/google/style/model/Column.java" afterPath="$PROJECT_DIR$/common/src/main/java/com/google/style/model/Generator/Column.java" />
-      <change beforePath="$PROJECT_DIR$/asset/src/main/java/com/google/style/model/Table.java" afterPath="$PROJECT_DIR$/common/src/main/java/com/google/style/model/Generator/Table.java" />
-      <change beforePath="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/GenUtils.java" afterPath="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/GenUtils.java" />
-      <change beforePath="$PROJECT_DIR$/asset/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/asset/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/blog/pom.xml" afterPath="$PROJECT_DIR$/blog/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/blog/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/blog/src/main/resources/bootstrap.yml" />
+      <change beforePath="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/IPUtils.java" afterPath="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/IPUtils.java" />
       <change beforePath="$PROJECT_DIR$/common/pom.xml" afterPath="$PROJECT_DIR$/common/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/google/style/config/CorsConfig.java" afterPath="$PROJECT_DIR$/common/src/main/java/com/google/style/config/CorsConfig.java" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/google/style/model/Tree.java" afterPath="$PROJECT_DIR$/common/src/main/java/com/google/style/model/Tree.java" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/common/src/main/resources/bootstrap.yml" />
-      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/RoleMenuMapper.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/RoleMenuMapper.java" />
+      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/DeptMapper.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/DeptMapper.java" />
+      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/RoleMapper.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/RoleMapper.java" />
       <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/UserMapper.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/UserMapper.java" />
       <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/UserRoleMapper.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/UserRoleMapper.java" />
-      <change beforePath="$PROJECT_DIR$/logs/2018-01-30 12.0.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/2018-01-30 14.0.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/2018-01-30 14.1.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/2018-01-30 15.0.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/2018-01-30 16.0.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/2018-01-30 17.0.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/2018-02-05 17.0.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/2018-02-05 17.1.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/2018-02-09 17.0.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/2018-02-09 18.0.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/2018-02-11 09.0.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/2018-02-11 10.0.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/2018-02-11 10.1.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/2018-02-11 11.0.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/2018-02-11 12.0.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/dao-2018-02-07.0.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/dao-2018-02-08.0.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/dao-2018-02-09.0.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/error/2018-01-24 18.0.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/error/2018-01-25 10.0.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/error/2018-01-26 17.0.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/error/2018-01-26 18.0.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/error/2018-01-28 14.0.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/error/2018-01-28 15.0.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/error/2018-01-28 19.0.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/error/2018-01-29 10.0.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/error/2018-01-29 14.0.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/error/2018-01-29 15.0.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/error/2018-01-29 17.0.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/error/2018-01-29 18.0.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/error/2018-01-30 11.0.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/error/2018-01-30 13.0.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/error/2018-01-30 14.0.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/error/2018-01-30 15.0.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/error/2018-01-30 16.0.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/error/2018-01-30 17.0.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/error/2018-02-05 17.0.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/error/2018-02-09 17.0.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/error/2018-02-11 10.0.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/error/2018-02-11 11.0.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/provider/system/UserRoleProvider.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/provider/system/UserRoleProvider.java" />
       <change beforePath="$PROJECT_DIR$/logs/out_App.log" afterPath="$PROJECT_DIR$/logs/out_App.log" />
-      <change beforePath="$PROJECT_DIR$/logs/qurong-payment-yeepay/payment-yeepay-error-2018-02-09.0.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/management/pom.xml" afterPath="$PROJECT_DIR$/management/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/config/GlobalConfig.java" afterPath="$PROJECT_DIR$/common/src/main/java/com/google/style/config/GlobalConfig.java" />
-      <change beforePath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/config/Swagger2Config.java" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/config/Swagger2Config.java" />
+      <change beforePath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/config/ApplicationContextRegister.java" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/config/ApplicationContextRegister.java" />
+      <change beforePath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/DeptController.java" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/DeptController.java" />
       <change beforePath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/LoginController.java" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/LoginController.java" />
+      <change beforePath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/MenuController.java" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/MenuController.java" />
+      <change beforePath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/RoleController.java" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/RoleController.java" />
+      <change beforePath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/UserController.java" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/UserController.java" />
+      <change beforePath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/tools/DictController.java" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/tools/DictController.java" />
       <change beforePath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/tools/FileController.java" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/tools/FileController.java" />
-      <change beforePath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/shiro/redis/RedisCache.java" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/shiro/redis/RedisCache.java" />
-      <change beforePath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/shiro/redis/RedisCacheManager.java" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/shiro/redis/RedisCacheManager.java" />
-      <change beforePath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/shiro/redis/SerializeUtils.java" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/shiro/redis/SerializeUtils.java" />
-      <change beforePath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/utils/ShiroUtils.java" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/utils/ShiroUtils.java" />
-      <change beforePath="$PROJECT_DIR$/management/src/main/resources/application-dev.yml" afterPath="$PROJECT_DIR$/management/src/main/resources/application-dev.yml" />
-      <change beforePath="$PROJECT_DIR$/management/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/management/src/main/resources/bootstrap.yml" />
-      <change beforePath="$PROJECT_DIR$/management/src/main/resources/templates/login.html" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/login.html" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/google/style/model/system/Role.java" afterPath="$PROJECT_DIR$/model/src/main/java/com/google/style/model/system/Role.java" />
+      <change beforePath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/tools/GeneratorController.java" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/tools/GeneratorController.java" />
+      <change beforePath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/shiro/SystemRealm.java" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/shiro/SystemRealm.java" />
+      <change beforePath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/common/log/log.js" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/common/log/log.js" />
+      <change beforePath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/sys/role/role.js" afterPath="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/sys/role/role.js" />
+      <change beforePath="$PROJECT_DIR$/management/src/main/resources/templates/system/user/add.html" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/system/user/add.html" />
+      <change beforePath="$PROJECT_DIR$/management/src/main/resources/templates/system/user/personal.html" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/system/user/personal.html" />
+      <change beforePath="$PROJECT_DIR$/management/src/main/resources/templates/system/user/reset_pwd.html" afterPath="$PROJECT_DIR$/management/src/main/resources/templates/system/user/reset_pwd.html" />
       <change beforePath="$PROJECT_DIR$/model/src/main/java/com/google/style/model/system/User.java" afterPath="$PROJECT_DIR$/model/src/main/java/com/google/style/model/system/User.java" />
-      <change beforePath="$PROJECT_DIR$/service/pom.xml" afterPath="$PROJECT_DIR$/service/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/MenuServiceImpl.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/MenuServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/UserService.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/UserService.java" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/DeptServiceImpl.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/DeptServiceImpl.java" />
       <change beforePath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/RoleServiceImpl.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/RoleServiceImpl.java" />
       <change beforePath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/UserServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/tools/FileService.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/tools/FileService.java" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/tools/impl/FileServiceImpl.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/tools/impl/FileServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/service/src/main/resources/bootstrap.yml" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/tools/DictService.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/tools/DictService.java" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/tools/impl/DictServiceImpl.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/tools/impl/DictServiceImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -164,11 +113,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blog/pom.xml">
+      <file leaf-file-name="RoleController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/RoleController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="52" column="65" lean-forward="false" selection-start-line="52" selection-start-column="65" selection-end-line="52" selection-end-column="65" />
+            <state relative-caret-position="249">
+              <caret line="101" column="27" lean-forward="true" selection-start-line="101" selection-start-column="27" selection-end-line="101" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SysLogMapper.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/tools/SysLogMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SysLog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/src/main/java/com/google/style/model/tools/SysLog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="role.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/management/src/main/resources/static/js/appjs/sys/role/role.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="130" column="39" lean-forward="false" selection-start-line="130" selection-start-column="39" selection-end-line="130" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="role.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/management/src/main/resources/templates/system/role/role.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="71" lean-forward="false" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SystemRealm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/shiro/SystemRealm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MenuService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/MenuService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MenuServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/MenuServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2794">
+              <caret line="140" column="43" lean-forward="false" selection-start-line="140" selection-start-column="43" selection-end-line="140" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -181,18 +200,13 @@
       <list>
         <option value="HTML File" />
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>style-config</find>
-      <find>style-config  from env</find>
-      <find>initialSize</find>
-      <find>http://localhost:8888</find>
-      <find>payment-yeepay-error</find>
-      <find>PropertySourceBootstrapProperties</find>
       <find>sys_role</find>
       <find>RoleDO</find>
       <find>RoleMenuDO</find>
@@ -216,6 +230,13 @@
       <find>s_add_h</find>
       <find>类型匹配</find>
       <find>shiro</find>
+      <find>adminResetPwd</find>
+      <find>modifyPwd</find>
+      <find>resetPwd</find>
+      <find>arg0</find>
+      <find>INSERT INTO sys_role</find>
+      <find>menuTree</find>
+      <find>remove</find>
     </findStrings>
     <replaceStrings>
       <replace>Role</replace>
@@ -235,57 +256,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/tools/DictController.java" />
-        <option value="$PROJECT_DIR$/management/src/main/resources/templates/common/dict/dict.html" />
-        <option value="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/common/dict/dict.js" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/google/style/model/Generator/Column.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/google/style/model/Generator/Table.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/google/style/model/Tree.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/google/style/config/CorsConfig.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/MenuServiceImpl.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/RoleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/config/Swagger2Config.java" />
-        <option value="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/UserRoleMapper.java" />
-        <option value="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/RoleMenuMapper.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/google/style/service/tools/FileService.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/google/style/config/GlobalConfig.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/google/style/service/tools/impl/FileServiceImpl.java" />
-        <option value="$PROJECT_DIR$/appService/src/main/resources/application-dev.yml" />
-        <option value="$PROJECT_DIR$/asset/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/common/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/service/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/appService/src/main/java/com/google/style/AppServiceApplication.java" />
-        <option value="$PROJECT_DIR$/service/pom.xml" />
-        <option value="$PROJECT_DIR$/common/pom.xml" />
-        <option value="$PROJECT_DIR$/management/src/main/resources/templates/login.html" />
-        <option value="$PROJECT_DIR$/management/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/management/src/main/resources/application-dev.yml" />
-        <option value="$PROJECT_DIR$/model/src/main/java/com/google/style/model/system/UserToken.java" />
-        <option value="$PROJECT_DIR$/model/src/main/java/com/google/style/model/system/MenuVo.java" />
-        <option value="$PROJECT_DIR$/model/src/main/java/com/google/style/model/system/Menu.java" />
-        <option value="$PROJECT_DIR$/model/src/main/java/com/google/style/model/system/Dept.java" />
-        <option value="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/shiro/redis/RedisCacheManager.java" />
-        <option value="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/shiro/redis/RedisCache.java" />
-        <option value="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/shiro/redis/SerializeUtils.java" />
-        <option value="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/shiro/redis/RedisSessionDAO.java" />
-        <option value="$PROJECT_DIR$/model/src/main/java/com/google/style/model/tools/FileDO.java" />
-        <option value="$PROJECT_DIR$/model/src/main/java/com/google/style/model/tools/Dict.java" />
-        <option value="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/UserMapper.java" />
-        <option value="$PROJECT_DIR$/management/pom.xml" />
-        <option value="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/utils/ShiroUtils.java" />
-        <option value="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/LoginController.java" />
-        <option value="$PROJECT_DIR$/model/src/main/java/com/google/style/model/first/Complex.java" />
-        <option value="$PROJECT_DIR$/model/src/main/java/com/google/style/model/first/Goods.java" />
-        <option value="$PROJECT_DIR$/model/src/main/java/com/google/style/model/system/User.java" />
-        <option value="$PROJECT_DIR$/model/src/main/java/com/google/style/model/system/Role.java" />
-        <option value="$PROJECT_DIR$/model/src/main/java/com/google/style/model/system/RoleMenu.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/com/google/style/model/system/UserOnline.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/com/google/style/model/system/UserRole.java" />
         <option value="$PROJECT_DIR$/appService/pom.xml" />
         <option value="$PROJECT_DIR$/appService/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/blog/pom.xml" />
         <option value="$PROJECT_DIR$/blog/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/model/src/main/java/com/google/style/model/tools/LogDO.java" />
+        <option value="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/tools/LogMapper.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/google/style/service/tools/LogService.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/google/style/service/tools/impl/LogServiceImpl.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/google/style/service/tools/SysLogService.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/google/style/service/tools/impl/SysLogServiceImpl.java" />
+        <option value="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/tools/LogController.java" />
+        <option value="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/common/log/log.js" />
+        <option value="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/aspect/LogAspect.java" />
+        <option value="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/aspect/RequestLogAspect.java" />
+        <option value="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/annotation/SysLog.java" />
+        <option value="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/annotation/Log.java" />
+        <option value="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/IPUtils.java" />
+        <option value="$PROJECT_DIR$/management/pom.xml" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/google/style/service/tools/DictService.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/google/style/service/tools/impl/DictServiceImpl.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/com/google/style/model/system/User.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/com/google/style/model/system/UserVO.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/UserService.java" />
+        <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/management/src/main/resources/templates/system/user/reset_pwd.html" />
+        <option value="$PROJECT_DIR$/management/src/main/resources/templates/system/user/personal.html" />
+        <option value="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/tools/FileController.java" />
+        <option value="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/tools/GeneratorController.java" />
+        <option value="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/tools/SysLogController.java" />
+        <option value="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/tools/DictController.java" />
+        <option value="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/UserController.java" />
+        <option value="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/RoleController.java" />
+        <option value="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/MenuController.java" />
+        <option value="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/LoginController.java" />
+        <option value="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/DeptController.java" />
+        <option value="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/aspect/SysLogAspect.java" />
+        <option value="$PROJECT_DIR$/management/src/main/resources/templates/system/user/add.html" />
+        <option value="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/UserMapper.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/provider/system/UserRoleProvider.java" />
+        <option value="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/UserRoleMapper.java" />
+        <option value="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/RoleMapper.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/RoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/sys/role/add.js" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/DeptServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/DeptMapper.java" />
+        <option value="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/config/ApplicationContextRegister.java" />
+        <option value="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/shiro/SystemRealm.java" />
+        <option value="$PROJECT_DIR$/management/src/main/resources/static/js/appjs/sys/role/role.js" />
       </list>
     </option>
   </component>
@@ -350,8 +371,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -359,43 +379,13 @@
               <item name="monkey" type="b2602c69:ProjectViewProjectNode" />
               <item name="monkey" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="monkey" type="b2602c69:ProjectViewProjectNode" />
-              <item name="monkey" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monkey" type="b2602c69:ProjectViewProjectNode" />
-              <item name="monkey" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monkey" type="b2602c69:ProjectViewProjectNode" />
-              <item name="monkey" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monkey" type="b2602c69:ProjectViewProjectNode" />
-              <item name="monkey" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monkey" type="b2602c69:ProjectViewProjectNode" />
-              <item name="monkey" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -403,11 +393,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth0" value="15" />
     <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="15" />
     <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="15" />
     <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -418,12 +408,16 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/model/target/classes/com/google/style/model/system/User.class" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\develope\workpace\idea\monkey\blog\src\main\resources\templates\page" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="templates" />
       <recent name="com.google.client" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\develope\gitRepository\monkey\management\src\main\java\com\google\style\manage\controller\tools" />
+      <recent name="D:\develope\gitRepository\monkey\service\src\main\java\com\google\style\service\tools\impl" />
+      <recent name="D:\develope\gitRepository\monkey\service\src\main\java\com\google\style\service\tools" />
+      <recent name="D:\develope\gitRepository\monkey\model\src\main\java\com\google\style\model\tools" />
+      <recent name="D:\develope\gitRepository\monkey\dao\src\main\java\com\google\style\dao\mapper\tools" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.google.style.manage.controller.tools" />
@@ -432,12 +426,8 @@
       <recent name="com.google.style.service.tools" />
       <recent name="com.google.style.dao.mapper.common" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\develope\gitRepository\monkey\service\src\main\java\com\google\style\service\tools\impl" />
-      <recent name="D:\develope\gitRepository\monkey\service\src\main\java\com\google\style\service\tools" />
-      <recent name="D:\develope\gitRepository\monkey\dao\src\main\java\com\google\style\dao\mapper\tools" />
-      <recent name="D:\develope\gitRepository\monkey\management\src\main\java\com\google\style\manage\controller\tools" />
-      <recent name="D:\develope\gitRepository\monkey\model\src\main\java\com\google\style\model\tools" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\develope\workpace\idea\monkey\blog\src\main\resources\templates\page" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -458,89 +448,13 @@
     </option>
     <option name="contentProportion" value="0.25191677" />
   </component>
-  <component name="RunManager" selected="Application.User">
+  <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="AppServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.google.style.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.google.style.AppServiceApplication" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="appService" />
-      <envs />
-    </configuration>
-    <configuration name="BoringServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.google.style.blog.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.google.style.blog.controller.BoringServiceImpl" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="blog" />
-      <envs />
-    </configuration>
-    <configuration name="ManageApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.google.style.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.google.style.ManageApplication" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="management" />
-      <envs />
-    </configuration>
-    <configuration name="User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.google.style.model.system.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.google.style.model.system.User" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="model" />
-      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -555,31 +469,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-    </configuration>
-    <configuration name="HomeController.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.google.style.blog.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="blog" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.google.style.blog.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.google.style.blog.controller.HomeController" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -737,7 +626,7 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="19">
+    <list size="14">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.Application" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.ModelApplication" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.ServiceApplication" />
@@ -752,21 +641,7 @@
       <item index="11" class="java.lang.String" itemvalue="Spring Boot.RedisApplication" />
       <item index="12" class="java.lang.String" itemvalue="Spring Boot.AssetApplication (1)" />
       <item index="13" class="java.lang.String" itemvalue="Spring Boot.ManageApplication" />
-      <item index="14" class="java.lang.String" itemvalue="Application.AppServiceApplication" />
-      <item index="15" class="java.lang.String" itemvalue="JUnit.HomeController.test" />
-      <item index="16" class="java.lang.String" itemvalue="Application.BoringServiceImpl" />
-      <item index="17" class="java.lang.String" itemvalue="Application.ManageApplication" />
-      <item index="18" class="java.lang.String" itemvalue="Application.User" />
     </list>
-    <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ManageApplication" />
-        <item index="1" class="java.lang.String" itemvalue="Application.User" />
-        <item index="2" class="java.lang.String" itemvalue="Application.BoringServiceImpl" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.HomeController.test" />
-        <item index="4" class="java.lang.String" itemvalue="Application.AppServiceApplication" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
     <option name="externalProjectsViewState">
@@ -828,7 +703,10 @@
       <workItem from="1520997346260" duration="38000" />
       <workItem from="1520997595943" duration="8515000" />
       <workItem from="1521011587659" duration="4139000" />
-      <workItem from="1521015985060" duration="4421000" />
+      <workItem from="1521015985060" duration="27466000" />
+      <workItem from="1521105688502" duration="10946000" />
+      <workItem from="1521172354160" duration="2477000" />
+      <workItem from="1521178576741" duration="223000" />
     </task>
     <task id="LOCAL-00001" summary="项目目录整理 add gitignore文件">
       <created>1518330593978</created>
@@ -998,7 +876,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520909859615</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="文件结构调整，添加配置上传文件路径">
+      <created>1521020542683</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1521020542683</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1007,7 +892,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="391260000" />
+    <option name="totallyTimeSpent" value="427951000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1037,12 +922,12 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282887" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.40046567" sideWeight="0.49785408" order="15" side_tool="false" content_ui="tabs" x="28" y="651" width="1864" height="331" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45052385" sideWeight="0.4892704" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.40046567" sideWeight="0.49785408" order="15" side_tool="false" content_ui="tabs" x="27" y="567" width="1890" height="394" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5203725" sideWeight="0.49570817" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45052385" sideWeight="0.4892704" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282887" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282887" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27145922" sideWeight="0.49462366" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28272533" sideWeight="0.49462366" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1056,7 +941,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282887" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1112,233 +997,98 @@
     <MESSAGE value="System  tools add file upload model" />
     <MESSAGE value="System  tools add file upload model code" />
     <MESSAGE value="System  tools add file dictManage model" />
-    <option name="LAST_COMMIT_MESSAGE" value="System  tools add file dictManage model" />
+    <MESSAGE value="文件结构调整，添加配置上传文件路径" />
+    <option name="LAST_COMMIT_MESSAGE" value="文件结构调整，添加配置上传文件路径" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/LoginController.java</url>
-          <line>51</line>
+          <url>file://$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/provider/system/UserRoleProvider.java</url>
+          <line>20</line>
           <properties />
-          <option name="timeStamp" value="97" />
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/RoleController.java</url>
+          <line>111</line>
+          <properties />
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/RoleController.java</url>
+          <line>113</line>
+          <properties />
+          <option name="timeStamp" value="116" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="100" />
+      <option name="time" value="117" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/authc/SimpleAuthenticationInfo.java">
+    <entry file="file://$PROJECT_DIR$/logs/2018-03-15 14.0.log" />
+    <entry file="file://$PROJECT_DIR$/management/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/SecurityUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="52" column="26" lean-forward="false" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
-          <folding>
-            <element signature="e#696#697#0" expanded="false" />
-            <element signature="e#717#718#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/subject/support/DelegatingSubject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="138" column="44" lean-forward="false" selection-start-line="138" selection-start-column="44" selection-end-line="138" selection-end-column="44" />
-          <folding>
-            <element signature="e#6149#6150#0" expanded="false" />
-            <element signature="e#6208#6209#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/subject/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="99" column="54" lean-forward="false" selection-start-line="99" selection-start-column="54" selection-end-line="99" selection-end-column="54" />
+        <state relative-caret-position="579">
+          <caret line="81" column="15" lean-forward="true" selection-start-line="81" selection-start-column="15" selection-end-line="81" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/config/ShiroConfig.java">
+    <entry file="file://$PROJECT_DIR$/management/src/main/resources/static/js/appjs/sys/user/personal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="129" column="46" lean-forward="false" selection-start-line="129" selection-start-column="46" selection-end-line="129" selection-end-column="46" />
-          <folding />
+        <state relative-caret-position="352">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/management/src/main/resources/application-dev.yml">
+    <entry file="file://$PROJECT_DIR$/management/src/main/resources/templates/system/user/reset_pwd.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="198">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/shiro/SystemRealm.java">
+    <entry file="file://$PROJECT_DIR$/management/src/main/resources/templates/system/user/personal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="63" column="70" lean-forward="false" selection-start-line="63" selection-start-column="70" selection-end-line="63" selection-end-column="70" />
-          <folding />
+        <state relative-caret-position="4554">
+          <caret line="207" column="31" lean-forward="false" selection-start-line="207" selection-start-column="31" selection-end-line="207" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/session/mgt/eis/AbstractSessionDAO.java">
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/google/style/model/system/UserVO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+        <state relative-caret-position="506">
+          <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../java/jdk1.8.0_144/src.zip!/java/io/Serializable.java">
+    <entry file="file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/tools/GeneratorController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="168" column="17" lean-forward="false" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="916">
+          <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/google/style/model/system/Menu.java">
+    <entry file="file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/tools/FileController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="693">
+          <caret line="106" column="0" lean-forward="true" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/shiro/redis/RedisCacheManager.java">
+    <entry file="file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/tools/DictController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-748">
-          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/shiro/redis/RedisCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3938">
-          <caret line="189" column="1" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="189" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/shiro/redis/SerializeUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/session/mgt/DefaultSessionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="212" column="0" lean-forward="false" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/session/mgt/AbstractNativeSessionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="233" column="0" lean-forward="false" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/session/mgt/DelegatingSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/session/ProxiedSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.3.2/shiro-web-1.3.2.jar!/org/apache/shiro/web/servlet/AbstractShiroFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="134" column="98" lean-forward="false" selection-start-line="134" selection-start-column="98" selection-end-line="134" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/shiro/redis/RedisManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/shiro/redis/RedisSessionDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="44" column="4" lean-forward="false" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="206" column="45" lean-forward="true" selection-start-line="206" selection-start-column="45" selection-end-line="206" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/management/target/classes/com/google/style/manage/config/ApplicationContextRegister.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/target/classes/com/google/style/model/system/User.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/google/style/model/system/Dept.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/UserRoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../java/jdk1.8.0_144/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="393" column="22" lean-forward="false" selection-start-line="393" selection-start-column="22" selection-end-line="393" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="249">
+          <caret line="35" column="11" lean-forward="false" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/management/src/main/java/com/google/style/ManageApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        <state relative-caret-position="330">
+          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
           <folding>
             <element signature="e#681#682#0" expanded="false" />
             <element signature="e#740#741#0" expanded="false" />
@@ -1346,196 +1096,309 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/google/style/model/system/MenuVo.java">
+    <entry file="file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/aspect/SysLogAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="293">
+          <caret line="86" column="19" lean-forward="false" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/result.obj">
+    <entry file="file://$PROJECT_DIR$/management/src/main/resources/static/js/appjs/sys/user/add.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="46" lean-forward="true" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
-          <folding />
+        <state relative-caret-position="286">
+          <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/google/style/model/system/UserToken.java">
+    <entry file="file://$PROJECT_DIR$/management/src/main/resources/templates/system/user/add.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="396">
+          <caret line="66" column="38" lean-forward="true" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/UserMapper.java">
+    <entry file="file://$PROJECT_DIR$/management/src/main/resources/templates/system/user/edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="205">
+          <caret line="59" column="24" lean-forward="true" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/google/style/model/first/Goods.java">
+    <entry file="file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/MenuController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/google/style/model/first/Complex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="36" column="38" lean-forward="true" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/management/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+        <state relative-caret-position="2266">
+          <caret line="119" column="5" lean-forward="true" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="56" column="34" lean-forward="false" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="34" />
+        <state relative-caret-position="161">
+          <caret line="32" column="3" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
           <folding>
-            <element signature="e#2116#2117#0" expanded="false" />
-            <element signature="e#2137#2138#0" expanded="false" />
-            <element signature="e#2688#2689#0" expanded="false" />
-            <element signature="e#2708#2709#0" expanded="false" />
+            <element signature="e#1187#1214#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/common/controller/BaseController.java">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/google/style/service/tools/impl/SysLogServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="e#315#316#0" expanded="false" />
-            <element signature="e#358#359#0" expanded="false" />
-            <element signature="e#389#390#0" expanded="false" />
-            <element signature="e#429#430#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="322">
+          <caret line="33" column="29" lean-forward="false" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/google/style/model/system/User.java">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/google/style/service/tools/SysLogService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/tools/SysLogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="43" column="46" lean-forward="true" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.23/tomcat-embed-core-8.5.23.jar!/org/apache/coyote/http11/Http11Processor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="429" column="0" lean-forward="false" selection-start-line="429" selection-start-column="0" selection-end-line="429" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="45" column="55" lean-forward="false" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/google/style/model/system/UserRole.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="14" column="3" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/UserRoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="57" column="39" lean-forward="true" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="101" column="41" lean-forward="true" selection-start-line="101" selection-start-column="41" selection-end-line="101" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/RoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/provider/system/UserRoleProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="821">
+          <caret line="68" column="7" lean-forward="true" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/utils/ShiroUtils.java">
+    <entry file="file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+        <state relative-caret-position="134">
+          <caret line="93" column="27" lean-forward="false" selection-start-line="93" selection-start-column="27" selection-end-line="93" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/src/main/java/com/google/style/model/system/Role.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="462">
+          <caret line="38" column="11" lean-forward="true" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/google/style/model/system/RoleMenu.java">
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/RoleMenuMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="374">
+          <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/google/style/model/system/UserOnline.java">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/RoleServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="44" column="20" lean-forward="false" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="425">
+          <caret line="107" column="43" lean-forward="true" selection-start-line="107" selection-start-column="43" selection-end-line="107" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/google/style/model/system/UserRole.java">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/RoleService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="242">
+          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/google/style/model/tools/Dict.java">
+    <entry file="file://$PROJECT_DIR$/management/src/main/resources/templates/system/role/add.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="249">
+          <caret line="31" column="52" lean-forward="false" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appService/.gitignore">
+    <entry file="file://$PROJECT_DIR$/management/src/main/resources/static/js/appjs/sys/role/add.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="176">
+          <caret line="15" column="51" lean-forward="false" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/src/main/resources/templates/system/dept/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="39" column="8" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/src/main/resources/templates/system/dept/dept.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-301">
+          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/src/main/resources/static/js/appjs/system/sysDept/sysDept.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="107" column="35" lean-forward="false" selection-start-line="107" selection-start-column="29" selection-end-line="107" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/DeptMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="60" column="18" lean-forward="false" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/DeptServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="82" column="44" lean-forward="false" selection-start-line="82" selection-start-column="44" selection-end-line="82" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/DeptService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/DeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="122" column="9" lean-forward="true" selection-start-line="122" selection-start-column="9" selection-end-line="122" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appService/pom.xml">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/MenuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/MenuMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="59" column="30" lean-forward="true" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/MenuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2794">
+          <caret line="140" column="43" lean-forward="false" selection-start-line="140" selection-start-column="43" selection-end-line="140" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/src/main/resources/static/js/appjs/sys/role/role.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="130" column="39" lean-forward="false" selection-start-line="130" selection-start-column="39" selection-end-line="130" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/config/ApplicationContextRegister.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding>
+            <element signature="e#1273#1274#0" expanded="true" />
+            <element signature="e#1329#1330#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/shiro/SystemRealm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="45" column="17" lean-forward="false" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+          <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appService/src/main/resources/bootstrap.yml">
+    <entry file="file://$PROJECT_DIR$/management/src/main/resources/templates/system/role/role.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        <state relative-caret-position="352">
+          <caret line="16" column="71" lean-forward="false" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="71" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appService/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/google/style/model/tools/FileDO.java">
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/google/style/model/tools/SysLog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
-          <caret line="14" column="3" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/pom.xml">
+    <entry file="file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/RoleController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="52" column="65" lean-forward="false" selection-start-line="52" selection-start-column="65" selection-end-line="52" selection-end-column="65" />
+        <state relative-caret-position="249">
+          <caret line="101" column="27" lean-forward="true" selection-start-line="101" selection-start-column="27" selection-end-line="101" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/tools/SysLogMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
           <folding />
         </state>
       </provider>

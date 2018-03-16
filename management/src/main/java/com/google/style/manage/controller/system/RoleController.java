@@ -1,6 +1,7 @@
 package com.google.style.manage.controller.system;
 
 
+import com.google.style.manage.annotation.Log;
 import com.google.style.manage.common.controller.BaseController;
 import com.google.style.constant.Global;
 import com.google.style.model.system.Role;
@@ -27,12 +28,14 @@ public class RoleController extends BaseController {
 	@Autowired
 	RoleService roleService;
 
+	@Log("角色管理页面")
 	@RequiresPermissions("sys:role:role")
 	@GetMapping()
 	String role() {
 		return prefix + "/role";
 	}
 
+	@Log("获取角色列表")
 	@RequiresPermissions("sys:role:role")
 	@GetMapping("/list")
 	@ResponseBody()
@@ -41,14 +44,12 @@ public class RoleController extends BaseController {
 		return roles;
 	}
 
-	//@Log("添加角色")
 	@RequiresPermissions("sys:role:add")
 	@GetMapping("/add")
 	String add() {
 		return prefix + "/add";
 	}
 
-	//@Log("编辑角色")
 	@RequiresPermissions("sys:role:edit")
 	@GetMapping("/edit/{id}")
 	String edit(@PathVariable("id") Long id, Model model) {
@@ -57,7 +58,7 @@ public class RoleController extends BaseController {
 		return prefix + "/edit";
 	}
 
-	//@Log("保存角色")
+	@Log("保存角色")
 	@RequiresPermissions("sys:role:add")
 	@PostMapping("/save")
 	@ResponseBody()
@@ -72,7 +73,7 @@ public class RoleController extends BaseController {
 		}
 	}
 
-	//@Log("更新角色")
+	@Log("更新角色")
 	@RequiresPermissions("sys:role:edit")
 	@PostMapping("/update")
 	@ResponseBody()
@@ -87,7 +88,7 @@ public class RoleController extends BaseController {
 		}
 	}
 
-	//@Log("删除角色")
+	@Log("删除角色")
 	@RequiresPermissions("sys:role:remove")
 	@PostMapping("/remove")
 	@ResponseBody()
@@ -103,7 +104,7 @@ public class RoleController extends BaseController {
 	}
 	
 	@RequiresPermissions("sys:role:batchRemove")
-	//@Log("批量删除角色")
+	@Log("批量删除角色")
 	@PostMapping("/batchRemove")
 	@ResponseBody
 	R batchRemove(@RequestParam("ids[]") Long[] ids) {

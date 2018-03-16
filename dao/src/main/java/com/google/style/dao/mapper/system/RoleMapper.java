@@ -29,7 +29,7 @@ public interface RoleMapper {
     @SelectProvider(type = RoleProvider.class ,method = "count")
     int count(Map<String, Object> map);
 
-    @Insert("INSERT INTO sys_role (id,role_name,role_sign,create_by,create_time,create_time,update_time,remark) VALUES (NULL,#{roleName},#{roleSign},#{createBy},#{createTime},#{updateTime},#{remark}) ")
+    @Insert("INSERT INTO sys_role (id,role_name,role_sign,create_by,create_time,update_time,remark) VALUES (NULL,#{roleName},#{roleSign},#{createBy},#{createTime},#{updateTime},#{remark}) ")
     @Options(useGeneratedKeys = true, keyProperty = "id")
 	int save(Role role);
 

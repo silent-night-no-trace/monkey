@@ -1,6 +1,7 @@
 package com.google.style.manage.controller.system;
 
 
+import com.google.style.manage.annotation.Log;
 import com.google.style.manage.common.controller.BaseController;
 import com.google.style.constant.Global;
 import com.google.style.model.Tree;
@@ -17,24 +18,27 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * 角色管理
+ * 菜单管理
  * @author liangz
  * @date  2018/03/12
  */
 @RequestMapping("/sys/menu")
 @Controller
+@SuppressWarnings("unused")
 public class MenuController extends BaseController {
 	String prefix = "system/menu";
 
 	@Autowired
 	MenuService menuService;
 
+	@Log("菜单管理页面")
 	@RequiresPermissions("sys:menu:menu")
 	@GetMapping()
 	String menu(Model model) {
 		return prefix+"/menu";
 	}
 
+	@Log("获取菜单列表")
 	@RequiresPermissions("sys:menu:menu")
 	@RequestMapping("/list")
 	@ResponseBody
@@ -43,7 +47,6 @@ public class MenuController extends BaseController {
 		return menus;
 	}
 
-	//@Log("添加菜单")
 	@RequiresPermissions("sys:menu:add")
 	@GetMapping("/add/{pId}")
 	String add(Model model, @PathVariable("pId") Long pId) {
@@ -56,7 +59,6 @@ public class MenuController extends BaseController {
 		return prefix + "/add";
 	}
 
-	//@Log("编辑菜单")
 	@RequiresPermissions("sys:menu:edit")
 	@GetMapping("/edit/{id}")
 	String edit(Model model, @PathVariable("id") Long id) {
@@ -72,7 +74,7 @@ public class MenuController extends BaseController {
 		return prefix+"/edit";
 	}
 
-	//@Log("保存菜单")
+	@Log("保存菜单")
 	@RequiresPermissions("sys:menu:add")
 	@PostMapping("/save")
 	@ResponseBody
@@ -87,7 +89,7 @@ public class MenuController extends BaseController {
 		}
 	}
 
-	//@Log("更新菜单")
+	@Log("更新菜单")
 	@RequiresPermissions("sys:menu:edit")
 	@PostMapping("/update")
 	@ResponseBody
@@ -102,7 +104,7 @@ public class MenuController extends BaseController {
 		}
 	}
 
-	//@Log("删除菜单")
+	@Log("删除菜单")
 	@RequiresPermissions("sys:menu:remove")
 	@PostMapping("/remove")
 	@ResponseBody
@@ -117,6 +119,7 @@ public class MenuController extends BaseController {
 		}
 	}
 
+	@Log("tree菜单")
 	@GetMapping("/tree")
 	@ResponseBody
     Tree<Menu> tree() {
@@ -124,7 +127,7 @@ public class MenuController extends BaseController {
 		tree = menuService.getTree();
 		return tree;
 	}
-
+    @Log("获取角色tree接口")
 	@GetMapping("/tree/{roleId}")
 	@ResponseBody
 	Tree<Menu> tree(@PathVariable("roleId") Long roleId) {
