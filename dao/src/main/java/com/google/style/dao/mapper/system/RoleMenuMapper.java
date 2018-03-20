@@ -31,7 +31,14 @@ public interface RoleMenuMapper {
     @Options(useGeneratedKeys = true, keyProperty = "id")
 	int save(RoleMenu roleMenu);
 
-    @Update("UPDATE sys_role_menu SET  role_id =#{roleId},menu_id = #{menuId} WHERE id = #{id}")
+    @Update("<script>"+
+            "update sys_role_menu " +
+            "<set>" +
+            "<if test=\"roleId != null\">`role_id` = #{roleId}, </if>" +
+            "<if test=\"menuId != null\">`menu_id` = #{menuId} </if>" +
+            "</set>" +
+            "where id = #{id}"+
+            "</script>")
 	int update(RoleMenu roleMenu);
 
     @Delete("DELETE FROM sys_role_menu WHERE id = #{id}")

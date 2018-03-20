@@ -23,6 +23,11 @@ import java.util.Set;
  **/
 public class SystemRealm extends AuthorizingRealm {
 
+    /**
+     * 授权
+     * @param principal
+     * @return
+     */
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principal) {
         Object o = principal.getPrimaryPrincipal();
@@ -37,6 +42,12 @@ public class SystemRealm extends AuthorizingRealm {
         return info;
     }
 
+    /**
+     * 认证
+     * @param token
+     * @return
+     * @throws AuthenticationException
+     */
     @Override
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken token) throws AuthenticationException {
         //获取存储Principal 信息
@@ -49,7 +60,6 @@ public class SystemRealm extends AuthorizingRealm {
         UserMapper userMapper = ApplicationContextRegister.getBean(UserMapper.class);
         // 查询用户信息
         User user = userMapper.list(map).get(0);
-
         // 账号不存在
         if (user == null) {
             throw new UnknownAccountException("账号或密码不正确");

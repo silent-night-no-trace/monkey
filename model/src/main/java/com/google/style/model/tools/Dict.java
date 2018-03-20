@@ -1,5 +1,7 @@
 package com.google.style.model.tools;
 
+import lombok.ToString;
+
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Date;
@@ -11,6 +13,7 @@ import java.util.Date;
  * @author liangz
  * @date 2018-03-09 18:28:07
  */
+@ToString
 public class Dict implements Serializable {
 	private static final long serialVersionUID = 1L;
 	

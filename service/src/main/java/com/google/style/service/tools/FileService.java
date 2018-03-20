@@ -16,6 +16,8 @@ import java.util.Map;
 public interface FileService {
 	
 	FileDO get(Long id);
+
+	FileDO findFileByUrl(String url);
 	
 	List<FileDO> list(Map<String, Object> map);
 	

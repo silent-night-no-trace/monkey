@@ -33,7 +33,18 @@ public interface RoleMapper {
     @Options(useGeneratedKeys = true, keyProperty = "id")
 	int save(Role role);
 
-    @Update("UPDATE sys_role SET role_name = #[roleName},role_sign = #{roleSign},create_by =#{createBy},create_time = #{createTime},update_time = #{updateTime},remark =#{remark]")
+    @Update("<script>"+
+            "update sys_role " +
+            "<set>" +
+            "<if test=\"roleName != null\">`role_name` = #{roleName}, </if>" +
+            "<if test=\"roleSign != null\">`role_sign` = #{roleSign}, </if>" +
+            "<if test=\"createBy != null\">`create_by` = #{createBy}, </if>" +
+            "<if test=\"createTime != null\">`create_time` = #{createTime} ,</if>" +
+            "<if test=\"updateTime != null\">`update_time` = #{updateTime} ,</if>" +
+            "<if test=\"remark != null\">`remark` = #{remark} </if>" +
+            "</set>" +
+            "where id = #{id}"+
+            "</script>")
 	int update(Role role);
 
 	@Delete("DELETE FROM sys_role WHERE id =#{roleId}")

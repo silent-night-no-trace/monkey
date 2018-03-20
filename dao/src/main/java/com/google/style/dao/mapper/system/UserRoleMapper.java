@@ -32,7 +32,14 @@ public interface UserRoleMapper {
     @Options(useGeneratedKeys = true, keyProperty = "id")
 	int save(UserRole userRole);
 
-    @Update("UPDATE sys_user_role SET user_id = #{userId},role_id =#{roleId} WHERE id =#{id}")
+    @Update("<script>"+
+            "update sys_user_role " +
+            "<set>" +
+            "<if test=\"userId != null\">`user_id` = #{userId}, </if>" +
+            "<if test=\"roleId != null\">`role_id` = #{roleId},</if>" +
+            "</set>" +
+            "where id = #{id}"+
+            "</script>")
 	int update(UserRole userRole);
 
     @Delete("DELETE  FROM  sys_user_role WHERE id = #{id}")

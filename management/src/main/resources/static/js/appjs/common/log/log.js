@@ -39,7 +39,7 @@ function load() {
                         limit: params.limit,
                         offset: params.offset,
                         name: $('#searchName').val(),
-                        sort: 'gmt_create',
+                        sort: 'create_time',
                         order: 'desc',
                         operation: $("#searchOperation").val(),
                         username: $("#searchUsername").val()
@@ -88,7 +88,7 @@ function load() {
                         title: 'IP地址'
                     },
                     {
-                        field: 'gmtCreate',
+                        field: 'createTime',
                         title: '创建时间'
                     },
                     {

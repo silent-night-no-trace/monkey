@@ -237,14 +237,19 @@ public class UserServiceImpl implements UserService {
 			byte[] b = out.toByteArray();
 			FileUtil.uploadFile(b, globalConfig.getUploadPath(), fileName);
 		} catch (Exception e) {
+		    System.out.println("e:;"+e.getMessage());
 			throw  new Exception("图片裁剪错误！！");
 		}
 		Map<String, Object> result = new HashMap<>();
 		if(sysFileService.save(sysFile)>0){
-			User user = new User();
-            user.setId(userId);
-            user.setPicId(sysFile.getId());
-			if(userMapper.update(user)>0){
+            User user = userMapper.get(userId);
+            //根据url获取 file  使用id
+            FileDO fileDO = sysFileService.findFileByUrl(sysFile.getUrl());
+            if(fileDO!=null){
+                user.setPicId(fileDO.getId());
+            }
+            Integer status = userMapper.update(user);
+			if(status>0){
 				result.put("url",sysFile.getUrl());
 			}
 		}

@@ -28,11 +28,10 @@ public class ShiroUtils {
 
     public static User getUser() {
         Object object = getSubjct().getPrincipal();
-        System.out.println("shiro: "+object.getClass());
-        System.out.println("user: "+User.class);
-        System.out.println("instance: "+(object instanceof  User));
         User user = (User) object;
-        System.out.println("user:"+user.toString());
+        if(user!=null) {
+            System.out.println("登录用户信息为:" + user.toString());
+        }
         return user;
     }
     public static Long getUserId() {

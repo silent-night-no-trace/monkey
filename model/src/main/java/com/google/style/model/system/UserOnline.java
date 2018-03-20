@@ -1,5 +1,7 @@
 package com.google.style.model.system;
 
+import lombok.Data;
+
 import java.util.Date;
 
 /**
@@ -7,6 +9,7 @@ import java.util.Date;
  * 在线用户
  *
  */
+@Data
 public class UserOnline {
 
     /**

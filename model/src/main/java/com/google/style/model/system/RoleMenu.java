@@ -1,6 +1,7 @@
 package com.google.style.model.system;
 
 import lombok.Data;
+import lombok.ToString;
 
 /**
  *
@@ -10,6 +11,7 @@ import lombok.Data;
  *
  */
 @Data
+@ToString
 public class RoleMenu {
 	private Long id;
 	private Long  roleId;

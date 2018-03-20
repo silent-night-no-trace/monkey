@@ -15,6 +15,7 @@ public class FileUtil {
 			targetFile.mkdirs();
 		}
 		FileOutputStream out = new FileOutputStream(filePath + fileName);
+		System.out.println("文件写入路径为："+filePath+fileName);
 		out.write(file);
 		out.flush();
 		out.close();

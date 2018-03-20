@@ -1,6 +1,7 @@
 package com.google.style.model.system;
 
 import lombok.Data;
+import lombok.ToString;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -10,6 +11,7 @@ import java.util.Date;
  * @date 2018/3/5 14:57
  *  menu vo
  **/
+@ToString
 @Data
 public class MenuVo implements Serializable{
     private static final long serialVersionUID = 1L;

@@ -85,6 +85,7 @@ function add() {
 	});
 }
 function remove(id) {
+	console.info("id================="+id);
 	debugger;
 	layer.confirm('确定要删除选中的记录？', {
 		btn : [ '确定', '取消' ]

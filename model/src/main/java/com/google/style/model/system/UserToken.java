@@ -1,6 +1,7 @@
 package com.google.style.model.system;
 
 import lombok.Data;
+import lombok.ToString;
 
 import java.io.Serializable;
 
@@ -11,6 +12,7 @@ import java.io.Serializable;
  * 用户 token
  */
 @Data
+@ToString
 public class UserToken implements Serializable {
     private static final long serialVersionUID = 1L;
     private Long userId;

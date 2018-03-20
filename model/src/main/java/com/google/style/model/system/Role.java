@@ -1,6 +1,7 @@
 package com.google.style.model.system;
 
 import lombok.Data;
+import lombok.ToString;
 import lombok.extern.slf4j.Slf4j;
 
 import java.io.Serializable;
@@ -14,6 +15,7 @@ import java.util.List;
  */
 @Slf4j
 @Data
+@ToString
 public class Role implements Serializable {
 
 	private static final long serialVersionUID = 1L;

@@ -25,7 +25,10 @@ public interface FileMapper {
 
 	@Select("select `id`, `type`, `url`, `create_date` from sys_file where id = #{id}")
 	FileDO get(Long id);
-	
+
+	@Select("SELECT * FROM sys_file WHERE url = #{url}")
+	FileDO findFileByUrl(String url);
+
 	@Select("<script>" +
 	"select * from sys_file " + 
 			"<where>" + 
@@ -69,7 +72,7 @@ public interface FileMapper {
 		            "<if test=\"id != null\">`id` = #{id}, </if>" + 
                     "<if test=\"type != null\">`type` = #{type}, </if>" + 
                     "<if test=\"url != null\">`url` = #{url}, </if>" + 
-                    "<if test=\"createDate != null\">`create_date` = #{createDate}, </if>" + 
+                    "<if test=\"createDate != null\">`create_date` = #{createDate}, </if>" +
           					"</set>" + 
 					"where id = #{id}"+
 			"</script>")

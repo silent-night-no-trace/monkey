@@ -37,7 +37,29 @@ public interface UserMapper {
     @Options(useGeneratedKeys = true, keyProperty = "id")
     int save(User user);
 
-	@Update("UPDATE sys_user SET username =#{username},name =#{name},password=#{password},dept_id = #{deptId},dept_name = #{deptName},email =#{email},mobile = #{mobile},pic_id =#{picId},status = #{status},\tcreate_by = #{createBy},update_time =#{updateTime},sex = #{sex},hobby = #{hobby},live_address =#{liveAddress},province=#{province},city= #{city},district = #{district} WHERE id = #{id} ")
+    @Update("<script>"+
+            "update sys_user " +
+            "<set>" +
+            "<if test=\"username != null\">`username` = #{username}, </if>" +
+            "<if test=\"name != null\">`name` = #{name}, </if>" +
+            "<if test=\"password != null\">`password` = #{password}, </if>" +
+            "<if test=\"deptId != null\">`dept_id` = #{deptId} ,</if>" +
+            "<if test=\"deptName != null\">`dept_name` = #{deptName} ,</if>" +
+            "<if test=\"email != null\">`email` = #{email}, </if>" +
+            "<if test=\"mobile != null\">`mobile` = #{mobile} ,</if>" +
+            "<if test=\"picId != null\">`pic_id` = #{picId}, </if>" +
+            "<if test=\"status != null\">`status` = #{status} ,</if>" +
+            "<if test=\"createBy != null\">`create_by` = #{createBy} ,</if>" +
+            "<if test=\"updateTime != null\">`update_time` = #{updateTime} ,</if>" +
+            "<if test=\"sex != null\">`sex` = #{sex}, </if>" +
+            "<if test=\"hobby != null\">`hobby` = #{hobby}, </if>" +
+            "<if test=\"liveAddress != null\">`live_address` = #{liveAddress}, </if>" +
+            "<if test=\"province != null\">`province` = #{province}, </if>" +
+            "<if test=\"city != null\">`city` = #{city} , </if>" +
+            "<if test=\"district != null\">`district` = #{district} </if>" +
+            "</set>" +
+            "where id = #{id}"+
+            "</script>")
 	int update(User user);
 
 	@Delete("DELETE FROM sys_user WHERE id = #{userId}")

@@ -92,6 +92,6 @@ public class DictServiceImpl implements DictService {
 		param.put("type", "hobby");
 		List<Dict> dicts = dictMapper.list(param);
 
-		return null;
+		return dicts;
 	}
 }

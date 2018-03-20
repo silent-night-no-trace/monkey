@@ -35,7 +35,22 @@ public interface MenuMapper {
     @Options(useGeneratedKeys = true, keyProperty = "id")
     int save(Menu menu);
 
-	@Update("UPDATE sys_menu set parent_id = #{parentId},parent_ids = #{parentIds} ,name = #{name},url = #{name},permission = #{name},type = #{type},icon = #{icon},order_num = #{orderNum},create_time =#{createTime},update_time = #{updateTime} WHERE id = #{id}")
+	@Update("<script>"+
+			"update sys_menu " +
+			"<set>" +
+			"<if test=\"parentId != null\">`parent_id` = #{parentId}, </if>" +
+			"<if test=\"parentIds != null\">`parent_ids` = #{parentIds}, </if>" +
+			"<if test=\"name != null\">`name` = #{name}, </if>" +
+			"<if test=\"url != null\">`url` = #{url} ,</if>" +
+			"<if test=\"permission != null\">`permission` = #{permission} ,</if>" +
+			"<if test=\"type != null\">`type` = #{type} ,</if>" +
+			"<if test=\"icon != null\">`icon` = #{icon} ,</if>" +
+			"<if test=\"orderNum != null\">`order_num` = #{orderNum} ,</if>" +
+			"<if test=\"createTime != null\">`create_time` = #{createTime} ,</if>" +
+			"<if test=\"updateTime != null\">`update_time` = #{updateTime} </if>" +
+			"</set>" +
+			"where id = #{id}"+
+			"</script>")
 	int update(Menu menu);
 
 	@Delete("DELETE sys_menu WHERE id = #{menuId}")

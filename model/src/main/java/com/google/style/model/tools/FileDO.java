@@ -1,5 +1,7 @@
 package com.google.style.model.tools;
 
+import lombok.ToString;
+
 import java.io.Serializable;
 import java.util.Date;
 
@@ -13,6 +15,7 @@ import java.util.Date;
  * @email xx@.com
  * @date 2018-03-12 14:39:46
  */
+@ToString
 public class FileDO implements Serializable {
 	private static final long serialVersionUID = 1L;
 	

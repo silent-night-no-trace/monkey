@@ -33,4 +33,4 @@ cacheType: redis
 
 #上传路径配置
 Style:
-  uploadPath: file/
+  uploadPath: D:/uploadImgs/

@@ -1,6 +1,7 @@
 package com.google.style.model.system;
 
 import lombok.Data;
+import lombok.ToString;
 
 import java.io.Serializable;
 
@@ -11,6 +12,7 @@ import java.io.Serializable;
  * @author liangz
  * @date 2017-09-27 14:28:36
  */
+@ToString
 @Data
 public class Dept implements Serializable {
 

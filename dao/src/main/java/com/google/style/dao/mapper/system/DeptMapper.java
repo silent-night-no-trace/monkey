@@ -41,7 +41,16 @@ public interface DeptMapper {
     @Options(useGeneratedKeys = true, keyProperty = "id")
 	int save(Dept dept);
 
-    @Update("UPDATE sys_dept SET parent_id = #{parentId} ,name = #{name} ,order_num = #{orderNum} ,del_flag = #{delFlag} WHERE id =#{id}")
+	@Update("<script>"+
+			"update sys_dept " +
+			"<set>" +
+			"<if test=\"parentId != null\">`parent_id` = #{parentId}, </if>" +
+			"<if test=\"name != null\">`name` = #{name}, </if>" +
+			"<if test=\"orderNum != null\">`order_num` = #{orderNum}, </if>" +
+			"<if test=\"delFlag != null\">`del_flag` = #{delFlag} </if>" +
+			"</set>" +
+			"where id = #{id}"+
+			"</script>")
 	int update(Dept dept);
 
 	/**

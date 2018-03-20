@@ -33,7 +33,12 @@ public class FileServiceImpl implements FileService {
 	public FileDO get(Long id){
 		return fileMapper.get(id);
 	}
-	
+
+	@Override
+	public FileDO findFileByUrl(String url) {
+		return fileMapper.findFileByUrl(url);
+	}
+
 	@Override
 	public List<FileDO> list(Map<String, Object> map){
 		return fileMapper.list(map);
