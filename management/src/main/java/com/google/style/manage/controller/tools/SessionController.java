@@ -18,7 +18,7 @@ import java.util.List;
 
 /**
  * 获取在线用户
- * 实现原因shiro 获取session
+ * 实现原理 shiro 获取登陆的 session
  * @author liangz
  * @date  2018/03/16 16:05
  */

@@ -1,4 +1,4 @@
-var prefix = "/blog/bContent"
+var prefix = "/blog/content"
 $(function() {
 	load();
 });
@@ -49,16 +49,16 @@ function load() {
 									checkbox : true
 								},
 								{
-									visible : false,
-									field : 'cid',
-									title : ''
+									// visible : false,
+									field : 'id',
+									title : '序号'
 								},
 								{
 									field : 'title',
 									title : '标题',
 									width :320,
                                     formatter:function (value,row,index) {
-                                        return '<a href="#" onclick="preview(\''+ row.cid+ '\')">'+row.title+'</a>';
+                                        return '<a href="#" onclick="preview(\''+ row.id+ '\')">'+row.title+'</a>';
                                     }
                                 },
 								{
@@ -82,7 +82,7 @@ function load() {
 								},
 								{
 									visible : true,
-									field : 'gtmModified',
+									field : 'updateTime',
 									title : '最近修改时间'
 								},
 								{
@@ -171,13 +171,13 @@ function load() {
 									align : 'center',
 									formatter : function(value, row, index) {
 										var e = '<a class="btn btn-primary btn-sm '+s_edit_h+'" href="#" mce_href="#" title="编辑" onclick="edit(\''
-												+ row.cid
+												+ row.id
 												+ '\')"><i class="fa fa-edit"></i></a> ';
 										var d = '<a class="btn btn-warning btn-sm '+s_remove_h+'" href="#" title="删除"  mce_href="#" onclick="remove(\''
-												+ row.cid
+												+ row.id
 												+ '\')"><i class="fa fa-remove"></i></a> ';
 										var f = '<a class="btn btn-success btn-sm" href="#" title="预览"  mce_href="#" onclick="preview(\''
-												+ row.cid
+												+ row.id
 												+ '\')"><i class="fa fa-rocket"></i></a> ';
 										return e + d +f;
 									}
@@ -198,18 +198,19 @@ function add() {
 	});
 	layer.full(addPage);
 }
-function edit(cid) {
+function edit(id) {
 	var editPage = layer.open({
 		type : 2,
 		title : '编辑',
 		maxmin : true,
 		shadeClose : false, // 点击遮罩关闭层
 		area : [ '800px', '520px' ],
-		content : prefix + '/edit/' + cid // iframe的url
+		content : prefix + '/edit/' + id // iframe的url
 	});
 	layer.full(editPage);
 }
 function remove(id) {
+	debugger;
 	layer.confirm('确定要删除选中的记录？', {
 		btn : [ '确定', '取消' ]
 	}, function() {
@@ -248,7 +249,7 @@ function batchRemove() {
 		var ids = new Array();
 		// 遍历所有选择的行数据，取每条数据对应的ID
 		$.each(rows, function(i, row) {
-			ids[i] = row['cid'];
+			ids[i] = row['id'];
 		});
 		$.ajax({
 			type : 'POST',

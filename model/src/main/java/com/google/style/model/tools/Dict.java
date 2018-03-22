@@ -201,22 +201,4 @@ public class Dict implements Serializable {
 		return delFlag;
 	}
 
-	@Override
-	public String toString() {
-		return "DictDO{" +
-				"id=" + id +
-				", name='" + name + '\'' +
-				", value='" + value + '\'' +
-				", type='" + type + '\'' +
-				", description='" + description + '\'' +
-				", sort=" + sort +
-				", parentId=" + parentId +
-				", createBy=" + createBy +
-				", createDate=" + createDate +
-				", updateBy=" + updateBy +
-				", updateDate=" + updateDate +
-				", remarks='" + remarks + '\'' +
-				", delFlag='" + delFlag + '\'' +
-				'}';
-	}
 }

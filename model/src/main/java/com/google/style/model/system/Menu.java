@@ -38,24 +38,4 @@ public class Menu implements Serializable {
 	// 修改时间
 	private Date updateTime;
 
-
-
-
-
-
-	@Override
-	public String toString() {
-		return "MenuDO{" +
-				"menuId=" + id +
-				", parentId=" + parentId +
-				", name='" + name + '\'' +
-				", url='" + url + '\'' +
-				", perms='" + permission + '\'' +
-				", type=" + type +
-				", icon='" + icon + '\'' +
-				", orderNum=" + orderNum +
-				", gmtCreate=" + createTime +
-				", gmtModified=" + updateTime +
-				'}';
-	}
 }

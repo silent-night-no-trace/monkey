@@ -17,12 +17,5 @@ public class RoleMenu {
 	private Long  roleId;
 	private Long menuId;
 
-	@Override
-	public String toString() {
-		return "RoleMenu{" +
-				"id=" + id +
-				", roleId=" + roleId +
-				", menuId=" + menuId +
-				'}';
-	}
+
 }

@@ -10,8 +10,8 @@
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 					<div class="site-heading">
-						<h1>BootDo Blog</h1>
-						<span class="subheading">bootdo 博客</span>
+						<h1>Style Blog</h1>
+						<span class="subheading">style 博客</span>
 					</div>
 				</div>
 			</div>
@@ -46,8 +46,7 @@
 			bindList(currentPage * limit)
 		}
 		function bindList(offset) {
-			$
-				.ajax({
+			$.ajax({
 					url : 'blog/open/list?type=article&limit=10&offset=' + offset,
 					method : 'get',
 					dataType : 'json',
@@ -57,7 +56,7 @@
 						var htmlText = "";
 						for (i = 0; i < rows.length; i++) {
 							htmlText += '<div class="post-preview">';
-							htmlText += '<a href="/blog/open/post/' + rows[i].cid + '">';
+							htmlText += '<a href="/blog/open/post/' + rows[i].id + '">';
 							htmlText += '<h2 class="post-title">';
 							htmlText += rows[i].title;
 							htmlText += '</h2>';
@@ -65,7 +64,7 @@
 							htmlText += '<p class="post-meta">作者：<a href="#">'
 								+ rows[i].author
 								+ '</a> &nbsp;&nbsp; '
-								+ rows[i].gtmModified + '</p>';
+								+ rows[i].updateTime + '</p>';
 							htmlText += '</div>';
 							htmlText += '<hr>';
 						}

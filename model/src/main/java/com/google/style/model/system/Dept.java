@@ -28,14 +28,5 @@ public class Dept implements Serializable {
 	//是否删除  -1：已删除  0：正常
 	private Integer delFlag;
 
-	@Override
-	public String toString() {
-		return "Dept{" +
-				"deptId=" + id +
-				", parentId=" + parentId +
-				", name='" + name + '\'' +
-				", orderNum=" + orderNum +
-				", delFlag=" + delFlag +
-				'}';
-	}
+
 }

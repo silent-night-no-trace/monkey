@@ -50,17 +50,5 @@ public class Role implements Serializable {
 
 
 
-	@Override
-	public String toString() {
-		return "Role{" +
-				"roleId=" + id +
-				", roleName='" + roleName + '\'' +
-				", roleSign='" + roleSign + '\'' +
-				", remark='" + remark + '\'' +
-				", createBy=" + createBy +
-				", createTime=" + createTime +
-				", updateTime=" + updateTime +
-				", menuIds=" + menuIds +
-				'}';
-	}
+
 }
