@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.google.style.service.tools;
 
 
