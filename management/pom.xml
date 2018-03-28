@@ -17,7 +17,6 @@
 		<groupId>com.google</groupId>
 		<artifactId>monkey</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		<relativePath>../pom.xml</relativePath>
 	</parent>
 
 
@@ -46,11 +45,13 @@
             <!--&lt;!&ndash; 表示依赖不会传递 &ndash;&gt;-->
             <!--<optional>true</optional>-->
         <!--</dependency>-->
+
         <!--freemarker 支持  -->
         <!--<dependency>-->
             <!--<groupId>org.springframework.boot</groupId>-->
             <!--<artifactId>spring-boot-starter-freemarker</artifactId>-->
         <!--</dependency>-->
+
         <!--thymeleaf-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -117,26 +118,21 @@
 		</dependency>
 
 	</dependencies>
-
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-                <!--<configuration>-->
-                    <!--<mainClass>com.google.style.ManageApplication</mainClass>-->
-                    <!--<fork>true</fork> &lt;!&ndash; 如果没有该配置，devtools不会生效 &ndash;&gt;-->
-                <!--</configuration>-->
-                <!--<executions>-->
-                    <!--<execution>-->
-                        <!--<goals>-->
-                            <!--<goal>repackage</goal>-->
-                        <!--</goals>-->
-                    <!--</execution>-->
-                <!--</executions>-->
-			</plugin>
-		</plugins>
-	</build>
-
+    <!--需要打包的项目添加 build配置-->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

@@ -26,11 +26,11 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 		<!--redis 服务-->
-		<dependency>
-			<groupId>com.google</groupId>
-			<artifactId>redis</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+		<!--<dependency>-->
+			<!--<groupId>com.google</groupId>-->
+			<!--<artifactId>redis</artifactId>-->
+			<!--<version>0.0.1-SNAPSHOT</version>-->
+		<!--</dependency>-->
 		<!--freemarker 配置-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -45,16 +45,12 @@
         <!--</dependency>-->
 	</dependencies>
 
-
+	<!--需要打包的项目添加 build配置-->
 	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<!--<configuration>-->
-					<!--<mainClass>com.google.style.BlogApplication</mainClass>-->
-					<!--<fork>true</fork> &lt;!&ndash; 如果没有该配置，devtools不会生效 &ndash;&gt;-->
-				<!--</configuration>-->
 				<executions>
 					<execution>
 						<goals>
@@ -65,6 +61,5 @@
 			</plugin>
 		</plugins>
 	</build>
-
 
 </project>

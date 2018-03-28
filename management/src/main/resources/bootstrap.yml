@@ -4,16 +4,14 @@ spring:
     name: manage #应用名称,与application.properities中保持一致
   session:
     store-type: none
-  profiles:
-    active: dev
   cloud:
     config:
       discovery:
         enabled: true
         service-id: config-server
       label: master
-      #profile: dev
-      #uri: http://localhost:2005/
+      #配置加载属性文件
+      profile: dev
 
   #链路追踪服务器追踪
   zipkin:
