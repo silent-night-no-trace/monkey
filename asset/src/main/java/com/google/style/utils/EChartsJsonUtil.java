@@ -3,10 +3,10 @@ package com.google.style.utils;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.google.common.collect.Lists;
-import com.google.style.model.Legend;
-import com.google.style.model.Serie;
-import com.google.style.model.Title;
-import com.google.style.model.XAxis;
+import com.google.style.charts.Legend;
+import com.google.style.charts.Serie;
+import com.google.style.charts.Title;
+import com.google.style.charts.XAxis;
 
 import java.util.List;
 
@@ -17,7 +17,7 @@ import java.util.List;
  **/
 public class EChartsJsonUtil {
 
-    public static String getJsonData(Title title, Legend legend, XAxis xAxis,List<Serie> series){
+    public static String getJsonData(Title title, Legend legend, XAxis xAxis, List<Serie> series){
         //echarts option 封装
         JSONObject option = new JSONObject();
 

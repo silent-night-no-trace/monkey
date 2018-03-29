@@ -1,4 +1,4 @@
-package com.google.style.model;
+package com.google.style.charts;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

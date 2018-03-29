@@ -24,3 +24,11 @@
 hs_err_pid*
 
 /.idea/
+appService/src/test/
+asset/src/test/
+blog/src/test/
+common/src/test/
+dao/src/test/
+management/src/test/
+model/src/test/
+service/src/test/
