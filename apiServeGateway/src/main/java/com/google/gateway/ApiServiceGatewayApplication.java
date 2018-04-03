@@ -8,6 +8,7 @@ import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 
 /**
  * @author liangz
+ * @date 2018/04/03 11:22
  *  网关配置
  */
 

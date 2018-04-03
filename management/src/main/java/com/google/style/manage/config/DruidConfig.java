@@ -24,7 +24,7 @@ public class DruidConfig {
         // 添加初始化参数：initParams
         // 登录查看信息的账号密码.
         servletRegistrationBean.addInitParameter("loginUsername", "admin");
-        servletRegistrationBean.addInitParameter("loginPassword", "111111");
+        servletRegistrationBean.addInitParameter("loginPassword", "123456");
         servletRegistrationBean.addInitParameter("allow", "127.0.0.1, 115.236.176.90,localhost");
         // 是否能够重置数据，禁用HTML页面上的Reset All功能
         servletRegistrationBean.addInitParameter("resetEnable", "false");

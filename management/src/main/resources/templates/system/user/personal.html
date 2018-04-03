@@ -23,7 +23,7 @@
                     <!--basic info-->
                     <div class="ibox-content tab-pane fade in active"  id="basic_info">
                         <form class="gg-form" role="form" id="basicInfoForm">
-                            <input name="userId" type="hidden" th:value="${user.id}"/>
+                            <input name="id" type="hidden" th:value="${user.id}"/>
                             <div class="gg-formGroup">
                                 <div class="gg-formTitle">
                                     <em class="gg-star">*</em>
@@ -47,14 +47,14 @@
                                 </div>
                             </div>
                             <!--<div class="gg-formGroup">-->
-                                <!--<div class="gg-formTitle">-->
-                                    <!--<em class="gg-star">*</em>-->
-                                    <!--<span>出生年月:</span>-->
-                                <!--</div>-->
-                                <!--<div class="gg-formDetail">-->
-                                    <!--<input type="text" class="laydate-icon layer-date form-control" id="birth" name="birth" th:value="${user.birth}==null?null:${#dates.format(user.birth,'yyyy-MM-dd')}" placeholder="请选择出生年月"-->
-                                           <!--onclick="laydate({istime: true, format: 'YYYY-MM-DD'})" style="background-color: #fff;" readonly="readonly"/>-->
-                                <!--</div>-->
+                            <!--<div class="gg-formTitle">-->
+                            <!--<em class="gg-star">*</em>-->
+                            <!--<span>出生年月:</span>-->
+                            <!--</div>-->
+                            <!--<div class="gg-formDetail">-->
+                            <!--<input type="text" class="laydate-icon layer-date form-control" id="birth" name="birth" th:value="${user.birth}==null?null:${#dates.format(user.birth,'yyyy-MM-dd')}" placeholder="请选择出生年月"-->
+                            <!--onclick="laydate({istime: true, format: 'YYYY-MM-DD'})" style="background-color: #fff;" readonly="readonly"/>-->
+                            <!--</div>-->
                             <!--</div>-->
                             <div class="gg-formGroup">
                                 <div class="gg-formTitle">
@@ -182,7 +182,7 @@
                                 </div>
                                 <div class="gg-formDetail gg-dashed">
                                     <input type="password" class="form-control gg-border0" id="pwd" name="pwd" placeholder="请输入旧密码" />
-                                    <span class="fa fa-eye gg-faeye" title="鼠标移入显示内容"><span>
+                                    <span class="fa fa-eye gg-faeye" title="鼠标移入显示内容"></span>
                                 </div>
                             </div>
                             <div class="gg-formGroup">

@@ -12,8 +12,8 @@ server:
 logging:
   level:
     com:
-      zgqb:
-        loan: INFO
+      google:
+        style: INFO
 
 #App-Service
 zuul:

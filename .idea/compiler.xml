@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="apiServeGateway" />
         <module name="apiServiceGateway" />
         <module name="appService" />
         <module name="asset" />
@@ -22,8 +23,15 @@
         <module name="zipkinServe" />
         <module name="zipKinServe" />
       </profile>
+      <profile name="Annotation profile for serveCenter" enabled="true">
+        <sourceOutputDir name="../serviceCenter/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../serviceCenter/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="serveCenter" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="apiServeGateway" target="1.8" />
       <module name="apiServiceGateway" target="1.8" />
       <module name="appService" target="1.8" />
       <module name="asset" target="1.8" />
@@ -36,6 +44,7 @@
       <module name="model" target="1.8" />
       <module name="monkey" target="1.8" />
       <module name="redis" target="1.8" />
+      <module name="serveCenter" target="1.8" />
       <module name="servecfg" target="1.8" />
       <module name="service" target="1.8" />
       <module name="servicecenter" target="1.8" />

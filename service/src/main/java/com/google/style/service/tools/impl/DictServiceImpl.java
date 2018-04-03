@@ -4,12 +4,14 @@ import com.google.style.dao.mapper.tools.DictMapper;
 import com.google.style.model.system.User;
 import com.google.style.model.tools.Dict;
 import com.google.style.service.tools.DictService;
+import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 
 
 /**
@@ -90,8 +92,21 @@ public class DictServiceImpl implements DictService {
 	public List<Dict> getHobbyList(User user) {
 		Map<String, Object> param = new HashMap<>(16);
 		param.put("type", "hobby");
-		List<Dict> dicts = dictMapper.list(param);
+		//字典表存放的hobby
+		List<Dict> hobbies = dictMapper.list(param);
+		if (StringUtils.isNotEmpty(user.getHobby())) {
+			String [] userHobbies = user.getHobby().split(";");
+			for (String userHobby : userHobbies) {
 
-		return dicts;
+				for (Dict hobby : hobbies) {
+					if (!Objects.equals(userHobby, hobby.getId().toString())) {
+						continue;
+					}
+					hobby.setRemarks("true");
+					break;
+				}
+			}
+		}
+		return hobbies;
 	}
 }

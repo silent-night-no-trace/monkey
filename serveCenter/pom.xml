@@ -4,24 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.google</groupId>
-	<artifactId>apiServiceGateway</artifactId>
+	<artifactId>serveCenter</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>apiServiceGateway</name>
+	<name>serveCenter</name>
 	<description>Demo project for Spring Boot</description>
-
-	<!--远程仓库配置-->
-	<repositories>
-		<repository>
-			<id>qrmaven</id>
-			<url>http://192.168.3.7:8081/nexus/content/groups/public/</url>
-		</repository>
-		<repository>
-			<id>maven-ali</id>
-			<url>http://maven.aliyun.com/nexus/content/groups/public/</url>
-		</repository>
-	</repositories>
 
 	<!-- lookup parent from repository -->
 	<parent>
@@ -45,7 +33,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-zuul</artifactId>
+			<artifactId>spring-cloud-starter-eureka-server</artifactId>
 		</dependency>
 
 		<dependency>
@@ -53,25 +41,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-        <!--spring boot 配置管理-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-configuration-processor</artifactId>
-            <optional>true</optional>
-        </dependency>
-
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <optional>true</optional>
-        </dependency>
-
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>1.2.31</version>
-        </dependency>
-
 	</dependencies>
 
 	<dependencyManagement>
