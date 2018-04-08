@@ -37,11 +37,6 @@ public class RedisCacheCfg extends CachingConfigurerSupport {
     public CacheManager cacheManager() {
         log.info("------------初始化CacheManager--------------");
         RedisCacheManager cacheManager = new RedisCacheManager(redisTemplate);
-//        Map<String, Long> expires = new HashMap<>();
-//        expires.put("cache:user", 36000L);
-//        cacheManager.setExpires(expires);
-        //设置缓存过期时间
-        //cacheManager.setDefaultExpiration(10000);
         return cacheManager;
     }
 

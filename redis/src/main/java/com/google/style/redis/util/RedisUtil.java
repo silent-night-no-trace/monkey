@@ -1,6 +1,6 @@
 package com.google.style.redis.util;
 
-import org.springframework.data.redis.core.StringRedisTemplate;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.ValueOperations;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
@@ -17,7 +17,7 @@ import java.util.concurrent.TimeUnit;
 public class RedisUtil {
 
     @Resource
-    private StringRedisTemplate stringRedisTemplate;
+    private RedisTemplate<String,String> redisTemplate;
 
     /**
      * 写入redis缓存
@@ -28,7 +28,7 @@ public class RedisUtil {
     public boolean setString(final String key, String value) {
         boolean result = false;
         try {
-            ValueOperations<String, String> stringStringValueOperations = stringRedisTemplate.opsForValue();
+            ValueOperations<String, String> stringStringValueOperations = redisTemplate.opsForValue();
             stringStringValueOperations.set(key, value);
             result = true;
         } catch (Exception e) {
@@ -48,9 +48,9 @@ public class RedisUtil {
     public boolean setAdditionTime(final String key, String value, Long expireTime, TimeUnit timeUnit) {
         boolean result = false;
         try {
-            ValueOperations<String, String> stringStringValueOperations = stringRedisTemplate.opsForValue();
+            ValueOperations<String, String> stringStringValueOperations = redisTemplate.opsForValue();
             stringStringValueOperations.set(key, value);
-            stringRedisTemplate.expire(key, expireTime, timeUnit);
+            redisTemplate.expire(key, expireTime, timeUnit);
             result = true;
         } catch (Exception e) {
             e.printStackTrace();
@@ -64,7 +64,7 @@ public class RedisUtil {
      */
     public void remove(final String... keys) {
         for (String key : keys) {
-            stringRedisTemplate.delete(key);
+            redisTemplate.delete(key);
         }
     }
 
@@ -74,7 +74,7 @@ public class RedisUtil {
      * @return 返回结果
      */
     public boolean exists(final String key) {
-        String value = stringRedisTemplate.opsForValue().get(key);
+        String value = redisTemplate.opsForValue().get(key);
         return !StringUtils.isEmpty(value);
     }
 
@@ -84,6 +84,6 @@ public class RedisUtil {
      * @return 返回结果
      */
     public String get(final String key) {
-        return stringRedisTemplate.opsForValue().get(key);
+        return redisTemplate.opsForValue().get(key);
     }
 }

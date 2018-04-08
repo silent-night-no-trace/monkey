@@ -33,6 +33,7 @@
 		<module>model</module>
 		<module>service</module>
 		<module>asset</module>
+        <module>redis</module>
 		<module>appService</module>
         <module>blog</module>
         <module>management</module>

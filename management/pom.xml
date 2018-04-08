@@ -11,14 +11,12 @@
 	<name>management</name>
 	<description>Demo project for Spring Boot</description>
 
-
     <!--money -->
     <parent>
 		<groupId>com.google</groupId>
 		<artifactId>monkey</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-
 
 	<dependencies>
 		<!--config 获取配置服务器配置-->

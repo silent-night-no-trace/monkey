@@ -20,8 +20,8 @@
         <module name="service" />
         <module name="servicecenter" />
         <module name="serviceCenter" />
-        <module name="zipkinServe" />
         <module name="zipKinServe" />
+        <module name="zipkinServe" />
       </profile>
       <profile name="Annotation profile for serveCenter" enabled="true">
         <sourceOutputDir name="../serviceCenter/target/generated-sources/annotations" />

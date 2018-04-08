@@ -3,6 +3,11 @@ package com.google.style.utils;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @author liangz
+ * @date  2018/04/03
+ * 定义 结果返回
+ */
 public class R extends HashMap<String, Object> {
 	private static final long serialVersionUID = 1L;
 
@@ -25,6 +30,13 @@ public class R extends HashMap<String, Object> {
 		r.put("msg", msg);
 		return r;
 	}
+
+    public static R error(String code, String msg) {
+        R r = new R();
+        r.put("code", code);
+        r.put("msg", msg);
+        return r;
+    }
 
 	public static R ok(String msg) {
 		R r = new R();

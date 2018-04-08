@@ -15,8 +15,6 @@ import com.google.style.service.system.UserService;
 import com.google.style.service.tools.FileService;
 import com.google.style.utils.*;
 import org.apache.commons.lang.ArrayUtils;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -135,7 +133,7 @@ public class UserServiceImpl implements UserService {
 	public int resetPwd(UserVO userVO,User user) throws Exception {
 		if(Objects.equals(userVO.getUser().getId(),user.getId())){
 
-			if(Objects.equals(MD5Utils.encrypt(userVO.getUser().getUsername(),userVO.getPwd()),user.getPassword())){
+			if(Objects.equals(MD5Utils.encrypt(user.getUsername(),userVO.getPwd()),user.getPassword())){
 
                 user.setPassword(MD5Utils.encrypt(user.getUsername(),userVO.getNewPwd()));
 				return userMapper.update(user);

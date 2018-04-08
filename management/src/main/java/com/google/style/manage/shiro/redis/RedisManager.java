@@ -1,9 +1,5 @@
 package com.google.style.manage.shiro.redis;
 
-/**
- * @author bootdo 1992lcg@163.com
- * @version V1.0
- */
 
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
@@ -11,6 +7,11 @@ import redis.clients.jedis.JedisPoolConfig;
 
 import java.util.Set;
 
+/**
+ * jedisPool 操作redis
+ * @author liangz
+ * @date  2018/04/04
+ */
 
 public class RedisManager {
 
