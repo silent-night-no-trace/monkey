@@ -16,20 +16,20 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @ControllerAdvice
 public class SystemExceptionHandler {
 
-    @ResponseBody
-    @ExceptionHandler(value = Exception.class)
-    public R exception(Exception e){
-        String message = e.getMessage();
-        log.error("exception错误信息："+message+" 请及时解决！");
-        return R.error("",message);
-
-    }
-
-    @ExceptionHandler(value = SystemException.class)
-    public R systemException(SystemException se){
-        String message = se.getMessage();
-        log.error("systemException错误信息："+message+" 请及时解决!");
-        return R.error("",message);
-    }
+//    @ResponseBody
+//    @ExceptionHandler(value = Exception.class)
+//    public R exception(Exception e){
+//        String message = e.getMessage();
+//        log.error("exception错误信息："+message+" 请及时解决！");
+//        return R.error("",message);
+//
+//    }
+//
+//    @ExceptionHandler(value = SystemException.class)
+//    public R systemException(SystemException se){
+//        String message = se.getMessage();
+//        log.error("systemException错误信息："+message+" 请及时解决!");
+//        return R.error("",message);
+//    }
 
 }

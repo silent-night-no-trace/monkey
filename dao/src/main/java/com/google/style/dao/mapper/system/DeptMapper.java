@@ -59,7 +59,7 @@ public interface DeptMapper {
 	@Delete("DELETE from sys_dept where id = #{deptId}\n")
 	int delete(Long deptId);
 
-	@Delete("DELETE from sys_dept where id = in{deptIds}")
+	@Delete("DELETE from sys_dept where id in {deptIds}")
 	int batchRemove(Long[] deptIds);
 
     /**

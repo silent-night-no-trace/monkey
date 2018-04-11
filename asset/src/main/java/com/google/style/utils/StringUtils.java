@@ -1,7 +1,9 @@
 package com.google.style.utils;
 
 /**
- * @author bootdo
+ *
+ * @author liangz
+ * @date  2018/04/09 14:56
  */
-public class StringUtils extends org.apache.commons.lang3.StringUtils{
+public class StringUtils {
 }

@@ -3,7 +3,9 @@ package com.google.style.manage.controller;
 import com.google.style.service.first.GoodsService;
 import com.google.style.model.first.Goods;
 import lombok.extern.slf4j.Slf4j;
+import org.junit.runners.Parameterized;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -16,6 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @Slf4j
 @RestController
+@RequestMapping("/test")
 public class TestController {
 
 
@@ -31,6 +34,18 @@ public class TestController {
               log.info("======= success ======");
           }
       }
+
+    @RequestMapping("/find/{id}")
+    public Goods findById(@PathVariable Integer id){
+        Goods goods = goodsService.findGoodsById(id);
+        if(goods!=null){
+            log.info("=======find success ======");
+        }else {
+            log.info("======= fail ======");
+        }
+        return goods;
+
+    }
 
     @RequestMapping("/ti")
     public void ti(){

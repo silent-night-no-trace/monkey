@@ -45,9 +45,6 @@ public interface FileMapper {
 	                "order by id desc" + 
 				"</otherwise>" + 
 	        "</choose>"+
-			"<if test=\"offset != null and limit != null\">"+
-			"limit #{offset}, #{limit}" + 
-			"</if>"+
 			"</script>")
 	List<FileDO> list(Map<String, Object> map);
 	

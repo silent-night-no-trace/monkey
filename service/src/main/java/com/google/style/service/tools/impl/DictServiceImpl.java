@@ -1,5 +1,6 @@
 package com.google.style.service.tools.impl;
 
+import com.github.pagehelper.PageHelper;
 import com.google.style.dao.mapper.tools.DictMapper;
 import com.google.style.model.system.User;
 import com.google.style.model.tools.Dict;
@@ -31,6 +32,12 @@ public class DictServiceImpl implements DictService {
 	
 	@Override
 	public List<Dict> list(Map<String, Object> map){
+		Integer offset = (Integer) map.get("offset");
+		Integer limit = (Integer)map.get("limit");
+		if(offset!=null&&limit!=null){
+            PageHelper.startPage(offset,limit);
+        }
+
 		return dictMapper.list(map);
 	}
 	

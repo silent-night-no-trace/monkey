@@ -14,6 +14,7 @@ import java.util.concurrent.TimeUnit;
  * @date 2018/3/30 15:06
  **/
 @Service
+@SuppressWarnings("unused")
 public class RedisUtil {
 
     @Resource
@@ -48,8 +49,8 @@ public class RedisUtil {
     public boolean setAdditionTime(final String key, String value, Long expireTime, TimeUnit timeUnit) {
         boolean result = false;
         try {
-            ValueOperations<String, String> stringStringValueOperations = redisTemplate.opsForValue();
-            stringStringValueOperations.set(key, value);
+            ValueOperations<String, String> stringValueOperations = redisTemplate.opsForValue();
+            stringValueOperations.set(key, value);
             redisTemplate.expire(key, expireTime, timeUnit);
             result = true;
         } catch (Exception e) {
@@ -79,6 +80,16 @@ public class RedisUtil {
     }
 
     /**
+     * 判断缓存中是否有对应的value
+     * @param key key值
+     * @return 返回结果
+     */
+    public boolean exists(final byte [] key) {
+        String value = redisTemplate.opsForValue().get(key);
+        return !StringUtils.isEmpty(value);
+    }
+
+    /**
      * 读取缓存
      * @param key key值
      * @return 返回结果
@@ -86,4 +97,23 @@ public class RedisUtil {
     public String get(final String key) {
         return redisTemplate.opsForValue().get(key);
     }
+
+    /**
+     * 读取缓存
+     * @param key key值
+     * @return 返回结果
+     */
+    public String get(final byte [] key) {
+        return redisTemplate.opsForValue().get(key);
+    }
+
+    /**
+     * 读取缓存
+     * @param key key值
+     * @return 返回结果
+     */
+    public byte [] getBytes(final byte [] key) {
+        return redisTemplate.opsForValue().get(key).getBytes();
+    }
+
 }

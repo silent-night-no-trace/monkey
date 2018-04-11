@@ -18,7 +18,6 @@
       <module fileurl="file://$PROJECT_DIR$/service/service.iml" filepath="$PROJECT_DIR$/service/service.iml" />
       <module fileurl="file://$PROJECT_DIR$/serviceCenter/serviceCenter.iml" filepath="$PROJECT_DIR$/serviceCenter/serviceCenter.iml" />
       <module fileurl="file://$PROJECT_DIR$/zipKinServe/zipKinServe.iml" filepath="$PROJECT_DIR$/zipKinServe/zipKinServe.iml" />
-      <module fileurl="file://$PROJECT_DIR$/zipKinServe/zipkinServe.iml" filepath="$PROJECT_DIR$/zipKinServe/zipkinServe.iml" />
     </modules>
   </component>
 </project>

@@ -17,7 +17,14 @@ import java.util.Map;
 @Repository
 public interface UserMapper {
 
-    @Select("SELECT id,\tusername,name,password,dept_id,dept_name,email,mobile,pic_id,status,\tcreate_by,\tcreate_time,update_time\t,sex,hobby,live_address,province,city,district\t FROM sys_user WHERE id = #{userId}")
+    @Select("SELECT * FROM sys_user WHERE id = #{userId}")
+    @Results({@Result(column = "id",property = "id"),@Result(column = "username",property = "username"),@Result(column = "name",property = "name"),
+            @Result(column = "password",property = "password"),@Result(column = "dept_id",property = "deptId"), @Result(column = "dept_name",property = "deptName"),
+            @Result(column = "email",property = "email"), @Result(column = "mobile",property = "mobile"),@Result(column = "pic_id",property = "picId"),
+            @Result(column = "status",property = "status"),@Result(column = "create_by",property = "createBy"), @Result(column = "create_time",property = "createTime"),
+            @Result(column = "update_time",property = "updateTime"),@Result(column = "sex",property = "sex"),@Result(column = "hobby",property = "hobby"),
+            @Result(column = "live_address",property = "liveAddress"),@Result(column = "province",property = "province"),@Result(column = "city",property = "city"),
+            @Result(column = "district",property = "district")})
 	User get(Long userId);
 
     @SelectProvider(type = UserProvider.class,method = "getUserList")

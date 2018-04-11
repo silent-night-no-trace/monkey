@@ -1,6 +1,7 @@
 package com.google.style.service.tools.impl;
 
 import com.fasterxml.jackson.databind.annotation.JsonAppend;
+import com.github.pagehelper.PageHelper;
 import com.google.style.config.GlobalConfig;
 import com.google.style.dao.mapper.tools.FileMapper;
 import com.google.style.model.tools.FileDO;
@@ -41,6 +42,11 @@ public class FileServiceImpl implements FileService {
 
 	@Override
 	public List<FileDO> list(Map<String, Object> map){
+		Integer offset = (Integer) map.get("offset");
+		Integer limit = (Integer)map.get("limit");
+		if(offset!=null&&limit!=null){
+			PageHelper.startPage(offset,limit);
+		}
 		return fileMapper.list(map);
 	}
 	

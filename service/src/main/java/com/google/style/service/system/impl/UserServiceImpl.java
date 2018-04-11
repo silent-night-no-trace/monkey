@@ -51,7 +51,9 @@ public class UserServiceImpl implements UserService {
 	public User get(Long id) {
 		List<Long> roleIds = userRoleMapper.listRoleId(id);
 		User user = userMapper.get(id);
-		user.setDeptName(deptMapper.get(user.getDeptId()).getName());
+		//查询用户所属部门
+		Dept dept = deptMapper.get(user.getDeptId());
+		user.setDeptName(dept.getName());
 		user.setRoleIds(roleIds);
 		return user;
 	}

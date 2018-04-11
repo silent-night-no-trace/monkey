@@ -51,9 +51,6 @@ public interface DictMapper {
 	                "order by id desc" + 
 				"</otherwise>" + 
 	        "</choose>"+
-			"<if test=\"offset != null and limit != null\">"+
-			"limit #{offset}, #{limit}" + 
-			"</if>"+
 			"</script>")
 	List<Dict> list(Map<String, Object> map);
 	

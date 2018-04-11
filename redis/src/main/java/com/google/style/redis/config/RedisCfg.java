@@ -100,16 +100,6 @@ public class RedisCfg {
     @Bean(name = "redisTemplate")
     public RedisTemplate<String,String> functionDomainRedisTemplate(@Qualifier(value = "jedisConnectionFactory") RedisConnectionFactory factory) {
         log.info("------初始化RedisTemplate----------");
-//        Jackson2JsonRedisSerializer<Object> jackson2JsonRedisSerializer = new Jackson2JsonRedisSerializer<>(Object.class);
-//        RedisTemplate<String, Serializable> redisTemplate = new RedisTemplate<>();
-//        redisTemplate.setConnectionFactory(factory);
-//        redisTemplate.setKeySerializer(jackson2JsonRedisSerializer);
-//        redisTemplate.setValueSerializer(jackson2JsonRedisSerializer);
-//        redisTemplate.setHashKeySerializer(new StringRedisSerializer());
-//        redisTemplate.setHashValueSerializer(new EntityRedisSerializer());
-////        redisTemplate.setValueSerializer(new EntityRedisSerializer());
-//        redisTemplate.afterPropertiesSet();
-//        redisTemplate.setEnableTransactionSupport(true);
         StringRedisTemplate template = new StringRedisTemplate(factory);
         //定义value的序列化方式
         Jackson2JsonRedisSerializer jackson2JsonRedisSerializer = new Jackson2JsonRedisSerializer(Object.class);

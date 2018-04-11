@@ -59,12 +59,13 @@ public class SysLogAspect {
 
 
     private void saveLog(ProceedingJoinPoint pjp, long time) {
+        //获取方法签名
         MethodSignature methodSignature = (MethodSignature) pjp.getSignature();
         Method method = methodSignature.getMethod();
-        Log log = method.getAnnotation(Log.class);
+        Log log1 = method.getAnnotation(Log.class);
         SysLog sysLog = new SysLog();
-        if (log != null) {
-            sysLog.setOperation(log.value());
+        if (log1 != null) {
+            sysLog.setOperation(log1.value());
         }
         //设置操作时长
         sysLog.setTime((int) time);
@@ -72,7 +73,7 @@ public class SysLogAspect {
         String methodName = methodSignature.getName();
         sysLog.setMethod("类名：" + className + " 方法名：" + methodName);
         Object[] args = pjp.getArgs();
-        System.out.println("args========" + args.toString());
+        log.info("========args========" + args.toString());
         try {
             String params = JSONUtils.beanToJson(args[0]).substring(0, 4999);
             sysLog.setParams(params);
@@ -96,7 +97,7 @@ public class SysLogAspect {
 
         sysLog.setCreateTime(new Date());
         sysLogService.save(sysLog);
-        System.out.println("========================日志保存成功===========================");
+        log.info("========================日志保存成功===========================");
     }
 
 

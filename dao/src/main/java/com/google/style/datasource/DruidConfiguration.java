@@ -3,10 +3,13 @@ package com.google.style.datasource;
 import com.alibaba.druid.pool.DruidDataSource;
 import com.alibaba.druid.support.http.StatViewServlet;
 import com.alibaba.druid.support.http.WebStatFilter;
+import com.github.pagehelper.PageHelper;
 import lombok.Data;
+import org.apache.ibatis.plugin.Interceptor;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.log4j.Logger;
 import org.mybatis.spring.SqlSessionFactoryBean;
+import org.mybatis.spring.SqlSessionTemplate;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
@@ -20,6 +23,7 @@ import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 
 import javax.sql.DataSource;
 import java.sql.SQLException;
+import java.util.Properties;
 
 /**
  * @author liangz
@@ -27,7 +31,7 @@ import java.sql.SQLException;
  * 数据库层配置
  **/
 @Configuration
-@MapperScan(basePackages = {"com.google.style.dao"})
+@MapperScan(basePackages = {"com.google.style.dao"},sqlSessionFactoryRef = "sqlSessionFactory")
 @Data
 public class DruidConfiguration {
 
@@ -104,16 +108,15 @@ public class DruidConfiguration {
         return dataSource;
     }
 
-//    @Bean(name = "sqlSessionFactory")
-//    @Primary
-//    public SqlSessionFactory sqlSessionFactory(@Qualifier("dataSource") DataSource dataSource)
-//            throws Exception {
-//        SqlSessionFactoryBean sessionFactory = new SqlSessionFactoryBean();
-//        PathMatchingResourcePatternResolver resolver = new PathMatchingResourcePatternResolver();
-//        sessionFactory.setMapperLocations(resolver.getResources("classpath:/mapper/*.xml"));
-//        sessionFactory.setDataSource(dataSource);
-//        return sessionFactory.getObject();
-//    }
+    @Bean(name = "sqlSessionFactory")
+    @Primary
+    public SqlSessionFactory sqlSessionFactory(@Qualifier("dataSource") DataSource dataSource,PageHelper pageHelper)
+            throws Exception {
+        SqlSessionFactoryBean sessionFactory = new SqlSessionFactoryBean();
+        sessionFactory.setDataSource(dataSource);
+        sessionFactory.setPlugins(new Interceptor[]{pageHelper});
+        return sessionFactory.getObject();
+    }
 
     @Bean(name = "transactionManager")
     @Primary
@@ -122,12 +125,12 @@ public class DruidConfiguration {
         return new DataSourceTransactionManager(dataSource);
     }
 
-//    @Bean(name = "sqlSessionTemplate")
-//    @Primary
-//    public SqlSessionTemplate primarySqlSessionTemplate(
-//            @Qualifier("sqlSessionFactory") SqlSessionFactory sqlSessionFactory) {
-//        return new SqlSessionTemplate(sqlSessionFactory);
-//    }
+    @Bean(name = "sqlSessionTemplate")
+    @Primary
+    public SqlSessionTemplate primarySqlSessionTemplate(
+            @Qualifier("sqlSessionFactory") SqlSessionFactory sqlSessionFactory) {
+        return new SqlSessionTemplate(sqlSessionFactory);
+    }
 
     /**
      * druid监控StatViewServlet
@@ -140,7 +143,7 @@ public class DruidConfiguration {
         // 添加初始化参数：initParams
         // 登录查看信息的账号密码.
         servletRegistrationBean.addInitParameter("loginUsername", "root");
-        servletRegistrationBean.addInitParameter("loginPassword", "");
+        servletRegistrationBean.addInitParameter("loginPassword", "123456");
         servletRegistrationBean.addInitParameter("allow", "127.0.0.1, 115.236.176.90");
         // 是否能够重置数据，禁用HTML页面上的Reset All功能
         servletRegistrationBean.addInitParameter("resetEnable", "false");
@@ -156,9 +159,26 @@ public class DruidConfiguration {
         // 添加过滤规则
         filterRegistrationBean.addServletNames("druidWebStatFilter");
         filterRegistrationBean.addUrlPatterns("/*");
-        // 添加不需要忽略的格式信息
+        // 添加不需要忽略   的格式信息
         filterRegistrationBean.addInitParameter(
                 "exclusions", "*.js, *.gif, *.jpg, *.png, *.css, *.ico, /druid/*");
         return filterRegistrationBean;
+    }
+
+
+    /**
+     * 分页插件配置
+     * @return pageHelper
+     */
+    @Bean
+    public PageHelper pageHelper() {
+        PageHelper pageHelper = new PageHelper();
+        Properties p = new Properties();
+        p.setProperty("offsetAsPageNum", "true");
+        p.setProperty("rowBoundsWithCount", "true");
+        p.setProperty("reasonable", "true");
+        p.setProperty("dialect", "mysql");
+        pageHelper.setProperties(p);
+        return pageHelper;
     }
 }

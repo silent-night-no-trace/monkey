@@ -58,9 +58,8 @@ public class LoginController extends BaseController {
 		List<Tree<Menu>> menus = menuService.listMenuTree(getUserId());
 		model.addAttribute("menus", menus);
 		model.addAttribute("name", getUser().getName());
-		//shiro 中获取到用户信息中不包含 picId
+		//shir 中获取到用户信息中不包含 picId
 		User userDO = userService.get(getUserId());
-		System.out.println("数据库中存储的用户："+userDO.toString());
 		Long picId = null;
 		if(userDO!=null&&userDO.getPicId()!=null){
             picId = userDO.getPicId();

@@ -27,9 +27,7 @@ public class DeptProvider {
         String name = (String)map.get("name");
         Integer orderNum = (Integer)map.get("orderNum");
         Integer delFlag = (Integer)map.get("delFlag");
-        //分页使用参数
-        Integer offset = (Integer) map.get("offset");
-        Integer limit = (Integer)map.get("limit");
+
         String sort = (String)map.get("sort");
         //排序方式  降序 or 升序
         String order = (String)map.get("order");
@@ -47,17 +45,14 @@ public class DeptProvider {
         }if(delFlag!=null&&!"".equals(delFlag)){
             sb.append(" AND del_flag = "+delFlag );
         }
-        //分页参数
-        //分页参数
+        //排序参数
         if(sort!=null&&!"".equals(sort)){
             sb.append(" ORDER BY "+sort +" "+order );
         }else {
             //未传排序字段 默认使用id 排序
             sb.append(" ORDER BY id DESC");
         }
-        if(offset!=null&&limit!=null){
-            sb.append(" limit "+offset+" , "+limit);
-        }
+
         return sb.toString();
     }
 
