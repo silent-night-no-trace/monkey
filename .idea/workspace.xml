@@ -4,39 +4,8 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1135a5e7-c2ce-44ea-8581-13cc783b822a" name="Default" comment="project fix">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="1135a5e7-c2ce-44ea-8581-13cc783b822a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/StringUtils.java" afterPath="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/StringUtils.java" />
-      <change beforePath="$PROJECT_DIR$/dao/pom.xml" afterPath="$PROJECT_DIR$/dao/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/DeptMapper.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/DeptMapper.java" />
-      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/UserMapper.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/UserMapper.java" />
-      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/tools/DictMapper.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/tools/DictMapper.java" />
-      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/tools/FileMapper.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/tools/FileMapper.java" />
-      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/provider/system/DeptProvider.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/provider/system/DeptProvider.java" />
-      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/google/style/datasource/DruidConfiguration.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/google/style/datasource/DruidConfiguration.java" />
-      <change beforePath="$PROJECT_DIR$/logs/out_App.log" afterPath="$PROJECT_DIR$/logs/out_App.log" />
-      <change beforePath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/aspect/SysLogAspect.java" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/aspect/SysLogAspect.java" />
-      <change beforePath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/config/DruidConfig.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/config/ShiroConfig.java" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/config/ShiroConfig.java" />
-      <change beforePath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/TestController.java" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/TestController.java" />
-      <change beforePath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/LoginController.java" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/LoginController.java" />
-      <change beforePath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/exception/SystemExceptionHandler.java" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/exception/SystemExceptionHandler.java" />
-      <change beforePath="$PROJECT_DIR$/management/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/management/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/redis/pom.xml" afterPath="$PROJECT_DIR$/redis/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/redis/src/main/java/com/google/style/redis/config/EntityRedisSerializer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/redis/src/main/java/com/google/style/redis/config/RedisCacheCfg.java" afterPath="$PROJECT_DIR$/redis/src/main/java/com/google/style/redis/config/RedisCacheCfg.java" />
-      <change beforePath="$PROJECT_DIR$/redis/src/main/java/com/google/style/redis/config/RedisCfg.java" afterPath="$PROJECT_DIR$/redis/src/main/java/com/google/style/redis/config/RedisCfg.java" />
-      <change beforePath="$PROJECT_DIR$/redis/src/main/java/com/google/style/redis/util/RedisUtil.java" afterPath="$PROJECT_DIR$/redis/src/main/java/com/google/style/redis/util/RedisUtil.java" />
-      <change beforePath="$PROJECT_DIR$/redis/src/main/java/com/google/style/redis/util/SerializeUtil.java" afterPath="$PROJECT_DIR$/redis/src/main/java/com/google/style/redis/util/SerializeUtil.java" />
-      <change beforePath="$PROJECT_DIR$/service/pom.xml" afterPath="$PROJECT_DIR$/service/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/first/GoodsServiceImpl.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/first/GoodsServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/DeptServiceImpl.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/DeptServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/UserServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/tools/impl/DictServiceImpl.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/tools/impl/DictServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/tools/impl/FileServiceImpl.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/tools/impl/FileServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/tools/impl/SessionServiceImpl.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/tools/impl/SessionServiceImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -130,8 +99,8 @@
       <file leaf-file-name="ServiceAspect.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/src/main/java/com/google/style/aspect/ServiceAspect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="605">
-              <caret line="43" column="24" lean-forward="false" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+            <state relative-caret-position="550">
+              <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -177,8 +146,8 @@
       <file leaf-file-name="HttpUtil.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/HttpUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="198">
+              <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
               <folding>
                 <element signature="e#240#274#0" expanded="true" />
               </folding>
@@ -871,7 +840,7 @@
       <workItem from="1523155649654" duration="2749000" />
       <workItem from="1523159466884" duration="1181000" />
       <workItem from="1523179412150" duration="40927000" />
-      <workItem from="1523351795329" duration="8443000" />
+      <workItem from="1523351795329" duration="8571000" />
     </task>
     <task id="LOCAL-00001" summary="项目目录整理 add gitignore文件">
       <created>1518330593978</created>
@@ -1097,7 +1066,14 @@
       <option name="project" value="LOCAL" />
       <updated>1523159972548</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="project fix">
+      <created>1523430407659</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1523430407659</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1106,7 +1082,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="641622000" />
+    <option name="totallyTimeSpent" value="641750000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1414,6 +1390,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="e#395#422#0" expanded="false" />
+            <element signature="e#2468#2469#0" expanded="false" />
+            <element signature="e#2527#2528#0" expanded="false" />
+            <element signature="e#2642#2643#0" expanded="false" />
+            <element signature="e#2701#2702#0" expanded="false" />
+            <element signature="e#2822#2823#0" expanded="false" />
+            <element signature="e#2892#2893#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1436,6 +1421,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-707">
           <caret line="28" column="27" lean-forward="false" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1474,6 +1460,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="26" column="38" lean-forward="false" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1481,6 +1468,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="39" column="29" lean-forward="false" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1602,10 +1590,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/../../java/jdk1.8.0_144/src.zip!/java/lang/SuppressWarnings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="51" column="29" lean-forward="true" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/java/com/google/style/aspect/ServiceAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="43" column="24" lean-forward="false" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+        <state relative-caret-position="550">
+          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1641,18 +1637,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../java/jdk1.8.0_144/src.zip!/java/lang/SuppressWarnings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="51" column="29" lean-forward="true" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/HttpUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="198">
+          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
           <folding>
             <element signature="e#240#274#0" expanded="true" />
           </folding>
