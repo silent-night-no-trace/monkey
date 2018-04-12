@@ -3,6 +3,7 @@ package com.google.style.redis.config;
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.google.style.redis.util.RedisUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
@@ -14,6 +15,7 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
+import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
 
 import java.io.Serializable;
@@ -112,5 +114,29 @@ public class RedisCfg {
         template.setHashValueSerializer(jackson2JsonRedisSerializer);
         template.afterPropertiesSet();
         return template;
+    }
+
+    /**
+     * 配置 jedisPool
+     * @return
+     */
+    @Bean
+    public JedisPool jedisPool() {
+        JedisPoolConfig jedisPoolConfig = new JedisPoolConfig();
+        jedisPoolConfig.setMaxTotal(maxTotal);
+        jedisPoolConfig.setMaxIdle(maxIdle);
+        jedisPoolConfig.setMaxWaitMillis(maxWaitMillis);
+        jedisPoolConfig.setMinIdle(minIdle);
+        return new JedisPool(jedisPoolConfig, host, port, 10000, password);
+    }
+
+    /**
+     * 配置 redis utils  基于jedispool操作redis
+     * @param jedisPool jedisPool
+     * @return RedisUtils
+     */
+    @Bean
+    public RedisUtils redisUtils(JedisPool jedisPool) {
+        return new RedisUtils(jedisPool);
     }
 }

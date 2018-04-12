@@ -1,4 +1,4 @@
-package com.google.style.aspect;
+package com.google.style.manage.aspect;
 
 import com.alibaba.fastjson.JSON;
 import com.google.style.annotation.ServiceCache;
@@ -19,6 +19,8 @@ import java.util.concurrent.TimeUnit;
 /**
  * @author liangz
  * @date 2018/4/9 18:00
+ * service 业务层 redis 缓存配置（目前未使用）
+ *
  **/
 @Aspect
 @Component
@@ -34,7 +36,7 @@ public class ServiceAspect {
     private static final String SERVICE_CACHE_KEY = "style:service:cache:%s:%s:%s";
 
 
-    @Pointcut("execution(public * com.google.style.service.*.impl.*.*(..))")
+    @Pointcut("execution(public * com.google.style.service.*.*(..))")
     public void allMethod(){
     }
 
