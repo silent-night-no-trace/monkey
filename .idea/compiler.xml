@@ -14,12 +14,14 @@
         <module name="common" />
         <module name="configServer" />
         <module name="dao" />
+        <module name="demo" />
         <module name="management" />
         <module name="model" />
         <module name="redis" />
         <module name="service" />
         <module name="servicecenter" />
         <module name="serviceCenter" />
+        <module name="springSecurity" />
         <module name="zipKinServe" />
       </profile>
       <profile name="Annotation profile for serveCenter" enabled="true">
@@ -39,6 +41,7 @@
       <module name="common" target="1.8" />
       <module name="configServer" target="1.8" />
       <module name="dao" target="1.8" />
+      <module name="demo" target="1.8" />
       <module name="management" target="1.8" />
       <module name="model" target="1.8" />
       <module name="monkey" target="1.8" />
@@ -48,6 +51,7 @@
       <module name="service" target="1.8" />
       <module name="servicecenter" target="1.8" />
       <module name="serviceCenter" target="1.8" />
+      <module name="springSecurity" target="1.8" />
       <module name="zipKinServe" target="1.8" />
       <module name="zipkinServe" target="1.8" />
     </bytecodeTargetLevel>

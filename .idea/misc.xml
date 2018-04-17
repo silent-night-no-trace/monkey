@@ -16,6 +16,8 @@
         <option value="$PROJECT_DIR$/service/pom.xml" />
         <option value="$PROJECT_DIR$/asset/pom.xml" />
         <option value="$PROJECT_DIR$/redis/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/springSecurity/pom.xml" />
       </list>
     </option>
   </component>

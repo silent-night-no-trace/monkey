@@ -2,6 +2,7 @@ package com.google.style.utils;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+import org.apache.commons.lang.StringUtils;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -16,7 +17,7 @@ public class JSONUtils {
 	 */
 	public static String beanToJson(Object object, String dataFormatString) {
 		if (object != null) {
-			if (StringUtils.isEmpty(dataFormatString)) {
+			if (org.apache.commons.lang.StringUtils.isEmpty(dataFormatString)) {
 				return JSONObject.toJSONString(object);
 			}
 			return JSON.toJSONStringWithDateFormat(object, dataFormatString);

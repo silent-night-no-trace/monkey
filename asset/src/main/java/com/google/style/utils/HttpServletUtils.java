@@ -1,6 +1,7 @@
 package com.google.style.utils;
 
 import javax.servlet.http.HttpServletRequest;
+import org.apache.commons.lang.StringUtils;
 
 public class HttpServletUtils {
     public static boolean jsAjax(HttpServletRequest req){

@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/serveCenter/serveCenter.iml" filepath="$PROJECT_DIR$/serveCenter/serveCenter.iml" />
       <module fileurl="file://$PROJECT_DIR$/service/service.iml" filepath="$PROJECT_DIR$/service/service.iml" />
       <module fileurl="file://$PROJECT_DIR$/serviceCenter/serviceCenter.iml" filepath="$PROJECT_DIR$/serviceCenter/serviceCenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springSecurity/springSecurity.iml" filepath="$PROJECT_DIR$/springSecurity/springSecurity.iml" />
       <module fileurl="file://$PROJECT_DIR$/zipKinServe/zipKinServe.iml" filepath="$PROJECT_DIR$/zipKinServe/zipKinServe.iml" />
     </modules>
   </component>

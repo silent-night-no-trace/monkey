@@ -35,3 +35,7 @@ dao/src/test/
 management/src/test/
 model/src/test/
 service/src/test/
+.gitignore
+mvnw
+mvnw.cmd
+
