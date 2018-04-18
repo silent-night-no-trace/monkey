@@ -7,7 +7,7 @@ import java.util.Date;
 /**
  *
  * 在线用户
- *
+ *  @author liangz
  */
 @Data
 public class UserOnline {

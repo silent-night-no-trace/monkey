@@ -37,10 +37,12 @@ public class FileController extends BaseController{
 	@Autowired
 	private GlobalConfig globalConfig;
 
+	private  String TESTER = "test";
+
 	@Log("文件管理页面")
 	@GetMapping()
 	@RequiresPermissions("tools:fileUpload")
-	String File(){
+	String file(){
 	    return "common/file/file";
 	}
 
@@ -116,7 +118,7 @@ public class FileController extends BaseController{
     @ResponseBody
     // @RequiresPermissions("common:remove")
     public R remove(Long id, HttpServletRequest request) {
-        if ("test".equals(getUsername())) {
+        if (TESTER.equals(getUsername())) {
             return R.error(1, "演示系统不允许修改,完整体验请部署程序");
         }
         String fileName = globalConfig.getUploadPath() + fileService.get(id).getUrl().replace("/files/", "");
@@ -139,7 +141,7 @@ public class FileController extends BaseController{
     @ResponseBody
     @RequiresPermissions("common:remove")
     public R remove(@RequestParam("ids[]") Long[] ids) {
-        if ("test".equals(getUsername())) {
+        if (TESTER.equals(getUsername())) {
             return R.error(1, "演示系统不允许修改,完整体验请部署程序");
         }
         fileService.batchRemove(ids);
@@ -150,7 +152,7 @@ public class FileController extends BaseController{
     @ResponseBody
     @PostMapping("/upload")
     R upload(@RequestParam("file") MultipartFile file, HttpServletRequest request) {
-        if ("test".equals(getUsername())) {
+        if (TESTER.equals(getUsername())) {
             return R.error(1, "演示系统不允许修改,完整体验请部署程序");
         }
         String fileName = file.getOriginalFilename();

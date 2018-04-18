@@ -30,7 +30,7 @@ import java.util.*;
  * @author liangz
  * @date  2018/03/13 11:50
  */
-@Transactional
+@Transactional(rollbackFor = Exception.class)
 @Service
 public class UserServiceImpl implements UserService {
 	@Autowired
@@ -45,6 +45,8 @@ public class UserServiceImpl implements UserService {
 
 	@Autowired
 	private GlobalConfig globalConfig;
+
+	private String ADMIN = "admin";
 
 
 	@Override
@@ -68,7 +70,7 @@ public class UserServiceImpl implements UserService {
 		return userMapper.count(map);
 	}
 
-	@Transactional
+	@Transactional(rollbackFor = Exception.class)
 	@Override
 	public int save(User user) {
 		int count = userMapper.save(user);
@@ -149,7 +151,7 @@ public class UserServiceImpl implements UserService {
 	@Override
 	public int adminResetPwd(UserVO userVO) throws Exception {
 		User user =get(userVO.getUser().getId());
-		if("admin".equals(user.getUsername())){
+		if(ADMIN.equals(user.getUsername())){
 			throw new Exception("超级管理员的账号不允许直接重置！");
 		}
 		//前端提交用户信息  将提交的密码 存储到数据库  MD5
@@ -159,9 +161,9 @@ public class UserServiceImpl implements UserService {
 
 	}
 
-	@Transactional
+	@Transactional(rollbackFor = Exception.class)
 	@Override
-	public int batchremove(Long[] userIds) {
+	public int batchRemove(Long[] userIds) {
 		int count = userMapper.batchRemove(userIds);
 		userRoleMapper.batchRemoveByUserId(userIds);
 		return count;
@@ -240,7 +242,7 @@ public class UserServiceImpl implements UserService {
 		    System.out.println("e:;"+e.getMessage());
 			throw  new Exception("图片裁剪错误！！");
 		}
-		Map<String, Object> result = new HashMap<>();
+		Map<String, Object> result = new HashMap<>(2);
 		if(sysFileService.save(sysFile)>0){
             User user = userMapper.get(userId);
             //根据url获取 file  使用id

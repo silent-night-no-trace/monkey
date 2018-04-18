@@ -14,7 +14,7 @@ public class UserVO {
     /**
      * 更新用户信息
      */
-    private User user = new User();
+    private User user;
     /**
      * 用户密码
      */

@@ -8,6 +8,10 @@ import org.springframework.context.annotation.Configuration;
 
 import java.util.Map;
 
+/**
+ * xss 过滤 拦截
+ * @author liangz
+ */
 @Configuration
 public class XssConfig{
 

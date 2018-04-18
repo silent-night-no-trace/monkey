@@ -1,4 +1,4 @@
-package com.google.style.model.Generator;
+package com.google.style.model.generator;
 
 /**
  * 代码生成模块

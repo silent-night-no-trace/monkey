@@ -1,10 +1,6 @@
 package com.google.style.utils;
 
 
-
-
-
-
 import com.google.style.model.Tree;
 
 import java.util.ArrayList;
@@ -12,6 +8,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ *  build tree 工具类
+ *  @author liangz
+ */
 public class BuildTree {
 
 	public static <T> Tree<T> build(List<Tree<T>> nodes) {

@@ -1,6 +1,6 @@
 package com.google.style.utils;
 
-/* author：zss
+/** @author：zss
  * 日期：2017年3月31日
  * 功能：根据文件名称判断类型
  * 接受参数类型：String 

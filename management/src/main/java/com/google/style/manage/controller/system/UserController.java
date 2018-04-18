@@ -46,6 +46,8 @@ public class UserController extends BaseController {
 	@Autowired
 	DictService dictService;
 
+	private String TESTER = "test";
+
 	@RequiresPermissions("sys:user:user")
 	@GetMapping("")
 	String user(Model model) {
@@ -149,7 +151,7 @@ public class UserController extends BaseController {
 		if (Global.DEMO_ACCOUNT.equals(getUsername())) {
 			return R.error(1, "演示系统不允许修改,完整体验请部署程序");
 		}
-		int r = userService.batchremove(userIds);
+		int r = userService.batchRemove(userIds);
 		if (r > 0) {
 			return R.ok();
 		}
@@ -230,7 +232,7 @@ public class UserController extends BaseController {
 	@ResponseBody
 	@PostMapping("/uploadImg")
 	R uploadImg(@RequestParam("avatar_file") MultipartFile file, String avatar_data, HttpServletRequest request) {
-		if ("test".equals(getUsername())) {
+		if (TESTER.equals(getUsername())) {
 			return R.error(1, "演示系统不允许修改,完整体验请部署程序");
 		}
 		Map<String, Object> result = null;

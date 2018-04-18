@@ -13,6 +13,11 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface AdminRoleMapper {
 
+	/**
+	 * 根据 用户id 获取 用户角色
+	 * @param userId userId
+	 * @return AdminRoleDO
+	 */
 	@Select("SELECT\n" +
 			"\tar.id,\n" +
 			"\tar. NAME,\n" +

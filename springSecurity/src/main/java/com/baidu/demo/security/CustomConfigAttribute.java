@@ -4,6 +4,10 @@ import org.springframework.security.access.ConfigAttribute;
 
 import javax.servlet.http.HttpServletRequest;
 
+/**
+ * d 自定义 ConfigAttribute
+ * @author liangz
+ */
 public class CustomConfigAttribute implements ConfigAttribute {
 
     private final HttpServletRequest httpServletRequest;

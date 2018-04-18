@@ -39,7 +39,4 @@ public class TestController {
 		return loginName+" ,welcome to  here";
 	}
 
-	@Test
-	public void test(){
-	}
 }

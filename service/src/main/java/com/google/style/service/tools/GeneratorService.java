@@ -11,7 +11,16 @@ import java.util.Map;
  * 
  */
 public interface GeneratorService {
+	/**
+	 * list
+	 * @return  List<Map<String, Object>>
+	 */
 	List<Map<String, Object>> list();
 
+	/**
+	 * 代码生成
+	 * @param tableNames tableNames
+	 * @return byte[]
+	 */
 	byte[] generatorCode(String[] tableNames);
 }

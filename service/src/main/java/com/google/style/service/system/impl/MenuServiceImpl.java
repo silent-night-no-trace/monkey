@@ -83,15 +83,15 @@ public class MenuServiceImpl implements MenuService {
 
 	@Override
 	public Menu get(Long id) {
-		Menu Menu = menuMapper.get(id);
-		return Menu;
+		Menu menu = menuMapper.get(id);
+		return menu;
 	}
 
 	@Override
 	public Tree<Menu> getTree() {
 		List<Tree<Menu>> trees = new ArrayList<Tree<Menu>>();
-		List<Menu> Menus = menuMapper.list(new HashMap<>(16));
-		for (Menu sysMenu : Menus) {
+		List<Menu> menus = menuMapper.list(new HashMap<>(16));
+		for (Menu sysMenu : menus) {
 			Tree<Menu> tree = new Tree<Menu>();
 			tree.setId(sysMenu.getId().toString());
 			tree.setParentId(sysMenu.getParentId().toString());
@@ -106,7 +106,7 @@ public class MenuServiceImpl implements MenuService {
 	@Override
 	public Tree<Menu> getTree(Long id) {
 		// 根据roleId查询权限
-		List<Menu> menus = menuMapper.list(new HashMap<String, Object>(16));
+		List<Menu> menus = menuMapper.list(new HashMap<>(16));
 		List<Long> menuIds = roleMenuMapper.listMenuIdByRoleId(id);
 		List<Long> temp = menuIds;
 		for (Menu menu : menus) {
@@ -115,8 +115,8 @@ public class MenuServiceImpl implements MenuService {
 			}
 		}
 		List<Tree<Menu>> trees = new ArrayList<Tree<Menu>>();
-		List<Menu> Menus = menuMapper.list(new HashMap<String, Object>(16));
-		for (Menu sysMenu : Menus) {
+		List<Menu> menus1 = menuMapper.list(new HashMap<>(16));
+		for (Menu sysMenu : menus1) {
 			Tree<Menu> tree = new Tree<Menu>();
 			tree.setId(sysMenu.getId().toString());
 			tree.setParentId(sysMenu.getParentId().toString());
@@ -151,8 +151,8 @@ public class MenuServiceImpl implements MenuService {
 	@Override
 	public List<Tree<Menu>> listMenuTree(Long id) {
 		List<Tree<Menu>> trees = new ArrayList<>();
-		List<MenuVo> Menus = menuMapper.listMenuByUserId(id);
-		for (MenuVo mv : Menus) {
+		List<MenuVo> menus = menuMapper.listMenuByUserId(id);
+		for (MenuVo mv : menus) {
 		    System.out.println("mv ===="+mv.toString());
 			Tree<Menu> tree = new Tree<>();
 			tree.setId(mv.getId().toString());

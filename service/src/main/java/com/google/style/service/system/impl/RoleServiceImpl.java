@@ -50,18 +50,18 @@ public class RoleServiceImpl implements RoleService {
     public List<Role> list(Long userId) {
         List<Long> rolesIds = userRoleMapper.listRoleId(userId);
         List<Role> roles = roleMapper.list(new HashMap<>(16));
-        for (Role Role : roles) {
-            Role.setRoleSign("false");
+        for (Role role : roles) {
+            role.setRoleSign("false");
             for (Long roleId : rolesIds) {
-                if (Objects.equals(Role.getId(), roleId)) {
-                    Role.setRoleSign("true");
+                if (Objects.equals(role.getId(), roleId)) {
+                    role.setRoleSign("true");
                     break;
                 }
             }
         }
         return roles;
     }
-    @Transactional
+    @Transactional(rollbackFor = Exception.class)
     @Override
     public int save(Role role) {
         int count = roleMapper.save(role);
@@ -83,7 +83,7 @@ public class RoleServiceImpl implements RoleService {
         return count;
     }
 
-    @Transactional
+    @Transactional(rollbackFor = Exception.class)
     @Override
     public int remove(Long id) {
         int count = roleMapper.remove(id);
@@ -93,8 +93,8 @@ public class RoleServiceImpl implements RoleService {
 
     @Override
     public Role get(Long id) {
-        Role Role = roleMapper.get(id);
-        return Role;
+        Role role = roleMapper.get(id);
+        return role;
     }
 
     @Override
@@ -119,7 +119,7 @@ public class RoleServiceImpl implements RoleService {
     }
 
     @Override
-    public int batchremove(Long[] ids) {
+    public int batchRemove(Long[] ids) {
         int r = roleMapper.batchRemove(ids);
         return r;
     }

@@ -17,6 +17,11 @@ import java.util.Map;
 @Repository
 public interface RoleMenuMapper {
 
+	/**
+	 * get
+	 * @param id id
+	 * @return roleMenu
+	 */
     @Select("SELECT id ,role_id ,menu_id FROM sys_role_menu WHERE id = #{id}")
 	RoleMenu get(Long id);
 

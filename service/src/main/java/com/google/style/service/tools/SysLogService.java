@@ -14,17 +14,53 @@ import java.util.Map;
  */
 public interface SysLogService {
 
+	/**
+	 * get
+	 * @param id id
+ 	 * @return SysLog
+	 */
 	SysLog get(Long id);
-	
+
+	/**
+	 * list
+	 * @param map map
+	 * @return list
+	 */
 	List<SysLog> list(Map<String, Object> map);
-	
+
+	/**
+	 * count
+	 * @param map map
+	 * @return int
+	 */
 	int count(Map<String, Object> map);
-	
+
+	/**
+	 * save
+	 * @param sysLog sysLog
+	 * @return int
+	 */
 	int save(SysLog sysLog);
-	
+
+	/**
+	 * update sysLog
+	 * @param sysLog sysLog
+	 * @return int
+	 */
 	int update(SysLog sysLog);
-	
+
+
+	/**
+	 * remove
+	 * @param id id
+	 * @return int
+	 */
 	int remove(Long id);
-	
+
+	/**
+	 * batch remove
+	 * @param ids  ids
+	 * @return int
+	 */
 	int batchRemove(Long[] ids);
 }

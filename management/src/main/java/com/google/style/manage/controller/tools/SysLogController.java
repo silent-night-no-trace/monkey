@@ -31,7 +31,7 @@ public class SysLogController {
 	
 	@GetMapping()
 	@RequiresPermissions("tools:log")
-	String Log(){
+	String log(){
 	    return "common/log/log";
 	}
 

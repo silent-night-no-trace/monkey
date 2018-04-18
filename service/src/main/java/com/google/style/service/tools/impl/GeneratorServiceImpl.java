@@ -13,7 +13,10 @@ import java.util.List;
 import java.util.Map;
 import java.util.zip.ZipOutputStream;
 
-
+/**
+ * 生成
+ * @author liangz
+ */
 @Service
 public class GeneratorServiceImpl implements GeneratorService {
 	@Autowired

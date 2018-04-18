@@ -3,8 +3,8 @@ package com.google.style.utils;
 
 
 
-import com.google.style.model.Generator.Column;
-import com.google.style.model.Generator.Table;
+import com.google.style.model.generator.Column;
+import com.google.style.model.generator.Table;
 import org.apache.commons.configuration.Configuration;
 import org.apache.commons.configuration.ConfigurationException;
 import org.apache.commons.configuration.PropertiesConfiguration;
@@ -24,6 +24,7 @@ import java.util.zip.ZipOutputStream;
 
 /**
  * 代码生成器   工具类
+ * @author  ssz
  */
 @SuppressWarnings("AlibabaRemoveCommentedCode")
 public class GenUtils {
@@ -177,7 +178,6 @@ public class GenUtils {
      */
     public static String getFileName(String template, String classname, String className, String packageName) {
         String packagePath = "main" + File.separator + "java" + File.separator;
-        //String modulesname=config.getString("packageName");
         if (StringUtils.isNotBlank(packageName)) {
             packagePath += packageName.replace(".", File.separator) + File.separator;
         }

@@ -11,7 +11,13 @@ import lombok.Getter;
 @Getter
 public enum CodeEnum {
 
+    /**
+     *请求成功标识
+     */
     SUCCESS("0","请求成功"),
+    /**
+     * 系统异常
+     */
     SYS_EXCEPTION("9001", "系统异常");
 
 

@@ -10,7 +10,7 @@ import java.util.Date;
 
 /**
  * 时间计算工具类
-
+ * @author liangz
  */
 public class TimeUtils {
 	
@@ -187,7 +187,8 @@ public class TimeUtils {
      */
     public TimeUtils addTime(TimeUtils time) {
     	TimeUtils result = new TimeUtils();
-        int up = 0;     // 进位标志
+		// 进位标志
+        int up = 0;
         for (int i = 0; i < fields.length; i++) {
             int sum = fields[i] + time.fields[i] + up;
             up = sum / (maxFields[i] + 1);
@@ -203,7 +204,8 @@ public class TimeUtils {
      */
     public TimeUtils subtractTime(TimeUtils time) {
     	TimeUtils result = new TimeUtils();
-        int down = 0;       // 退位标志
+		// 退位标志
+        int down = 0;
         for (int i = 0, k = fields.length - 1; i < k; i++) {
             int difference = fields[i] + down;
             if (difference >= time.fields[i]) {
@@ -299,20 +301,25 @@ public class TimeUtils {
         return sb.append(fields[field]);
     }
 
+    @Override
     public int hashCode() {
-        final int PRIME = 31;
+        final int prime = 31;
         int result = 1;
-        result = PRIME * result + Arrays.hashCode(fields);
+        result = prime * result + Arrays.hashCode(fields);
         return result;
     }
 
-    public boolean equals(Object obj) {
-        if (this == obj)
+	@Override
+	public boolean equals(Object obj) {
+        if (this == obj){
             return true;
-        if (obj == null)
+        }
+        if (obj == null){
             return false;
-        if (getClass() != obj.getClass())
+        }
+        if (getClass() != obj.getClass()){
             return false;
+        }
         final TimeUtils other = (TimeUtils) obj;
         if (!Arrays.equals(fields, other.fields)) {
             return false;

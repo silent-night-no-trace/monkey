@@ -14,11 +14,28 @@ import java.util.List;
  **/
 
 public interface SessionService {
+    /**
+     * list
+     * @return list
+     */
     List<UserOnline> list();
 
+    /**
+     * 获取在线用户
+     * @return
+     */
     List<User> listOnlineUser();
 
+    /**
+     * session list
+     * @return collection
+     */
     Collection<Session> sessionList();
 
+    /**
+     * 强制登出
+     * @param sessionId sessionId
+     * @return boolean
+     */
     boolean forceLogout(String sessionId);
 }

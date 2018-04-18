@@ -30,6 +30,7 @@ public class RedisCacheCfg extends CachingConfigurerSupport {
      * 配置redis缓存管理对象
      * @return
      */
+    @Override
     @Bean(name = "cacheManager")
     public CacheManager cacheManager() {
         log.info("------------初始化CacheManager--------------");
@@ -42,6 +43,7 @@ public class RedisCacheCfg extends CachingConfigurerSupport {
      * 此方法将会根据类名+方法名+所有参数的值生成唯一的一个key,即使@Cacheable中的value属性一样，key也会不一样。
      * @return
      */
+    @Override
     @Bean
     public KeyGenerator keyGenerator() {
         return (target, method, params) -> {

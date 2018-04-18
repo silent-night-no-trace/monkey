@@ -121,7 +121,7 @@ public class DeptController extends BaseController {
 		if (Global.DEMO_ACCOUNT.equals(getUsername())) {
 			return R.error(1, "演示系统不允许修改,完整体验请部署程序");
 		}
-		Map<String, Object> map = new HashMap<String, Object>();
+		Map<String, Object> map = new HashMap<>(2);
 		map.put("parentId", deptId);
 		if(sysDeptService.count(map)>0) {
 			return R.error(1, "包含下级部门,不允许修改");

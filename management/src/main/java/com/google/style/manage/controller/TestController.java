@@ -73,10 +73,5 @@ public class TestController {
 		log.info("总计2："+(endTime-startTime)+" 修改后值为："+value);
 	}
 
-	@Test
-	public void test(){
-		setValue("aaaa");
-		setValue2("bbbb");
-	}
 
 }

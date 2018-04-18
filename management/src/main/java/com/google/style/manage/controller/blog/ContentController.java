@@ -34,7 +34,7 @@ public class ContentController extends BaseController{
 	
 	@GetMapping()
 	@RequiresPermissions("blog:content:content")
-	String Content(){
+	String content(){
 	    return "blog/content/content";
 	}
 

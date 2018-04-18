@@ -24,11 +24,21 @@ public interface DeptMapper {
 	@Select("SELECT * FROM sys_dept WHERE id = #{id}")
 	Dept get(Long id);
 
+	/**
+	 * 获取list
+	 * @param map map
+	 * @return List<Dept>
+	 */
 	@SelectProvider(type =DeptProvider.class ,method = "getDeptList" )
 	@Results({@Result(column = "id",property = "id"),@Result(column = "parent_id",property = "parentId"),@Result(column = "name",property = "name"),
 			@Result(column = "order_num",property = "orderNum"),@Result(column = "del_flag",property = "delFlag"),})
 	List<Dept> list(Map<String, Object> map);
 
+	/**
+	 * count
+	 * @param map map
+	 * @return int
+ 	 */
     @SelectProvider(type =DeptProvider.class ,method = "getCount" )
     int count(Map<String, Object> map);
 
@@ -41,6 +51,11 @@ public interface DeptMapper {
     @Options(useGeneratedKeys = true, keyProperty = "id")
 	int save(Dept dept);
 
+	/**
+	 * uodate
+	 * @param dept dept
+	 * @return int
+	 */
 	@Update("<script>"+
 			"update sys_dept " +
 			"<set>" +
@@ -54,25 +69,32 @@ public interface DeptMapper {
 	int update(Dept dept);
 
 	/**
-	 * 删除 主键删除
+	 * delete
+	 * @param deptId deptId
+	 * @return int
 	 */
 	@Delete("DELETE from sys_dept where id = #{deptId}\n")
 	int delete(Long deptId);
 
+	/**
+	 * delete
+	 * @param deptIds deptIds
+	 * @return int
+	 */
 	@Delete("DELETE from sys_dept where id in {deptIds}")
 	int batchRemove(Long[] deptIds);
 
     /**
      * 获取部门
-     * @return
+     * @return Long[]
      */
 	@Select("select DISTINCT parent_id from sys_dept\n")
 	Long[] listParentDept();
 
     /**
      * 获取部门对应用户数量
-     * @param deptId
-     * @return
+     * @param deptId deptId
+     * @return int
      */
 	@Select("\t\tselect count(*) from sys_user where dept_id = #{deptId}\n")
 	int getDeptUserNumber(Long deptId);

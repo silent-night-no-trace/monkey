@@ -11,29 +11,96 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+/**
+ * 用户 service
+ * @author liangz
+ */
 @Service
 public interface UserService {
+	/**
+	 * 用户获取
+	 * @param id id
+ 	 * @return user
+	 */
 	User get(Long id);
 
+	/**
+	 * list
+	 * @param map map
+ 	 * @return list<User>
+	 */
 	List<User> list(Map<String, Object> map);
 
+	/**
+	 * count
+	 * @param map map
+	 * @return int
+	 */
 	int count(Map<String, Object> map);
 
+	/**
+	 * save
+	 * @param user user
+	 * @return int
+	 */
 	int save(User user);
 
+	/**
+	 * update
+	 * @param user user
+	 * @return int
+	 */
 	int update(User user);
 
+	/**
+	 * remove
+	 * @param userId userId
+	 * @return int
+	 */
 	int remove(Long userId);
 
-	int batchremove(Long[] userIds);
+	/**
+	 * batchRemove
+	 * @param userIds userIds
+	 * @return int
+	 */
+	int batchRemove(Long[] userIds);
 
+	/**
+	 * exit
+	 * @param params params
+	 * @return boolean
+	 */
 	boolean exit(Map<String, Object> params);
 
+	/**
+	 * list roles
+	 * @param userId userId
+	 * @return set<String>
+	 */
 	Set<String> listRoles(Long userId);
 
+	/**
+	 * reset password
+	 * @param userVO userVo
+	 * @param user user
+	 * @return int
+	 * @throws Exception
+	 */
 	int resetPwd(UserVO userVO, User user) throws Exception;
+
+	/**
+	 * admin reset password
+	 * @param userVO userVO
+	 * @return int
+	 * @throws Exception
+	 */
 	int adminResetPwd(UserVO userVO) throws Exception;
 
+	/**
+	 * 获取 tree 菜单
+	 * @return Tree<Dept>
+	 */
 	Tree<Dept> getTree();
 
 	/**

@@ -36,11 +36,11 @@ public class SysLogAspect {
      * 系统日志切点
      */
     @Pointcut("@annotation(com.google.style.manage.annotation.Log)")
-    public void SysLogPointCut(){
+    public void sysLogPointCut(){
 
     }
 
-    @Around("SysLogPointCut()")
+    @Around("sysLogPointCut()")
     public Object doAround(ProceedingJoinPoint pjp) throws Throwable {
         Long startTime = System.currentTimeMillis();
         Object object = pjp.proceed();

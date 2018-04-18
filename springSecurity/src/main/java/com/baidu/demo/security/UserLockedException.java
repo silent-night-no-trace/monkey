@@ -2,6 +2,10 @@ package com.baidu.demo.security;
 
 import org.springframework.security.core.AuthenticationException;
 
+/**
+ * 用户锁定 异常
+ * @author liangz
+ */
 public class UserLockedException extends AuthenticationException {
 
     /**

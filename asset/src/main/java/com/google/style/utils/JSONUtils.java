@@ -7,6 +7,10 @@ import org.apache.commons.lang.StringUtils;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * json 工具类
+ * @author liangz
+ */
 public class JSONUtils {
 	/**
 	 * Bean对象转JSON

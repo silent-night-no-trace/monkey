@@ -1,5 +1,9 @@
 package com.google.style.utils;
 
+/**
+ * 异常 工具类
+ * @author liangz
+ */
 public class ExceptionUtils {
     public static String getExceptionAllinformation(Exception ex) {
         String sOut = "";

@@ -6,7 +6,10 @@ package com.google.style.blog.controller;
  */
 public interface BoringService {
 
-
+    /**
+     *  计算 心水
+     * @param monthSalary monthSalary
+     */
     void makeTimeSpeedFaster(double monthSalary);
 
 }

@@ -16,6 +16,11 @@ import java.time.Period;
 @Repository
 public interface AdminUserMapper {
 
+	/**
+	 * 根据 username 获取 用户 详细信息
+	 * @param username username
+	 * @return  AdminUser
+	 */
 	@SelectProvider(type = SelectSQL.class, method = "getAdminUserByLoginName")
 	@Results({
 			@Result(property = "id", column = "id"),
@@ -31,6 +36,11 @@ public interface AdminUserMapper {
 	AdminUser getByLoginName(String username);
 
 
+	/**
+	 *更新用户 时间
+	 * @param userId userId
+ 	 * @return int
+	 */
 	@Update("update admin_user set last_visit_time = UNIX_TIMESTAMP() * 1000 where id = #{userId}")
 	int updateLastVisitTime(long userId);
 

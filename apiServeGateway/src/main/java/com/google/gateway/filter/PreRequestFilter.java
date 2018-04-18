@@ -41,6 +41,11 @@ public class PreRequestFilter extends ZuulFilter {
 
 	private final String dot = ",";
 
+	private final Long ONE_DAY = (long) 24*60*60*1000;
+
+	private final  String SEND_MESSAGE_REQUEST = "/vcode";
+
+	private final  String AUTH_REQUEST = "/auth/";
 	/**
 	 *	pre：可以在请求被路由之前调用
 	 *	route：在路由请求时候被调用
@@ -119,7 +124,7 @@ public class PreRequestFilter extends ZuulFilter {
     		 * 1.安全请求检测
     		 * 不包含/auth/的请求为安全请求
     		 */
-    		if(!requestPath.contains("/auth/")) {
+    		if(!requestPath.contains(AUTH_REQUEST)) {
     			log.info("安全请求"+requestPath);
     			return null;
     		}
@@ -167,7 +172,7 @@ public class PreRequestFilter extends ZuulFilter {
     		}
 			//Token有效期验证
     		Long loginTime = tokenOk.getLoginTime();
-    		if(loginTime == null || (now - loginTime) >= appProperties.getTokenDay()*1L*24*60*60*1000) {
+    		if(loginTime == null || (now - loginTime) >= appProperties.getTokenDay()*ONE_DAY) {
         		log.error("token已失效，请重新登录");
     			unloginResponseBody(ctx);
         		return null;
@@ -245,7 +250,7 @@ public class PreRequestFilter extends ZuulFilter {
 	 * @param requestPath
 	 */
 	private void caseVcode(String requestPath, String ip) {
-		if(!requestPath.endsWith("/vcode")) {
+		if(!requestPath.endsWith(SEND_MESSAGE_REQUEST)) {
 			return;
 		}
 		//IP地址6小时内发送短信超过10次，自动加入IP黑名单
