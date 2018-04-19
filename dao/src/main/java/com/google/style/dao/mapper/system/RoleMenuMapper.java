@@ -58,6 +58,13 @@ public interface RoleMenuMapper {
 
     @Delete("DELETE FROM sys_role_menu WHERE role_id = #{role_id}")
     int removeByRoleId(Long roleId);
-	
+
+    @Insert("<script>"+
+			"INSERT INTO sys_role_menu (id ,role_id ,menu_id)"+
+			"VALUES"+
+			"<foreach collection='list' item='roleMenuList' index='index' separator=','>" +
+			"(#{roleMenuList.id},#{roleMenuList.roleId},#{roleMenuList.menuId})" +
+			"</foreach>"+
+			"</script>")
 	int batchSave(List<RoleMenu> list);
 }

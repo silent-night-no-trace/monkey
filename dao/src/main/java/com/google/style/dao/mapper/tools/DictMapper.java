@@ -23,11 +23,11 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface DictMapper {
 
-	@Select("select `id`, `name`, `value`, `type`, `description`, `sort`, `parent_id`, `create_by`, `create_date`, `update_by`, `update_date`, `remarks`, `del_flag` from sys_dict where id = #{id}")
+	@Select("select `id`, `name`, `value`, `type`, `description`, `sort`, `parent_id` as 'parentId', `create_by` as 'createBy', `create_date` as 'createDate', `update_by` as 'updateBy', `update_date` as 'updateDate', `remarks`, `del_flag` as 'delFlag' from sys_dict where id = #{id}")
     Dict get(Long id);
 	
 	@Select("<script>" +
-	"select * from sys_dict " + 
+	"select `id`, `name`, `value`, `type`, `description`, `sort`, `parent_id` as 'parentId', `create_by` as 'createBy', `create_date` as 'createDate', `update_by` as 'updateBy', `update_date` as 'updateDate', `remarks`, `del_flag` as 'delFlag' from sys_dict " +
 			"<where>" + 
 		  		  "<if test=\"id != null and id != ''\">"+ "and id = #{id} " + "</if>" + 
 		  		  "<if test=\"name != null and name != ''\">"+ "and name = #{name} " + "</if>" + 

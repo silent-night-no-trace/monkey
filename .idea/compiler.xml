@@ -18,17 +18,12 @@
         <module name="management" />
         <module name="model" />
         <module name="redis" />
+        <module name="serveCenter" />
         <module name="service" />
         <module name="servicecenter" />
         <module name="serviceCenter" />
         <module name="springSecurity" />
         <module name="zipKinServe" />
-      </profile>
-      <profile name="Annotation profile for serveCenter" enabled="true">
-        <sourceOutputDir name="../serviceCenter/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../serviceCenter/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="serveCenter" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

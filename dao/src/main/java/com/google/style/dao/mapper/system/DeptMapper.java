@@ -21,7 +21,7 @@ public interface DeptMapper {
 	 * @param id id
 	 * @return
 	 */
-	@Select("SELECT * FROM sys_dept WHERE id = #{id}")
+	@Select("SELECT id ,parent_id as parentId ,name ,order_num as orderNum ,del_flag as delFlag FROM sys_dept WHERE id = #{id}")
 	Dept get(Long id);
 
 	/**
@@ -31,7 +31,7 @@ public interface DeptMapper {
 	 */
 	@SelectProvider(type =DeptProvider.class ,method = "getDeptList" )
 	@Results({@Result(column = "id",property = "id"),@Result(column = "parent_id",property = "parentId"),@Result(column = "name",property = "name"),
-			@Result(column = "order_num",property = "orderNum"),@Result(column = "del_flag",property = "delFlag"),})
+			@Result(column = "order_num",property = "orderNum"),@Result(column = "del_flag",property = "delFlag")})
 	List<Dept> list(Map<String, Object> map);
 
 	/**

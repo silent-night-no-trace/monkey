@@ -5,11 +5,7 @@ import java.util.List;
 import java.util.Map;
 
 import com.google.style.model.blog.Content;
-import org.apache.ibatis.annotations.Delete;
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Select;
-import org.apache.ibatis.annotations.Update;
+import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -23,11 +19,11 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface ContentMapper {
 
-	@Select("select `id`, `title`, `slug`, `created`, `modified`, `content`, `type`, `tags`, `categories`, `hits`, `comments_num`, `allow_comment`, `allow_ping`, `allow_feed`, `status`, `author`, `create_time`, `update_time` from blog_content where id = #{id}")
+	@Select("select `id`, `title`, `slug`, `created`, `modified`, `content`, `type`, `tags`, `categories`, `hits`, `comments_num` as 'commentsNum', `allow_comment` as 'allowComment', `allow_ping` as 'allowPing', `allow_feed` as 'allowFeed', `status`, `author`, `create_time` as 'createTime', `update_time` as 'updateTime' from blog_content where id = #{id}")
 	Content get(Long id);
 	
 	@Select("<script>" +
-	"select * from blog_content " + 
+	"select `id`, `title`, `slug`, `created`, `modified`, `content`, `type`, `tags`, `categories`, `hits`, `comments_num` as 'commentsNum', `allow_comment` as 'allowComment', `allow_ping` as 'allowPing', `allow_feed` as 'allowFeed', `status`, `author`, `create_time` as 'createTime', `update_time` as 'updateTime' from blog_content " +
 			"<where>" + 
 		  		  "<if test=\"id != null and id != ''\">"+ "and id = #{id} " + "</if>" + 
 		  		  "<if test=\"title != null and title != ''\">"+ "and title = #{title} " + "</if>" + 

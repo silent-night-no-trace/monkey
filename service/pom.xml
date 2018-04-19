@@ -37,11 +37,11 @@
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 
-		<dependency>
+		<!--<dependency>
 			<groupId>com.google</groupId>
 			<artifactId>redis</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+		</dependency>-->
 	</dependencies>
 
 </project>

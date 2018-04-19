@@ -23,14 +23,14 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface FileMapper {
 
-	@Select("select `id`, `type`, `url`, `create_date` from sys_file where id = #{id}")
+	@Select("select `id`, `type`, `url`, `create_date` as 'createDate' from sys_file where id = #{id}")
 	FileDO get(Long id);
 
-	@Select("SELECT * FROM sys_file WHERE url = #{url}")
+	@Select("SELECT `id`, `type`, `url`, `create_date` as 'createDate' FROM sys_file WHERE url = #{url}")
 	FileDO findFileByUrl(String url);
 
 	@Select("<script>" +
-	"select * from sys_file " + 
+	"select `id`, `type`, `url`, `create_date` as 'createDate' from sys_file " +
 			"<where>" + 
 		  		  "<if test=\"id != null and id != ''\">"+ "and id = #{id} " + "</if>" + 
 		  		  "<if test=\"type != null and type != ''\">"+ "and type = #{type} " + "</if>" + 

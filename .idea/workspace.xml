@@ -4,18 +4,43 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1135a5e7-c2ce-44ea-8581-13cc783b822a" name="Default" comment="project 完善">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="1135a5e7-c2ce-44ea-8581-13cc783b822a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_8_10.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_8_10.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_1_4_2_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_eureka_server_1_4_2_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_1_4_2_RELEASE.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/HttpServletUtils.java" afterPath="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/HttpServletUtils.java" />
-      <change beforePath="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/JSONUtils.java" afterPath="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/JSONUtils.java" />
+      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/blog/ContentMapper.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/blog/ContentMapper.java" />
+      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/DeptMapper.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/DeptMapper.java" />
+      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/MenuMapper.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/MenuMapper.java" />
+      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/RoleMapper.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/RoleMapper.java" />
+      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/RoleMenuMapper.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/RoleMenuMapper.java" />
+      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/UserRoleMapper.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/UserRoleMapper.java" />
+      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/tools/DictMapper.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/tools/DictMapper.java" />
+      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/tools/FileMapper.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/tools/FileMapper.java" />
+      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/tools/SysLogMapper.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/tools/SysLogMapper.java" />
       <change beforePath="$PROJECT_DIR$/logs/out_App.log" afterPath="$PROJECT_DIR$/logs/out_App.log" />
-      <change beforePath="$PROJECT_DIR$/management/.gitignore" afterPath="$PROJECT_DIR$/management/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/config/ShiroConfig.java" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/config/ShiroConfig.java" />
+      <change beforePath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/aspect/ServiceAspect.java" afterPath="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/aspect/ServiceAspect.java" />
+      <change beforePath="$PROJECT_DIR$/management/src/main/resources/application-dev.yml" afterPath="$PROJECT_DIR$/management/src/main/resources/application-dev.yml" />
+      <change beforePath="$PROJECT_DIR$/management/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/management/src/main/resources/bootstrap.yml" />
+      <change beforePath="$PROJECT_DIR$/serveCenter/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/serveCenter/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/serveCenter/src/main/java/com/google/ServiceCenterApplication.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/serveCenter/src/main/resources/application-dev.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/serveCenter/src/main/resources/application-peer1.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/serveCenter/src/main/resources/application-peer2.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/serveCenter/src/main/resources/application-peer3.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/serveCenter/src/main/resources/application-prod.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/serveCenter/src/main/resources/application.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/serveCenter/src/main/resources/banner.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/serveCenter/src/main/resources/start-all.bat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/serveCenter/src/test/java/com/google/ServicecenterApplicationTests.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/service/pom.xml" afterPath="$PROJECT_DIR$/service/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/RoleServiceImpl.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/RoleServiceImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,6 +62,7 @@
     <ignored path="$PROJECT_DIR$/apiServeGateway/target/" />
     <ignored path="$PROJECT_DIR$/demo/target/" />
     <ignored path="$PROJECT_DIR$/springSecurity/target/" />
+    <ignored path="$PROJECT_DIR$/serveCenter/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -108,21 +134,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/management/.gitignore">
+      <file leaf-file-name="DeptMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/DeptMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="410">
+              <caret line="41" column="67" lean-forward="true" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/configServer/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="31" column="10" lean-forward="false" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+            <state relative-caret-position="396">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoleMapper.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/RoleMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoleProvider.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/provider/system/RoleProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="33" column="48" lean-forward="false" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoleMenuProvider.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/provider/system/RoleMenuProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MenuProvider.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/provider/system/MenuProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeptProvider.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/provider/system/DeptProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -143,10 +219,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>resetPwd</find>
-      <find>arg0</find>
-      <find>INSERT INTO sys_role</find>
-      <find>menuTree</find>
       <find>remove</find>
       <find>gmt_create</find>
       <find>uploadImg</find>
@@ -173,6 +245,10 @@
       <find>cacheManager</find>
       <find>Unexpected '用'</find>
       <find>用</find>
+      <find>BDException</find>
+      <find>local</find>
+      <find>RoleMenuMapper</find>
+      <find>serviceCenter</find>
     </findStrings>
     <replaceStrings>
       <replace>Role</replace>
@@ -194,57 +270,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/redis/src/main/java/com/google/style/redis/util/RedisUtil.java" />
-        <option value="$PROJECT_DIR$/service/pom.xml" />
-        <option value="$PROJECT_DIR$/redis/pom.xml" />
-        <option value="$PROJECT_DIR$/management/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/redis/src/main/java/com/google/style/redis/annotation/ServiceCache.java" />
-        <option value="$PROJECT_DIR$/redis/src/main/java/com/google/style/redis/aspect/ServiceAspect.java" />
-        <option value="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/HttpUtil.java" />
-        <option value="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/management/pom.xml" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/google/style/aspect/ServiceAspect.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/google/style/annotation/ServiceCache.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/google/style/service/first/GoodsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/redis/src/main/java/com/google/style/redis/config/RedisCfg.java" />
-        <option value="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/aspect/ServiceAspect.java" />
-        <option value="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/config/ShiroConfig.java" />
-        <option value="$PROJECT_DIR$/demo/pom.xml" />
-        <option value="$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/controller.java" />
-        <option value="$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/dao/AdminRoleApiMapper.java" />
-        <option value="$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/constant/Constants.java" />
-        <option value="$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/security/CustomGrantedAuthority.java" />
-        <option value="$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/model/AdminRole.java" />
-        <option value="$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/security/RestAuthenticationEntryPoint.java" />
-        <option value="$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/security/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/security/CustomSecurityMetadataSource.java" />
-        <option value="$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/controller/AdminAuthController.java" />
-        <option value="$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/security/CustomFilterSecurityInterceptor.java" />
-        <option value="$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/model/dto/AdminRoleMenuDto.java" />
-        <option value="$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/model/AdminRoleMenu.java" />
-        <option value="$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/model/AdminUserRoleDO.java" />
-        <option value="$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/dao/AdminRoleMenuMapper.java" />
-        <option value="$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/dao/AdminMenuMapper.java" />
-        <option value="$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/dao/AdminRoleMapper.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/MenuService.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/google/style/service/tools/impl/GeneratorServiceImpl.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/com/google/style/model/system/UserOnline.java" />
+        <option value="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/BuildTree.java" />
+        <option value="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/Query.java" />
         <option value="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/JSONUtils.java" />
+        <option value="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/ExceptionUtils.java" />
         <option value="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/HttpServletUtils.java" />
-        <option value="$PROJECT_DIR$/springSecurity/pom.xml" />
-        <option value="$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/dao/AdminUserMapper.java" />
-        <option value="$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/model/vo/AdminMenuVO.java" />
-        <option value="$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/model/AdminMenuDO.java" />
-        <option value="$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/model/AdminRoleDO.java" />
+        <option value="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/MD5Utils.java" />
+        <option value="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/FileType.java" />
+        <option value="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/FileUtil.java" />
+        <option value="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/SpringContextHolder.java" />
+        <option value="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/HttpContextUtils.java" />
+        <option value="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/GenUtils.java" />
+        <option value="$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/DemoApplication.java" />
+        <option value="$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/security/UserLockedException.java" />
         <option value="$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/model/AdminRoleMenuDO.java" />
-        <option value="$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/util/MD5Util.java" />
-        <option value="$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/model/AdminUser.java" />
-        <option value="$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/model/dto/AdminUserDto.java" />
-        <option value="$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/security/CustomAccessDecisionManager.java" />
-        <option value="$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/security/CustomAccessDeniedHandler.java" />
-        <option value="$PROJECT_DIR$/springSecurity/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/security/CustomUserDetailService.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/05407265-af83-464d-84ad-c209c64782b0/console.sql" />
-        <option value="$PROJECT_DIR$/management/.gitignore" />
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/security/CustomConfigAttribute.java" />
+        <option value="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/config/ShiroConfig.java" />
+        <option value="$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/TimeUtils.java" />
+        <option value="$PROJECT_DIR$/apiServeGateway/src/main/java/com/google/gateway/util/AesUtils.java" />
+        <option value="$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/model/AdminMenuDO.java" />
+        <option value="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/UserController.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/RoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/configServer/src/main/java/com/google/style/ConfigServerApplication.java" />
+        <option value="$PROJECT_DIR$/service/pom.xml" />
+        <option value="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/aspect/ServiceAspect.java" />
+        <option value="$PROJECT_DIR$/management/src/main/resources/config/ehcache.xml" />
+        <option value="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/RoleMenuMapper.java" />
+        <option value="$PROJECT_DIR$/management/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/management/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/serveCenter/src/main/java/com/google/ServiceCenterApplication.java" />
+        <option value="$PROJECT_DIR$/serveCenter/src/test/java/com/google/ServicecenterApplicationTests.java" />
+        <option value="$PROJECT_DIR$/serveCenter/src/test/java/com/google/ServecenterApplicationTests.java" />
+        <option value="$PROJECT_DIR$/serveCenter/src/main/java/com/google/style/ServecenterApplication.java" />
+        <option value="$PROJECT_DIR$/serveCenter/src/main/java/com/google/style/ServeCenterApplication.java" />
+        <option value="$PROJECT_DIR$/serveCenter/pom.xml" />
+        <option value="$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/RoleController.java" />
+        <option value="$PROJECT_DIR$/management/src/main/resources/templates/system/dept/edit.html" />
+        <option value="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/blog/ContentMapper.java" />
+        <option value="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/DeptMapper.java" />
+        <option value="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/MenuMapper.java" />
+        <option value="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/RoleMapper.java" />
+        <option value="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/UserRoleMapper.java" />
+        <option value="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/tools/DictMapper.java" />
+        <option value="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/tools/FileMapper.java" />
+        <option value="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/tools/SysLogMapper.java" />
+        <option value="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/provider/system/RoleProvider.java" />
+        <option value="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/provider/system/RoleMenuProvider.java" />
+        <option value="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/provider/system/MenuProvider.java" />
+        <option value="$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/provider/system/DeptProvider.java" />
       </list>
     </option>
   </component>
@@ -273,6 +349,9 @@
       <expand />
       <select />
     </treeState>
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
@@ -321,7 +400,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -329,13 +409,27 @@
               <item name="monkey" type="b2602c69:ProjectViewProjectNode" />
               <item name="monkey" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="monkey" type="b2602c69:ProjectViewProjectNode" />
+              <item name="monkey" type="462c0819:PsiDirectoryNode" />
+              <item name="configServer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="monkey" type="b2602c69:ProjectViewProjectNode" />
+              <item name="monkey" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="monkey" type="b2602c69:ProjectViewProjectNode" />
+              <item name="monkey" type="462c0819:PsiDirectoryNode" />
+              <item name="serveCenter" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -350,22 +444,25 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.36213234" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/redis/redis.iml&#10;true" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/serveCenter/.gitignore&#10;true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\develope\gitRepository\monkey2\management\src\main\resources" />
-      <recent name="D:\develope\workpace\idea\monkey\blog\src\main\resources\templates\page" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="templates" />
       <recent name="com.google.client" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\develope\gitRepository\monkey\serveCenter\src\main\resources" />
+      <recent name="D:\develope\gitRepository\monkey\springSecurity" />
+      <recent name="D:\develope\gitRepository\monkey\springSecurity\SQL" />
+      <recent name="D:\develope\gitRepository\monkey\springSecurity\src\main\java\com\baidu\demo\model\vo" />
+      <recent name="D:\develope\gitRepository\monkey\springSecurity\src\main\java\com\baidu\demo\model" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.baidu.demo.security" />
@@ -374,12 +471,9 @@
       <recent name="com.google.style.manage.annotation" />
       <recent name="com.google.style.manage.aspect" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\develope\gitRepository\monkey\springSecurity" />
-      <recent name="D:\develope\gitRepository\monkey\springSecurity\SQL" />
-      <recent name="D:\develope\gitRepository\monkey\springSecurity\src\main\java\com\baidu\demo\model\vo" />
-      <recent name="D:\develope\gitRepository\monkey\springSecurity\src\main\java\com\baidu\demo\model" />
-      <recent name="D:\develope\gitRepository\monkey\springSecurity\src\main\java\com\baidu\demo\model\dto" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\develope\gitRepository\monkey2\management\src\main\resources" />
+      <recent name="D:\develope\workpace\idea\monkey\blog\src\main\resources\templates\page" />
     </key>
   </component>
   <component name="RubyModuleManagerSettings">
@@ -407,51 +501,13 @@
     </option>
     <option name="contentProportion" value="0.25191677" />
   </component>
-  <component name="RunManager" selected="Application.DemoApplication">
+  <component name="RunManager" selected="Application.ManageApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="DemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.baidu.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.baidu.demo.DemoApplication" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="springSecurity" />
-      <envs />
-    </configuration>
-    <configuration name="MD5Util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.baidu.demo.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.baidu.demo.util.MD5Util" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="springSecurity" />
-      <envs />
     </configuration>
     <configuration name="ManageApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -472,14 +528,14 @@
       <module name="management" />
       <envs />
     </configuration>
-    <configuration name="ServiceCenterApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ServeCenterApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.google.*" />
+          <option name="PATTERN" value="com.google.style.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.google.ServiceCenterApplication" />
+      <option name="MAIN_CLASS_NAME" value="com.google.style.ServeCenterApplication" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -504,31 +560,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-    </configuration>
-    <configuration name="TestController.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.baidu.demo.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="springSecurity" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.baidu.demo.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.baidu.demo.controller.TestController" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -575,28 +606,10 @@
       <module name="appService" />
       <envs />
     </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.google.style.Application" />
-      <module name="dao" />
-      <envs />
-    </configuration>
-    <configuration name="AssetApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.google.style.AssetApplication" />
-      <module name="asset" />
-      <envs />
-    </configuration>
     <configuration name="BlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.google.style.BlogApplication" />
       <module name="blog" />
-      <envs />
-    </configuration>
-    <configuration name="CommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.google.style.CommonApplication" />
-      <module name="common" />
       <envs />
     </configuration>
     <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -617,22 +630,16 @@
       <module name="management" />
       <envs />
     </configuration>
-    <configuration name="ModelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.google.style.ModelApplication" />
-      <module name="model" />
-      <envs />
-    </configuration>
     <configuration name="RedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.google.style.redis.RedisApplication" />
       <module name="redis" />
       <envs />
     </configuration>
-    <configuration name="ServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="ServeCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.google.style.ServiceApplication" />
-      <module name="service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.google.style.ServeCenterApplication" />
+      <module name="serveCenter" />
       <envs />
     </configuration>
     <configuration name="ZipKinServeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -674,32 +681,22 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="17">
-      <item index="0" class="java.lang.String" itemvalue="Spring Boot.Application" />
-      <item index="1" class="java.lang.String" itemvalue="Spring Boot.ModelApplication" />
-      <item index="2" class="java.lang.String" itemvalue="Spring Boot.ServiceApplication" />
-      <item index="3" class="java.lang.String" itemvalue="Spring Boot.CommonApplication" />
-      <item index="4" class="java.lang.String" itemvalue="Spring Boot.AppServiceApplication" />
-      <item index="5" class="java.lang.String" itemvalue="Spring Boot.BlogApplication" />
-      <item index="6" class="java.lang.String" itemvalue="Spring Boot.ZipKinServeApplication" />
-      <item index="7" class="java.lang.String" itemvalue="Spring Boot.ConfigServerApplication" />
-      <item index="8" class="java.lang.String" itemvalue="Spring Boot.AssetApplication (1)" />
+    <list size="10">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.AppServiceApplication" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.BlogApplication" />
+      <item index="2" class="java.lang.String" itemvalue="Spring Boot.ZipKinServeApplication" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.ConfigServerApplication" />
+      <item index="4" class="java.lang.String" itemvalue="Spring Boot.RedisApplication" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.DemoApplication" />
+      <item index="6" class="java.lang.String" itemvalue="Application.ServeCenterApplication" />
+      <item index="7" class="java.lang.String" itemvalue="Application.ManageApplication" />
+      <item index="8" class="java.lang.String" itemvalue="Spring Boot.ServeCenterApplication" />
       <item index="9" class="java.lang.String" itemvalue="Spring Boot.ManageApplication" />
-      <item index="10" class="java.lang.String" itemvalue="Spring Boot.RedisApplication" />
-      <item index="11" class="java.lang.String" itemvalue="Spring Boot.DemoApplication" />
-      <item index="12" class="java.lang.String" itemvalue="Application.ManageApplication" />
-      <item index="13" class="java.lang.String" itemvalue="Application.ServiceCenterApplication" />
-      <item index="14" class="java.lang.String" itemvalue="Application.DemoApplication" />
-      <item index="15" class="java.lang.String" itemvalue="Application.MD5Util" />
-      <item index="16" class="java.lang.String" itemvalue="JUnit.TestController.test (1)" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.DemoApplication" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MD5Util" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestController.test (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ManageApplication" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ServiceCenterApplication" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.ManageApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ServeCenterApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -796,7 +793,9 @@
       <workItem from="1523865849016" duration="8035000" />
       <workItem from="1523935162195" duration="6565000" />
       <workItem from="1523946937550" duration="384000" />
-      <workItem from="1523947349077" duration="5956000" />
+      <workItem from="1523947349077" duration="27157000" />
+      <workItem from="1524103745746" duration="9294000" />
+      <workItem from="1524119921067" duration="4900000" />
     </task>
     <task id="LOCAL-00001" summary="项目目录整理 add gitignore文件">
       <created>1518330593978</created>
@@ -1043,7 +1042,21 @@
       <option name="project" value="LOCAL" />
       <updated>1523516224521</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="add spring security 框架 model">
+      <created>1523960671675</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1523960671675</updated>
+    </task>
+    <task id="LOCAL-00037" summary="项目完善">
+      <created>1524042930955</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1524042930955</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1079,7 +1092,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="721529000" />
+    <option name="totallyTimeSpent" value="756924000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1107,15 +1120,14 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33760187" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3273165" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3273165" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.40046567" sideWeight="0.49785408" order="15" side_tool="false" content_ui="tabs" x="27" y="655" width="1890" height="328" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.40046567" sideWeight="0.49785408" order="17" side_tool="false" content_ui="tabs" x="27" y="655" width="1890" height="328" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34458673" sideWeight="0.48175967" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5203725" sideWeight="0.49570817" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21420257" sideWeight="0.48175967" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282887" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282887" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40395808" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2805794" sideWeight="0.49462366" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28809014" sideWeight="0.49462366" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1126,8 +1138,10 @@
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945284" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40395808" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282887" sideWeight="0.4914163" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1165,7 +1179,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="注释规范性修改" />
     <MESSAGE value="add project describe" />
     <MESSAGE value="add redis micro serve" />
     <MESSAGE value="add redis micro serve  and update .gitnore 文件" />
@@ -1186,11 +1199,12 @@
     <MESSAGE value="系统日志功能添加 注解aop实现" />
     <MESSAGE value="dao model 修改update方法  &#10;重写 model 层 toString方法&#10;service add 相应操作方法&#10;manage add 上线用户管理" />
     <MESSAGE value="项目bug修复 功能完善" />
-    <MESSAGE value="项目完善" />
     <MESSAGE value="bug修复" />
     <MESSAGE value="project fix" />
     <MESSAGE value="project 完善" />
-    <option name="LAST_COMMIT_MESSAGE" value="project 完善" />
+    <MESSAGE value="add spring security 框架 model" />
+    <MESSAGE value="项目完善" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目完善" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1202,64 +1216,10 @@
           <option name="timeStamp" value="106" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/RoleController.java</url>
-          <line>113</line>
-          <properties />
-          <option name="timeStamp" value="116" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/RoleController.java</url>
-          <line>110</line>
-          <properties />
-          <option name="timeStamp" value="117" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/blog/ContentController.java</url>
           <line>121</line>
           <properties />
           <option name="timeStamp" value="151" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/security/CustomUserDetailService.java</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="174" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/security/CustomSecurityMetadataSource.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="222" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/security/CustomSecurityMetadataSource.java</url>
-          <line>23</line>
-          <properties />
-          <option name="timeStamp" value="223" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/security/CustomUserDetailService.java</url>
-          <line>36</line>
-          <properties />
-          <option name="timeStamp" value="224" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/security/CustomFilterSecurityInterceptor.java</url>
-          <line>45</line>
-          <properties />
-          <option name="timeStamp" value="225" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/security/CustomFilterSecurityInterceptor.java</url>
-          <line>36</line>
-          <properties />
-          <option name="timeStamp" value="226" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/security/CustomAccessDecisionManager.java</url>
-          <line>44</line>
-          <properties />
-          <option name="timeStamp" value="231" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/controller/TestController.java</url>
@@ -1267,8 +1227,20 @@
           <properties />
           <option name="timeStamp" value="232" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/MenuController.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/RoleController.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="234" />
+      <option name="time" value="238" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1277,327 +1249,95 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/LoginController.java">
+    <entry file="file://$PROJECT_DIR$/management/src/main/resources/application-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="57" column="51" lean-forward="false" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
+        <state relative-caret-position="660">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/MenuService.java">
+    <entry file="file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/MenuController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/MenuServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="151" column="28" lean-forward="false" selection-start-line="151" selection-start-column="28" selection-end-line="151" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/model/dto/AdminRoleDto.java" />
-    <entry file="file://$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/model/dto/AdminRoleAuthDto.java" />
-    <entry file="file://$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/model/dto/AdminRoleMenuDto.java" />
-    <entry file="file://$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/model/vo/AdminRoleVo.java" />
-    <entry file="file://$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/model/vo/AdminApiVo.java" />
-    <entry file="file://$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/model/AdminRole.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/annotations/Result.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/HttpServletUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/asset/src/main/java/com/google/style/utils/JSONUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/aspect/SysLogAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar!/org/springframework/core/NestedRuntimeException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.4.RELEASE/spring-security-core-5.0.4.RELEASE.jar!/org/springframework/security/authentication/ProviderManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="74" column="21" lean-forward="false" selection-start-line="71" selection-start-column="40" selection-end-line="74" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springSecurity/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+        <state relative-caret-position="22">
+          <caret line="66" column="32" lean-forward="false" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/dao/AdminRoleMapper.java">
+    <entry file="file://$PROJECT_DIR$/blog/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/impl/DeptServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="80" column="9" lean-forward="true" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/google/style/service/system/DeptService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="31" column="15" lean-forward="false" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/DeptController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="158" column="33" lean-forward="false" selection-start-line="158" selection-start-column="33" selection-end-line="158" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/dao/AdminUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="30" column="9" lean-forward="false" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/util/MD5Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding>
-            <element signature="e#1082#1083#0" expanded="false" />
-            <element signature="e#1134#1135#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.4.RELEASE/spring-security-core-5.0.4.RELEASE.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/model/AdminRoleDO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/model/AdminUserRoleDO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.31/fastjson-1.2.31-sources.jar!/com/alibaba/fastjson/util/FieldInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="468" column="0" lean-forward="true" selection-start-line="468" selection-start-column="0" selection-end-line="468" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/model/vo/AdminMenuVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state relative-caret-position="-333">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/model/AdminRoleMenuDO.java">
+    <entry file="file://$PROJECT_DIR$/management/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/model/AdminMenuDO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/dao/AdminMenuMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/model/dto/AdminUserDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-558">
-          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/security/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="50" column="53" lean-forward="false" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="53" />
+        <state relative-caret-position="-1433">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.4.RELEASE/spring-security-core-5.0.4.RELEASE.jar!/org/springframework/security/access/AccessDeniedException.class">
+    <entry file="file://$PROJECT_DIR$/appService/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/security/CustomAccessDeniedHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springSecurity/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="30" column="67" lean-forward="false" selection-start-line="30" selection-start-column="67" selection-end-line="30" selection-end-column="67" />
+        <state relative-caret-position="-399">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/DemoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding>
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/security/CustomFilterSecurityInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="e#1963#1964#0" expanded="true" />
-            <element signature="e#2004#2005#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/security/CustomSecurityMetadataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/05407265-af83-464d-84ad-c209c64782b0/console.sql">
+    <entry file="file://$PROJECT_DIR$/blog/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="26" lean-forward="true" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springSecurity/SQL/springseurity.sql">
+    <entry file="file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/utils/ShiroUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="198">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configServer/src/main/java/com/google/style/ConfigServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
-            <marker date="1523960153404" expanded="true" signature="0:289" ph="/* Navicat M... " />
-            <marker date="1523960153404" expanded="true" signature="416:449" ph="DROP TABLE I... " />
-            <marker date="1523960153404" expanded="true" signature="451:947" ph="CREATE TABLE... admin_menu" />
-            <marker date="1523960153404" expanded="true" signature="1039:1112" ph="INSERT INTO `admin_menu`... " />
-            <marker date="1523960153404" expanded="true" signature="1114:1187" ph="INSERT INTO `admin_menu`... " />
-            <marker date="1523960153404" expanded="true" signature="1189:1262" ph="INSERT INTO `admin_menu`... " />
-            <marker date="1523960153404" expanded="true" signature="1264:1337" ph="INSERT INTO `admin_menu`... " />
-            <marker date="1523960153404" expanded="true" signature="1339:1429" ph="INSERT INTO `admin_menu`... " />
-            <marker date="1523960153404" expanded="true" signature="1530:1563" ph="DROP TABLE I... " />
-            <marker date="1523960153404" expanded="true" signature="1565:1863" ph="CREATE TABLE... admin_role" />
-            <marker date="1523960153404" expanded="true" signature="1955:2010" ph="INSERT INTO `admin_role`... " />
-            <marker date="1523960153404" expanded="true" signature="2012:2066" ph="INSERT INTO `admin_role`... " />
-            <marker date="1523960153404" expanded="true" signature="2068:2122" ph="INSERT INTO `admin_role`... " />
-            <marker date="1523960153404" expanded="true" signature="2228:2266" ph="DROP TABLE I... " />
-            <marker date="1523960153404" expanded="true" signature="2268:2443" ph="CREATE TABLE... admin_role_menu" />
-            <marker date="1523960153404" expanded="true" signature="2540:2592" ph="INSERT INTO `admin_role_menu`... " />
-            <marker date="1523960153404" expanded="true" signature="2594:2646" ph="INSERT INTO `admin_role_menu`... " />
-            <marker date="1523960153404" expanded="true" signature="2648:2700" ph="INSERT INTO `admin_role_menu`... " />
-            <marker date="1523960153404" expanded="true" signature="2702:2754" ph="INSERT INTO `admin_role_menu`... " />
-            <marker date="1523960153404" expanded="true" signature="2756:2808" ph="INSERT INTO `admin_role_menu`... " />
-            <marker date="1523960153404" expanded="true" signature="2909:2942" ph="DROP TABLE I... " />
-            <marker date="1523960153404" expanded="true" signature="2944:3440" ph="CREATE TABLE... admin_user" />
-            <marker date="1523960153404" expanded="true" signature="3532:3636" ph="INSERT INTO `admin_user`... " />
-            <marker date="1523960153404" expanded="true" signature="3742:3780" ph="DROP TABLE I... " />
-            <marker date="1523960153404" expanded="true" signature="3782:4036" ph="CREATE TABLE... admin_user_role" />
-            <marker date="1523960153404" expanded="true" signature="4133:4185" ph="INSERT INTO `admin_user_role`... " />
-            <marker date="1523960153404" expanded="true" signature="4187:4239" ph="INSERT INTO `admin_user_role`... " />
+            <element signature="e#573#574#0" expanded="false" />
+            <element signature="e#638#639#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/controller/TestController.java">
+    <entry file="file://$PROJECT_DIR$/serveCenter/src/test/java/com/google/ServeCenterApplicationTests.java" />
+    <entry file="file://$PROJECT_DIR$/serveCenter/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="165">
+          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-660">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/security/CustomUserDetailService.java">
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/1.5.9.RELEASE/spring-boot-starter-parent-1.5.9.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/model/AdminUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="843">
-          <caret line="106" column="32" lean-forward="false" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/dao.iml">
+    <entry file="file://$PROJECT_DIR$/serveCenter/src/main/java/com/google/ServeCenterApplication.java" />
+    <entry file="file://$PROJECT_DIR$/serveCenter/src/main/resources/application-peer1.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1605,60 +1345,292 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springSecurity/.gitignore">
+    <entry file="file://$PROJECT_DIR$/serveCenter/src/main/resources/application-peer3.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="154">
+          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dao/.gitignore">
+    <entry file="file://$PROJECT_DIR$/serveCenter/src/main/resources/application-dev.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        <state relative-caret-position="176">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redis/.gitignore">
+    <entry file="file://$PROJECT_DIR$/serveCenter/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/.gitignore">
+    <entry file="file://$PROJECT_DIR$/serveCenter/src/main/java/com/google/style/ServeCenterApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springSecurity/src/main/java/com/baidu/demo/security/CustomAccessDecisionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="54" column="12" lean-forward="false" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
+        <state relative-caret-position="396">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#394#395#0" expanded="false" />
+            <element signature="e#458#459#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/management/.gitignore">
+    <entry file="file://$PROJECT_DIR$/serveCenter/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="308">
+          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/management/src/main/java/com/google/style/ManageApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="31" column="10" lean-forward="false" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+        <state relative-caret-position="330">
+          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+          <folding>
+            <element signature="e#681#682#0" expanded="false" />
+            <element signature="e#740#741#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serveCenter/src/main/resources/start-all.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serveCenter/src/main/resources/application-peer2.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/google/style/model/system/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/src/main/resources/static/js/appjs/system/sysDept/add.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/src/main/resources/static/js/appjs/system/sysDept/edit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/src/main/resources/static/js/appjs/system/sysDept/sysDept.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/src/main/resources/templates/system/dept/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/DeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="102" column="29" lean-forward="false" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/src/main/resources/static/js/appjs/sys/role/edit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/src/main/resources/templates/system/role/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="52" lean-forward="true" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/src/main/java/com/google/style/manage/controller/system/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/RoleMenuMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/google/style/model/blog/Content.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="50" column="28" lean-forward="true" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.2/mybatis-3.4.2.jar!/org/apache/ibatis/annotations/Results.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.2/mybatis-3.4.2.jar!/org/apache/ibatis/annotations/Result.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/blog/ContentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-404">
+          <caret line="60" column="21" lean-forward="true" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/MenuMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/UserRoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="34" column="41" lean-forward="false" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/tools/DictMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="62" column="10" lean-forward="false" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/tools/GeneratorMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/tools/SysLogMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="97" column="26" lean-forward="true" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/tools/FileMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-455">
+          <caret line="37" column="20" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/provider/system/UserProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="31" column="61" lean-forward="true" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/provider/system/RoleProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="33" column="48" lean-forward="false" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/provider/system/DeptProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/DeptMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="41" column="67" lean-forward="true" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configServer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/provider/system/MenuProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/provider/system/RoleMenuProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/google/style/dao/mapper/system/RoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1672,7 +1644,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.36213234" />
               </list>
             </option>
           </splitter-proportions>
@@ -1680,11 +1652,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring</last-edited>
+          <last-edited>Detection</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.36213234" />
               </list>
             </option>
           </splitter-proportions>
@@ -1695,7 +1667,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.33180147" />
               </list>
             </option>
           </splitter-proportions>
@@ -1707,7 +1679,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.33180147" />
               </list>
             </option>
           </splitter-proportions>
@@ -1715,11 +1687,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>serveCenter</last-edited>
+          <last-edited>appService</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.36213234" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1739,11 +1712,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.1.11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.36213234" />
               </list>
             </option>
           </splitter-proportions>

@@ -68,22 +68,22 @@ public class RoleServiceImpl implements RoleService {
         List<Long> menuIds = role.getMenuIds();
         Long roleId = role.getId();
         List<RoleMenu> rms = new ArrayList<>();
-        for (Long menuId : menuIds) {
-            RoleMenu rmDo = new RoleMenu();
-            rmDo.setRoleId(roleId);
-            rmDo.setMenuId(menuId);
-            rms.add(rmDo);
-        }
-        roleMenuMapper.removeByRoleId(roleId);
-        if (rms.size() > 0) {
-            for (RoleMenu roleMenu:rms) {
-                roleMenuMapper.save(roleMenu);
-            }
-        }
+		addRoleMenuByRoleId(menuIds, roleId, rms);
+		roleMenuMapper.removeByRoleId(roleId);
+        roleMenuMapper.batchSave(rms);
         return count;
     }
 
-    @Transactional(rollbackFor = Exception.class)
+	private void addRoleMenuByRoleId(List<Long> menuIds, Long roleId, List<RoleMenu> rms) {
+		for (Long menuId : menuIds) {
+			RoleMenu rmDo = new RoleMenu();
+			rmDo.setRoleId(roleId);
+			rmDo.setMenuId(menuId);
+			rms.add(rmDo);
+		}
+	}
+
+	@Transactional(rollbackFor = Exception.class)
     @Override
     public int remove(Long id) {
         int count = roleMapper.remove(id);
@@ -100,21 +100,13 @@ public class RoleServiceImpl implements RoleService {
     @Override
     public int update(Role role) {
         int r = roleMapper.update(role);
+        //获取角色 对应的 menuIds
         List<Long> menuIds = role.getMenuIds();
         Long roleId = role.getId();
         roleMenuMapper.removeByRoleId(roleId);
         List<RoleMenu> rms = new ArrayList<>();
-        for (Long menuId : menuIds) {
-            RoleMenu rmDo = new RoleMenu();
-            rmDo.setRoleId(roleId);
-            rmDo.setMenuId(menuId);
-            rms.add(rmDo);
-        }
-        if (rms.size() > 0) {
-            for (RoleMenu roleMenu:rms) {
-                roleMenuMapper.save(roleMenu);
-            }
-        }
+		addRoleMenuByRoleId(menuIds, roleId, rms);
+		roleMenuMapper.batchSave(rms);
         return r;
     }
 

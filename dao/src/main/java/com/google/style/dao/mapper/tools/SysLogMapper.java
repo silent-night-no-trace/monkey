@@ -23,11 +23,11 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface SysLogMapper {
 
-	@Select("select `id`, `user_id`, `username`, `operation`, `time`, `method`, `params`, `ip`, `create_time` from sys_log where id = #{id}")
+	@Select("select `id`, `user_id` as 'userId', `username`, `operation`, `time`, `method`, `params`, `ip`, `create_time` as 'createTime' from sys_log where id = #{id}")
     SysLog get(Long id);
 	
 	@Select("<script>" +
-	"select * from sys_log " + 
+	"select `id`, `user_id` as 'userId', `username`, `operation`, `time`, `method`, `params`, `ip`, `create_time` as 'createTime' from sys_log " +
 			"<where>" + 
 		  		  "<if test=\"id != null and id != ''\">"+ "and id = #{id} " + "</if>" + 
 		  		  "<if test=\"userId != null and userId != ''\">"+ "and user_id = #{userId} " + "</if>" + 

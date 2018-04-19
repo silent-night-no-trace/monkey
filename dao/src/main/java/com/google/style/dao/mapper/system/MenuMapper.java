@@ -18,7 +18,7 @@ import java.util.Map;
 @Repository
 public interface MenuMapper {
 
-	@Select("SELECT * FROM sys_menu WHERE id = #{menuId}")
+	@Select("SELECT id ,parent_id as parentId, parent_ids as parentIds ,name, url,permission,type,icon , order_num as orderNum ,create_time as createTime ,update_time as updateTime FROM sys_menu WHERE id = #{menuId}")
 	Menu get(Long menuId);
 
 	@SelectProvider(type = MenuProvider.class ,method = "getMenuList")

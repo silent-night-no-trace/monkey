@@ -18,7 +18,7 @@ import java.util.Map;
 @Repository
 public interface UserRoleMapper {
 
-	@Select("SELECT * FROM sys_user_role WHERE id = #{id}")
+	@Select("SELECT id ,user_id as userId , role_id as roleId FROM sys_user_role WHERE id = #{id}")
 	UserRole get(Long id);
 
     @SelectProvider(type = UserRoleProvider.class, method = "getUserRoleList")

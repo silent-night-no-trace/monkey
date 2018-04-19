@@ -43,6 +43,13 @@ server:
   tomcat:
     max-http-post-size: 0
 
+#mybatis
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true  #表字段自动映射-驼峰
+    useColumnLabel: true
+
+
 #服务注册与发现
 eureka:
   client:
