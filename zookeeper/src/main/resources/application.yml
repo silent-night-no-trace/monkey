@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: zkServer
+  cloud:
+    zookeeper:
+      enabled: true   # true:开启zookeeper外部化配置, false:读取本地配置;
+      connect-string: 47.98.172.225:2181,47.98.172.225:2182,47.98.172.225:2183
+      config:
+        root: /config/dev
+        enabled: true
+        watcher:
+          enabled: true
+#server port 配置
+server:
+  port: 5010

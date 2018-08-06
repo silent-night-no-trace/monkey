@@ -1,0 +1,62 @@
+#============== kafka ===================
+#kafka:
+#  consumer:
+#    zookeeper:
+#      connect: 47.98.172.225:2181,47.98.172.225:2182,47.98.172.225:2183
+#    servers: 47.98.172.225:9091,47.98.172.225:9092,47.98.172.225:9093
+#    enable:
+#      auto:
+#        commit: true
+#        interval: 100
+#        offset:
+#          reset: latest
+#    session:
+#      timeout: 6000
+#    topic:
+#    group:
+#      id:
+#    concurrency: 10
+#  producer:
+#    servers:
+#    retries: 0
+#    batch:
+#      size: 4096
+#    linger: 1
+#    buffer:
+#      memory: 40960
+
+
+spring:
+  kafka:
+    bootstrap-servers: http://47.98.172.225:9091,http://47.98.172.225:9092,http://47.98.172.225:9093
+    producer:
+      retries: 0
+      batch-size: 16384
+      buffer-memory: 33554432
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+    consumer:
+      group-id: ideal-consumer-group
+      auto-offset-reset: earliest
+      enable-auto-commit: true
+      auto-commit-interval: 20000
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+
+server:
+  port: 5001
+#kafka.consumer.zookeeper.connect=10.93.21.21:2181
+#kafka.consumer.servers=10.93.21.21:9092
+#kafka.consumer.enable.auto.commit=true
+#kafka.consumer.session.timeout=6000
+#kafka.consumer.auto.commit.interval=100
+#kafka.consumer.auto.offset.reset=latest
+#kafka.consumer.topic=test
+#kafka.consumer.group.id=test
+#kafka.consumer.concurrency=10
+#
+#kafka.producer.servers=10.93.21.21:9092
+#kafka.producer.retries=0
+#kafka.producer.batch.size=4096
+#kafka.producer.linger=1
+#kafka.producer.buffer.memory=40960
