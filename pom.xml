@@ -29,12 +29,15 @@
 
 	<modules>
 		<module>common</module>
-		<module>dao</module>
-		<module>model</module>
+        <module>asset</module>
+        <module>model</module>
+        <module>dao</module>
 		<module>service</module>
-		<module>asset</module>
         <module>redis</module>
-		<module>appService</module>
+        <module>kafka</module>
+        <module>zookeeper</module>
+        <module>apiServeGateway</module>
+        <module>appService</module>
         <module>blog</module>
         <module>management</module>
 	</modules>
