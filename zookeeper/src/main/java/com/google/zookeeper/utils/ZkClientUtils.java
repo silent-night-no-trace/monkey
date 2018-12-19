@@ -20,7 +20,7 @@ public class ZkClientUtils {
 	/**
 	 * zk集群的地址
 	 */
-	private String ZKServers = "47.98.172.225:2181,47.98.172.225:2182,47.98.172.225:2183";
+	private String connectString = "47.98.172.225:2181,47.98.172.225:2182,47.98.172.225:2183";
 
 	private ZkClient zkClient;
 
@@ -29,7 +29,7 @@ public class ZkClientUtils {
 		 * 创建会话
 		 * new SerializableSerializer() 创建序列化器接口，用来序列化和反序列化
 		 */
-		zkClient = new ZkClient(ZKServers, 10000, 10000, new SerializableSerializer());
+		zkClient = new ZkClient(connectString, 10000, 10000, new SerializableSerializer());
 		log.info("-----------------创建连接成功-----------------");
 	}
 
@@ -52,7 +52,7 @@ public class ZkClientUtils {
 	/**
 	 * 获取节点数据
 	 *
-	 * @param nodeName
+	 * @param nodeName nodeName
 	 */
 	public Object getData(String nodeName) {
 		Stat stat = new Stat();
@@ -84,11 +84,11 @@ public class ZkClientUtils {
 			if (i > 0) {
 				//删除含有子节点的节点
 				Boolean deleteStatus = zkClient.deleteRecursive(nodeName);
-				log.info("多节点删除:" + (deleteStatus == true ? "成功" : "失败"));
+				log.info("多节点删除:" + (deleteStatus ? "成功" : "失败"));
 			} else {
 				//删除单独一个节点，返回true表示成功
 				Boolean deleteStatus = zkClient.delete(nodeName);
-				log.info("单节点删除:" + (deleteStatus == true ? "成功" : "失败"));
+				log.info("单节点删除:" + (deleteStatus ? "成功" : "失败"));
 			}
 		} else {
 			log.info("nodeName:" + nodeName + " 该节点不存在！");

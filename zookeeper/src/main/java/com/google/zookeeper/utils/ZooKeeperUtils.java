@@ -37,7 +37,7 @@ public class ZooKeeperUtils {
 	/**
 	 * zookeeper地址
 	 */
-	private static String CONNECT_ADDR = "47.98.172.225:2181,47.98.172.225:2182,47.98.172.225:2183";
+	private static final String connectString = "47.98.172.225:2181,47.98.172.225:2182,47.98.172.225:2183";
 	/**
 	 * zookeeper 实例
 	 */
@@ -48,8 +48,8 @@ public class ZooKeeperUtils {
 	 */
 	static {
 		try {
-			System.out.println("CONNECT_ADDR: " + CONNECT_ADDR);
-			zooKeeper = new ZooKeeper(CONNECT_ADDR,
+			System.out.println("connect String : " + connectString);
+			zooKeeper = new ZooKeeper(connectString,
 					SESSION_OUT_TIME, event -> {
 				//定义监听
 				KeeperState state = event.getState();
@@ -80,9 +80,7 @@ public class ZooKeeperUtils {
 		try {
 			zooKeeper.create(nodePath, StringUtils.isBlank(data) ? null : data.getBytes(),
 					Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
-		} catch (KeeperException e) {
-			e.printStackTrace();
-		} catch (InterruptedException e) {
+		} catch (KeeperException | InterruptedException e) {
 			e.printStackTrace();
 		}
 	}
@@ -97,9 +95,7 @@ public class ZooKeeperUtils {
 		try {
 			zooKeeper.setData(nodePath, data.getBytes(), -1);
 			log.info("节点[{}] 赋值{}", nodePath, data);
-		} catch (KeeperException e) {
-			e.printStackTrace();
-		} catch (InterruptedException e) {
+		} catch (KeeperException | InterruptedException e) {
 			e.printStackTrace();
 		}
 	}
@@ -114,14 +110,12 @@ public class ZooKeeperUtils {
 		Stat exists = null;
 		try {
 			exists = zooKeeper.exists(nodePath, false);
-		} catch (KeeperException e) {
-			e.printStackTrace();
-		} catch (InterruptedException e) {
+		} catch (KeeperException | InterruptedException e) {
 			e.printStackTrace();
 		} finally {
 			log.info("节点[{}] 是否存在：{}", nodePath, exists != null);
-			return exists != null;
 		}
+		return exists != null;
 	}
 
 	/**
@@ -154,9 +148,7 @@ public class ZooKeeperUtils {
 		if (nodeExists(nodePath)) {
 			try {
 				zooKeeper.delete(nodePath, -1);
-			} catch (InterruptedException e) {
-				e.printStackTrace();
-			} catch (KeeperException e) {
+			} catch (InterruptedException | KeeperException e) {
 				e.printStackTrace();
 			}
 		}
@@ -176,18 +168,15 @@ public class ZooKeeperUtils {
 		byte[] data = null;
 		try {
 			data = zooKeeper.getData(nodePath, false, null);
-		} catch (KeeperException e) {
+		} catch (KeeperException | InterruptedException e) {
 			e.printStackTrace();
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		} finally {
-			log.info("获取节点[{}] 的值{}", nodePath, data == null ? null : new String(data));
-			if (data == null) {
-				return null;
-			} else {
-				String result = new String(data);
-				return StringUtils.isNotBlank(result) ? result : null;
-			}
+		}
+		log.info("获取节点[{}] 的值{}", nodePath, data == null ? null : new String(data));
+		if (data == null) {
+			return null;
+		} else {
+			String result = new String(data);
+			return StringUtils.isNotBlank(result) ? result : null;
 		}
 	}
 
