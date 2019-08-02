@@ -1,25 +1,25 @@
 
 #config serve 配置
-spring:
-  application:
-    name: model #应用配置
-  profiles:
-    active: dev
-  cloud:
-    config:
-      discovery:
-        enabled: true
-        service-id: config-server
-      label: master
+#spring:
+#  application:
+#    name: model #应用配置
+#  profiles:
+#    active: dev
+#  cloud:
+#    config:
+#      discovery:
+#        enabled: true
+#        service-id: config-server
+#      label: master
 #eureka 服务配置
-eureka:
-  instance:
-    prefer-ip-address: true
-    lease-expiration-duration-in-seconds: 30
-    lease-renewal-interval-in-seconds: 10
-  client:
-    serviceUrl:
-      defaultZone: http://127.0.0.1:2001/eureka/
-server:
-  port: 5010
+#eureka:
+#  instance:
+#    prefer-ip-address: true
+#    lease-expiration-duration-in-seconds: 30
+#    lease-renewal-interval-in-seconds: 10
+#  client:
+#    serviceUrl:
+#      defaultZone: http://127.0.0.1:2001/eureka/
+#server:
+#  port: 5010
 

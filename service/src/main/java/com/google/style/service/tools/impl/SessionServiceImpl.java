@@ -24,16 +24,17 @@ import java.util.List;
 public class SessionServiceImpl implements SessionService {
 
 
-    private final SessionDAO sessionDAO;
+    @Autowired
+    private SessionDAO sessionDAO;
 
     /**
      * 进行构造初始化
-     * @param sessionDAO
+     * @param sessionDAO sessionDAO
      */
-    @Autowired
-    public SessionServiceImpl(SessionDAO sessionDAO) {
-        this.sessionDAO = sessionDAO;
-    }
+//    @Autowired
+//    public SessionServiceImpl(SessionDAO sessionDAO) {
+//        this.sessionDAO = sessionDAO;
+//    }
 
     @Override
     public List<UserOnline> list() {

@@ -1,4 +1,4 @@
-package com.google.style.app.controller;
+package com.google.style.controller;
 
 import com.google.style.service.first.GoodsService;
 import com.google.style.model.first.Goods;

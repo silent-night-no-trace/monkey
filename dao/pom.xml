@@ -5,7 +5,7 @@
 
 	<groupId>com.google</groupId>
 	<artifactId>dao</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<!--<packaging>jar</packaging>-->
 
 	<name>dao</name>
@@ -15,7 +15,7 @@
 	<parent>
 		<groupId>com.google</groupId>
 		<artifactId>monkey</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
 	<dependencies>
@@ -24,10 +24,11 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-config</artifactId>
 		</dependency>
+		<!--model-->
 		<dependency>
 			<groupId>com.google</groupId>
 			<artifactId>model</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>1.0.0-SNAPSHOT</version>
 		</dependency>
 		<!-- spring-boot mybatis整合 需要添加版本号 -->
 		<dependency>
@@ -44,7 +45,6 @@
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>druid</artifactId>
-			<version>1.0.23</version>
 		</dependency>
 		<!--mysql连接-->
 		<dependency>
@@ -55,7 +55,6 @@
 		<dependency>
 			<groupId>com.github.pagehelper</groupId>
 			<artifactId>pagehelper</artifactId>
-			<version>4.1.4</version>
 		</dependency>
 	</dependencies>
 

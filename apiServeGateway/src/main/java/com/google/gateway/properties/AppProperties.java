@@ -5,14 +5,20 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
  * 本应用的自定义参数
- * 
- * @author liangz
  *
+ * @author liangz
  */
 @Data
 @ConfigurationProperties(prefix = "appConfig")
 public class AppProperties {
+
+	/**
+	 * app名字
+	 */
 	private String appName;
+	/**
+	 * app 中文名
+	 */
 	private String appNameCn;
 	/**
 	 * Token加解密秘钥

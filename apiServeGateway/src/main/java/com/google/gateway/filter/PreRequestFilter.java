@@ -41,11 +41,12 @@ public class PreRequestFilter extends ZuulFilter {
 
 	private final String dot = ",";
 
-	private final Long ONE_DAY = (long) 24*60*60*1000;
+	private final Long ONE_DAY = (long) (24 * 60 * 60 * 1000);
 
 	private final  String SEND_MESSAGE_REQUEST = "/vcode";
 
 	private final  String AUTH_REQUEST = "/auth/";
+
 	/**
 	 *	pre：可以在请求被路由之前调用
 	 *	route：在路由请求时候被调用

@@ -9,7 +9,6 @@ import java.util.Date;
  * 文章内容
  * 
  * @author liangz
- * @email xx@.com
  * @date 2018-03-21 10:46:28
  */
 public class Content implements Serializable {

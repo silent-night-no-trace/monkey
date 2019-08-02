@@ -13,7 +13,11 @@ import com.google.style.model.system.UserVO;
 import com.google.style.model.tools.FileDO;
 import com.google.style.service.system.UserService;
 import com.google.style.service.tools.FileService;
-import com.google.style.utils.*;
+import com.google.style.utils.BuildTree;
+import com.google.style.utils.FileType;
+import com.google.style.utils.FileUtil;
+import com.google.style.utils.ImageUtils;
+import com.google.style.utils.MD5Utils;
 import org.apache.commons.lang.ArrayUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -23,16 +27,24 @@ import org.springframework.web.multipart.MultipartFile;
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayOutputStream;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Objects;
+import java.util.Set;
 
 /**
  * 用户相关
+ *
  * @author liangz
- * @date  2018/03/13 11:50
+ * @date 2018/03/13 11:50
  */
 @Transactional(rollbackFor = Exception.class)
 @Service
 public class UserServiceImpl implements UserService {
+
 	@Autowired
 	UserMapper userMapper;
 	@Autowired
@@ -84,12 +96,12 @@ public class UserServiceImpl implements UserService {
 			ur.setRoleId(roleId);
 			list.add(ur);
 		}
-        if (list.size() > 0) {
-            //循环插入
-            for (UserRole userRole:list) {
-                userRoleMapper.save(userRole);
-            }
-        }
+		if (list.size() > 0) {
+			//循环插入
+			for (UserRole userRole : list) {
+				userRoleMapper.save(userRole);
+			}
+		}
 		return count;
 	}
 
@@ -108,7 +120,7 @@ public class UserServiceImpl implements UserService {
 		}
 		if (list.size() > 0) {
 			//循环插入
-			for (UserRole userRole:list) {
+			for (UserRole userRole : list) {
 				userRoleMapper.save(userRole);
 			}
 		}
@@ -134,28 +146,29 @@ public class UserServiceImpl implements UserService {
 	}
 
 	@Override
-	public int resetPwd(UserVO userVO,User user) throws Exception {
-		if(Objects.equals(userVO.getUser().getId(),user.getId())){
+	public int resetPwd(UserVO userVO, User user) throws Exception {
+		if (Objects.equals(userVO.getUser().getId(), user.getId())) {
 
-			if(Objects.equals(MD5Utils.encrypt(user.getUsername(),userVO.getPwd()),user.getPassword())){
+			if (Objects.equals(MD5Utils.generatePwd(user.getUsername(), userVO.getPwd()), user.getPassword())) {
 
-                user.setPassword(MD5Utils.encrypt(user.getUsername(),userVO.getNewPwd()));
+				user.setPassword(MD5Utils.generatePwd(user.getUsername(), userVO.getNewPwd()));
 				return userMapper.update(user);
-			}else{
+			} else {
 				throw new Exception("输入的旧密码有误！");
 			}
-		}else{
+		} else {
 			throw new Exception("你修改的不是你登录的账号！");
 		}
 	}
+
 	@Override
 	public int adminResetPwd(UserVO userVO) throws Exception {
-		User user =get(userVO.getUser().getId());
-		if(ADMIN.equals(user.getUsername())){
+		User user = get(userVO.getUser().getId());
+		if (ADMIN.equals(user.getUsername())) {
 			throw new Exception("超级管理员的账号不允许直接重置！");
 		}
 		//前端提交用户信息  将提交的密码 存储到数据库  MD5
-        user.setPassword(MD5Utils.encrypt(user.getUsername(), userVO.getNewPwd()));
+		user.setPassword(MD5Utils.generatePwd(user.getUsername(), userVO.getNewPwd()));
 		return userMapper.update(user);
 
 
@@ -171,7 +184,7 @@ public class UserServiceImpl implements UserService {
 
 	@Override
 	public Tree<Dept> getTree() {
-		List<Tree<Dept> > trees = new ArrayList<Tree<Dept>>();
+		List<Tree<Dept>> trees = new ArrayList<Tree<Dept>>();
 		List<Dept> depts = deptMapper.list(new HashMap<String, Object>(16));
 		Long[] pDepts = deptMapper.listParentDept();
 		Long[] uDepts = userMapper.listAllDept();
@@ -212,26 +225,26 @@ public class UserServiceImpl implements UserService {
 		return userMapper.update(user);
 	}
 
-    @Override
-    public Map<String, Object> updatePersonalImg(MultipartFile file, String avatar_data, Long userId) throws Exception {
+	@Override
+	public Map<String, Object> updatePersonalImg(MultipartFile file, String avatar_data, Long userId) throws Exception {
 		String fileName = file.getOriginalFilename();
 		fileName = FileUtil.renameToUUID(fileName);
 		FileDO sysFile = new FileDO(FileType.fileType(fileName), "/files/" + fileName, new Date());
 		//获取图片后缀
-		String prefix = fileName.substring((fileName.lastIndexOf(".")+1));
-		String[] str=avatar_data.split(",");
+		String prefix = fileName.substring((fileName.lastIndexOf(".") + 1));
+		String[] str = avatar_data.split(",");
 		//获取截取的x坐标
-		int x = (int)Math.floor(Double.parseDouble(str[0].split(":")[1]));
+		int x = (int) Math.floor(Double.parseDouble(str[0].split(":")[1]));
 		//获取截取的y坐标
-		int y = (int)Math.floor(Double.parseDouble(str[1].split(":")[1]));
+		int y = (int) Math.floor(Double.parseDouble(str[1].split(":")[1]));
 		//获取截取的高度
-		int h = (int)Math.floor(Double.parseDouble(str[2].split(":")[1]));
+		int h = (int) Math.floor(Double.parseDouble(str[2].split(":")[1]));
 		//获取截取的宽度
-		int w = (int)Math.floor(Double.parseDouble(str[3].split(":")[1]));
+		int w = (int) Math.floor(Double.parseDouble(str[3].split(":")[1]));
 		//获取旋转的角度
 		int r = Integer.parseInt(str[4].split(":")[1].replaceAll("}", ""));
 		try {
-			BufferedImage cutImage = ImageUtils.cutImage(file,x,y,w,h,prefix);
+			BufferedImage cutImage = ImageUtils.cutImage(file, x, y, w, h, prefix);
 			BufferedImage rotateImage = ImageUtils.rotateImage(cutImage, r);
 			ByteArrayOutputStream out = new ByteArrayOutputStream();
 			boolean flag = ImageIO.write(rotateImage, prefix, out);
@@ -239,23 +252,23 @@ public class UserServiceImpl implements UserService {
 			byte[] b = out.toByteArray();
 			FileUtil.uploadFile(b, globalConfig.getUploadPath(), fileName);
 		} catch (Exception e) {
-		    System.out.println("e:;"+e.getMessage());
-			throw  new Exception("图片裁剪错误！！");
+			System.out.println("e:;" + e.getMessage());
+			throw new Exception("图片裁剪错误！！");
 		}
 		Map<String, Object> result = new HashMap<>(2);
-		if(sysFileService.save(sysFile)>0){
-            User user = userMapper.get(userId);
-            //根据url获取 file  使用id
-            FileDO fileDO = sysFileService.findFileByUrl(sysFile.getUrl());
-            if(fileDO!=null){
-                user.setPicId(fileDO.getId());
-            }
-            Integer status = userMapper.update(user);
-			if(status>0){
-				result.put("url",sysFile.getUrl());
+		if (sysFileService.save(sysFile) > 0) {
+			User user = userMapper.get(userId);
+			//根据url获取 file  使用id
+			FileDO fileDO = sysFileService.findFileByUrl(sysFile.getUrl());
+			if (fileDO != null) {
+				user.setPicId(fileDO.getId());
+			}
+			Integer status = userMapper.update(user);
+			if (status > 0) {
+				result.put("url", sysFile.getUrl());
 			}
 		}
 		return result;
-    }
+	}
 
 }

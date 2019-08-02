@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import java.security.Principal;
 import java.util.Collection;
+import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -21,29 +22,45 @@ public class ShiroUtils {
     @Autowired
     private static SessionDAO sessionDAO;
 
-    public static Subject getSubjct() {
+    public static Subject getSubject() {
 
         return SecurityUtils.getSubject();
     }
 
+    /**
+     * shiro 获取登录用户
+     * @return User
+     */
     public static User getUser() {
-        Object object = getSubjct().getPrincipal();
+        Object object = getSubject().getPrincipal();
         User user = (User) object;
         if(user!=null) {
             System.out.println("登录用户信息为:" + user.toString());
         }
         return user;
     }
+
+    /**
+     * shiro 获取登录用户ID
+     * @return Long
+     */
     public static Long getUserId() {
         return getUser().getId();
     }
+
+    /**
+     * shiro 用户登出
+     */
     public static void logout() {
-        getSubjct().logout();
+        getSubject().logout();
     }
 
     public static List<Principal> getPrinciples() {
         List<Principal> principals = null;
         Collection<Session> sessions = sessionDAO.getActiveSessions();
+        for (Session session : sessions) {
+            session.getId();
+        }
         return principals;
     }
 }

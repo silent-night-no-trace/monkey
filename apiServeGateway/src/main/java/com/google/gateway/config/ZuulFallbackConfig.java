@@ -80,8 +80,8 @@ public class ZuulFallbackConfig implements FallbackProvider {
 
     /**
      * 重写的新的接口方法
-     * @param cause
-     * @return
+     * @param cause cause
+     * @return ClientHttpResponse
      */
     @Override
     public ClientHttpResponse fallbackResponse(Throwable cause) {

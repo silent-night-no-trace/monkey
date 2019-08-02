@@ -89,7 +89,7 @@ public class LoginController extends BaseController {
 	@ResponseBody
     R ajaxLogin(String username, String password) {
 
-		password = MD5Utils.encrypt(username, password);
+		password = MD5Utils.generatePwd(username, password);
 		UsernamePasswordToken token = new UsernamePasswordToken(username, password);
 		Subject subject = SecurityUtils.getSubject();
 		try {
