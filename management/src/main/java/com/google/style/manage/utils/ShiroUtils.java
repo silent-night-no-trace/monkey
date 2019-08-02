@@ -61,6 +61,6 @@ public class ShiroUtils {
         for (Session session : sessions) {
             session.getId();
         }
-        return principals;
+        return null;
     }
 }
