@@ -34,7 +34,7 @@
 	<appender name="ERROR_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
 		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
 			<!--日志文件输出的文件名 -->
-			<FileNamePattern>${LOG_PATH}/error/%d{yyyy-MM-dd HH}.%i.log
+			<FileNamePattern>${LOG_PATH}/error/out_${APP_NAME}_error/%d{yyyy-MM-dd HH}.%i.log
 			</FileNamePattern>
 			<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
 				<maxFileSize>5MB</maxFileSize>
