@@ -5,12 +5,10 @@ import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
-import org.apache.kafka.common.TopicPartition;
 import org.apache.kafka.common.serialization.IntegerDeserializer;
 import org.apache.kafka.common.serialization.StringDeserializer;
 
 import java.time.Duration;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.Properties;
 
@@ -55,7 +53,7 @@ public class ConsumerThread extends Thread {
 
 		while (true) {
 			ConsumerRecords<Integer, String> consumerRecords =
-					consumer.poll(Duration.ofSeconds(1));
+					consumer.poll(1);
 			Iterable<ConsumerRecord<Integer, String>> records =
 					consumerRecords.records(topic);
 			records.forEach(record -> {

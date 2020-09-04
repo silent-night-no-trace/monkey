@@ -20,11 +20,22 @@
 	<dependencies>
 		<!--kafka-->
 		<dependency>
-			<groupId>org.apache.kafka</groupId>
-			<artifactId>kafka_2.10</artifactId>
+			<groupId>org.springframework.kafka</groupId>
+			<artifactId>spring-kafka</artifactId>
+		</dependency>
+		<!--kafka-->
+		<dependency>
+			<groupId>org.apache.kafka</groupId >
+			<artifactId>kafka_2.10</artifactId >
 			<version>0.8.0</version>
 		</dependency>
-    </dependencies>
+
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+		</dependency>
+
+	</dependencies>
 
 	<build>
 		<plugins>

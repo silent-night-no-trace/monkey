@@ -48,7 +48,7 @@ public class ConsumerThread2 extends Thread {
 		consumer.subscribe(Collections.singleton(topic));
 		while (true) {
 			ConsumerRecords<Integer, String> consumerRecords =
-					consumer.poll(Duration.ofSeconds(1));
+					consumer.poll(1);
 			Iterable<ConsumerRecord<Integer, String>> records =
 					consumerRecords.records(topic);
 			records.forEach(record -> {

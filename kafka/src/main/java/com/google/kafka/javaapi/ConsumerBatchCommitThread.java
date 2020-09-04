@@ -54,7 +54,7 @@ public class ConsumerBatchCommitThread extends Thread {
 		List<ConsumerRecord> batchCommitList = Lists.newArrayList();
 		while (true) {
 			ConsumerRecords<Integer, String> consumerRecords =
-					consumer.poll(Duration.ofSeconds(1));
+					consumer.poll(1);
 			Iterable<ConsumerRecord<Integer, String>> records =
 					consumerRecords.records(topic);
 			records.forEach(record -> {

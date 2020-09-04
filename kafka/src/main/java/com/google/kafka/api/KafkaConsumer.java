@@ -2,6 +2,7 @@ package com.google.kafka.api;
 
 
 import com.google.common.collect.Maps;
+import com.google.kafka.javaapi.KafkaProperties;
 import kafka.consumer.ConsumerConfig;
 import kafka.consumer.ConsumerIterator;
 import kafka.consumer.KafkaStream;
@@ -11,8 +12,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
-import java.util.concurrent.ArrayBlockingQueue;
-import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 
@@ -33,7 +32,7 @@ public class KafkaConsumer implements Runnable {
 
     private static ConsumerConfig createConsumerConfig() {
         Properties props = new Properties();
-        props.put("zookeeper.connect", KafkaProperties.ZK_CONNECT);
+        props.put("zookeeper.connect", KafkaProperties.LOCAL_SERVER_ADDRESSES);
         props.put("group.id", KafkaProperties.GROUP_ID);
         props.put("zookeeper.session.timeout.ms", "40000");
         props.put("zookeeper.sync.time.ms", "200");
@@ -154,7 +153,7 @@ public class KafkaConsumer implements Runnable {
 		return Integer.numberOfLeadingZeros(n) | (1 << (16 - 1));
 	}
 
-	private static final int tableSizeFor(int c) {
+	private static int tableSizeFor(int c) {
 		int n = c - 1;
 		n |= n >>> 1;
 		n |= n >>> 2;
@@ -163,6 +162,4 @@ public class KafkaConsumer implements Runnable {
 		n |= n >>> 16;
 		return (n < 0) ? 1 : (n >= (1<<30) ? 1<<30 : n + 1);
 	}
-
-	private BlockingQueue blockingQueue = new ArrayBlockingQueue(16);
 }
