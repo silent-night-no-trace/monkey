@@ -56,7 +56,8 @@
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-        </dependency>
+			<version>28.2-jre</version>
+		</dependency>
     </dependencies>
 
 	<build>
