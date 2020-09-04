@@ -1,0 +1,10 @@
+#nacos server配置
+nacos:
+  config:
+    server-addr: 127.0.0.1:8848
+    access-key:
+    namespace:
+    encode:
+
+server:
+  port: 8818

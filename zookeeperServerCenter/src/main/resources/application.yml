@@ -1,0 +1,15 @@
+
+spring:
+  application:
+    name: zookeeperServerCenter
+  cloud:
+    zookeeper:
+      connect-string: 47.98.172.225:2181,47.98.172.225:2182,47.98.172.225:2183
+      discovery:
+        root: /server
+        register: true
+        instance-id: 1
+        enabled: true
+#server port
+server:
+  port: 2000
