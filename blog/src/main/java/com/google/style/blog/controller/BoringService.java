@@ -1,7 +1,7 @@
 package com.google.style.blog.controller;
 
 /**
- * @author 林依伦
+ * @author LYL
  * @date 2018/2/22 17:55
  */
 public interface BoringService {
